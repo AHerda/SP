@@ -1,0 +1,1533 @@
+# Adrian Herda, 268449
+# Zadanie 1
+
+# Sprawozdanie:
+
+# Tworzenie podkatalogu extermals
+$ svn checkout https://repo.cs.pwr.edu.pl/mk1-268449 working
+A    working/AISD
+A    working/AISD/lista1
+A    working/AISD/lista2
+A    working/AISD/lista2/zad134
+A    working/AISD/lista2/zad2
+A    working/AISD/lista2/zad2/wykresy
+A    working/AISD/lista2/zad2/quick.txt
+A    working/AISD/lista1/nagranie
+A    working/AISD/lista1/zad1_fifo.c
+A    working/AISD/lista1/zad1_lifo.c
+A    working/AISD/lista1/zad2.c
+A    working/AISD/lista1/zad3.c
+A    working/AISD/lista2/zad2/wykresy/c_n_10.png
+A    working/AISD/lista2/nagranie
+A    working/AISD/lista2/zad134/dual_quick.cpp
+A    working/AISD/lista2/zad134/generator.cpp
+A    working/AISD/lista2/zad134/hybrid.cpp
+A    working/AISD/lista2/zad134/insertion.cpp
+A    working/AISD/lista2/zad134/makefile
+A    working/AISD/lista2/zad134/merge.cpp
+A    working/AISD/lista2/zad134/quick.cpp
+A    working/AISD/lista2/zad134/sorts.hpp
+A    working/AISD/lista2/zad2/dual_quick.hpp
+A    working/AISD/lista2/zad2/dual_quick.txt
+A    working/AISD/lista2/zad2/hybrid.hpp
+A    working/AISD/lista2/zad2/hybrid.txt
+A    working/AISD/lista2/zad2/insertion.hpp
+A    working/AISD/lista2/zad2/insertion.txt
+A    working/AISD/lista2/zad2/main.cpp
+A    working/AISD/lista2/zad2/makefile
+A    working/AISD/lista2/zad2/merge.hpp
+A    working/AISD/lista2/zad2/merge.txt
+A    working/AISD/lista2/zad2/quick.hpp
+A    working/AISD/lista2/zad2/sorts2.hpp
+A    working/AISD/lista3
+A    working/AISD/lista3/zad1345
+A    working/AISD/lista3/zad2
+A    working/AISD/lista2/zad2/wykresy/c_1.png
+A    working/AISD/lista2/zad2/wykresy/c_n_10_big.png
+A    working/AISD/lista2/zad2/wykresy/s_10.png
+A    working/AISD/lista2/zad2/wykresy/c_100.png
+A    working/AISD/lista2/zad2/wykresy/s_10_big.png
+A    working/AISD/lista2/zad2/wykresy/c_10.png
+A    working/AISD/lista2/zad2/wykresy/s_n_1_big.png
+A    working/AISD/lista2/zad2/wykresy/s_n_10.png
+A    working/AISD/lista3/zad1345/generator.cpp
+A    working/AISD/lista3/zad1345/select.cpp
+A    working/AISD/lista3/zad2/bin_search_lewo.txt
+A    working/AISD/lista3/zad2/dual_quick.hpp
+A    working/AISD/lista3/zad2/main.cpp
+A    working/AISD/lista3/zad2/rand_select.hpp
+A    working/AISD/lista3/zad2/select_5.hpp
+A    working/AISD/lista3/zad2/wykresy
+A    working/AISD/lista2/zad2/wykresy/s_n_10_big.png
+A    working/AISD/lista3/zad1345/dual_quick.cpp
+A    working/AISD/lista3/zad1345/rand_select.cpp
+A    working/AISD/lista3/zad2/bin_search.hpp
+A    working/AISD/lista3/zad2/bin_search_srodek.txt
+A    working/AISD/lista3/zad2/generator.hpp
+A    working/AISD/lista3/zad2/quick_old.txt
+A    working/AISD/lista2/zad2/wykresy/c_10_big.png
+A    working/AISD/lista3/zad2/select.txt
+A    working/AISD/lista2/zad2/wykresy/c_100_big.png
+A    working/AISD/lista4
+A    working/AISD/lista4/wykresy
+A    working/AISD/lista3/zad2/select_5_9.txt
+A    working/AISD/lista3/zad2/select_5_7.txt
+A    working/AISD/lista3/zad2/wykresy/quick_c.png
+A    working/AISD/lista2/zad2/wykresy/c_n_1.png
+A    working/AISD/lista2/zad2/wykresy/c_1_big.png
+A    working/AISD/lista3/zad2/wykresy/select_c.png
+A    working/AISD/lista3/zad2/wykresy/bin_search_t.png
+A    working/AISD/lista2/zad2/wykresy/c_n_100.png
+A    working/AISD/lista4/recording
+A    working/AISD/lista2/zad2/wykresy/c_n_100_big.png
+A    working/AISD/lista4/wykresy/height_2.png
+A    working/AISD/lista3/zad2/wykresy/quick_t2.png
+A    working/AISD/lista3/zad2/wykresy.py
+A    working/AISD/lista2/zad2/wykresy/c_n_1_big.png
+A    working/AISD/lista4/wykresy/if_4.png
+A    working/AISD/lista4/wykresy/avg_swap.png
+A    working/AISD/lista2/zad2/wykresy/s_1.png
+A    working/AISD/lista2/zad2/wykresy/s_100.png
+A    working/AISD/lista4/zad12
+A    working/AISD/lista4/wykresy/if_2.png
+A    working/AISD/lista4/wykresy/max_swap.png
+A    working/AISD/lista4/wykresy.py
+A    working/AISD/lista4/zad12/generator.hpp
+A    working/AISD/lista4/wykresy/max_if.png
+A    working/AISD/lista2/zad2/wykresy/s_100_big.png
+A    working/AISD/lista4/zad34
+A    working/AISD/lista2/zad2/wykresy/s_1_big.png
+A    working/AISD/lista4/zad34/RBBST.cpp
+A    working/AISD/lista4/wykresy/swap_6.png
+A    working/AISD/lista4/zad12/Makefile
+A    working/AISD/lista4/zad34/Makefile
+A    working/AISD/lista4/zad34/zad3.cpp
+A    working/AISD/lista4/zad56
+A    working/AISD/lista2/zad2/wykresy/s_n_1.png
+A    working/AISD/lista4/zad56/SBST.hpp
+A    working/AISD/lista4/zad34/zad4.cpp
+A    working/AISD/lista4/zad56/generator.hpp
+A    working/AISD/lista2/zad2/wykresy/s_n_100.png
+A    working/AISD/lista2/zad2/wykresy.py
+A    working/AISD/lista3/zad1345/makefile
+A    working/AISD/lista3/zad1345/select_5.cpp
+A    working/AISD/lista3/zad2/bin_search_prawo.txt
+A    working/AISD/lista5
+A    working/AISD/lista5/zad1
+A    working/AISD/lista5/zad1/wykresy
+A    working/AISD/lista5/zad1/lcs.cpp
+A    working/AISD/lista2/zad2/wykresy/s_n_100_big.png
+A    working/AISD/lista3/zad1345/bin_search.cpp
+A    working/AISD/lista3/zad1345/quick.cpp
+A    working/AISD/lista3/zad1345/utils.hpp
+A    working/AISD/lista3/zad2/bin_search_rand.txt
+A    working/AISD/lista3/zad2/dual_quick_old.txt
+A    working/AISD/lista3/zad2/quick_new.txt
+A    working/AISD/lista3/zad2/select.hpp
+A    working/AISD/lista5/zad2
+A    working/AISD/lista5/zad2/wykresy
+A    working/AISD/lista3/zad2/dual_quick_new.txt
+A    working/AISD/lista3/zad2/quick.hpp
+A    working/AISD/lista3/zad2/rand_select.txt
+A    working/AISD/lista5/zad1/wykresy.py
+A    working/AISD/lista5/zad2/fibb.cpp
+A    working/JPP
+A    working/JPP/lista1
+A    working/JPP/lista1/zad1-c
+A    working/AISD/lista5/zad1/wykresy/if.png
+A    working/AISD/lista5/zad2/Makefile
+A    working/AISD/lista5/zad2/fibb.h
+A    working/AISD/lista3/zad2/select_5_5.txt
+A    working/AISD/lista5/zad2/wykresy/bin_fib.png
+A    working/JPP/lista1/zad2-ada
+A    working/AISD/lista3/zad2/select_5_3.txt
+A    working/AISD/lista3/zad2/utils.hpp
+A    working/AISD/lista5/zad2/wykresy/bin_n_1000.png
+A    working/AISD/lista5/zad2/wykresy1.py
+A    working/JPP/lista1/zad1-c/Makefile
+A    working/JPP/lista1/zad1-c/tester.c
+A    working/JPP/lista1/zad3-rust
+A    working/JPP/lista1/zad3-rust/iterative
+A    working/AISD/lista5/zad2/wykresy/fibb_n_500.png
+A    working/JPP/lista1/nagranie.cast
+A    working/JPP/lista1/zad1-c/lib_recur.c
+A    working/JPP/lista1/zad2-ada/iterative.ads
+A    working/JPP/lista1/zad2-ada/main.adb
+A    working/JPP/lista1/zad3-rust/Makefile
+A    working/JPP/lista1/zad3-rust/iterative/src
+A    working/JPP/lista1/zad3-rust/recursive
+A    working/JPP/lista1/zad3-rust/recursive/src
+A    working/AISD/lista3/zad2/wykresy/bin_search_c.png
+A    working/JPP/lista1/zad3-rust/recursive/src/lib.rs
+A    working/JPP/lista1/zad3-rust/iterative/Cargo.toml
+A    working/AISD/lista3/zad2/wykresy/quick_c2.png
+A    working/JPP/lista1/zad4-ada-c
+A    working/JPP/lista1/zad5-c-ada
+A    working/JPP/lista1/zad5-c-ada/src
+A    working/AISD/lista3/zad2/wykresy/quick_t.png
+A    working/AISD/lista3/zad2/wykresy/select_s.png
+A    working/JPP/lista1/zad5-c-ada/AdaWrapper.gpr
+A    working/JPP/lista1/zad4-ada-c/Makefile
+A    working/JPP/lista1/zad5-c-ada/Makefile
+A    working/JPP/lista1/zad6-c-rust
+A    working/AISD/lista3/zad2/wykresy/select_t.png
+A    working/JPP/lista1/zad5-c-ada/src/lib_recur.c
+A    working/JPP/lista1/zad5-c-ada/src/lib_recur.h
+A    working/AISD/lista4/wykresy/avg_height.png
+A    working/AISD/lista4/wykresy/avg_if.png
+A    working/AISD/lista4/wykresy/height_4.png
+A    working/JPP/lista1/zad6-c-rust/src
+A    working/JPP/lista1/zad7-rust-c
+A    working/JPP/lista1/zad6-c-rust/build.rs
+A    working/JPP/lista1/zad6-c-rust/Cargo.toml
+A    working/JPP/lista1/zad7-rust-c/lib.h
+A    working/AISD/lista4/wykresy/height_6.png
+A    working/AISD/lista4/wykresy/if_6.png
+A    working/JPP/lista2
+A    working/JPP/lista2/zad1-cpp
+A    working/JPP/lista2/zad1-cpp/gf.cpp
+A    working/JPP/lista1/zad7-rust-c/main.c
+A    working/JPP/lista2/zad1-cpp/gf.hpp
+A    working/AISD/lista4/wykresy/max_height.png
+A    working/AISD/lista4/wykresy/swap_2.png
+A    working/AISD/lista4/zad12/BST.cpp
+A    working/AISD/lista4/zad12/zad1.cpp
+A    working/AISD/lista4/zad34/RBBST.hpp
+A    working/AISD/lista4/zad56/Makefile
+A    working/AISD/lista4/zad56/zad5.cpp
+A    working/JPP/lista2/zad2-java
+A    working/JPP/lista2/zad3-rust
+A    working/JPP/lista2/zad3-rust/src
+A    working/JPP/lista2/zad3-rust/src/gf
+A    working/JPP/lista3
+A    working/JPP/lista3/zad1-cpp
+A    working/AISD/lista4/wykresy/swap_4.png
+A    working/AISD/lista4/zad12/BST.hpp
+A    working/AISD/lista4/zad12/zad2.cpp
+A    working/AISD/lista4/zad34/generator.hpp
+A    working/AISD/lista4/zad56/SBST.cpp
+A    working/AISD/lista4/zad56/zad6.cpp
+A    working/JPP/lista3/zad2_java
+A    working/JPP/lista2/zad3-rust/Cargo.toml
+A    working/JPP/lista2/zad3-rust/src/lib.rs
+A    working/AISD/lista5/zad1/wykresy/length.png
+A    working/AISD/lista5/zad2/bin.cpp
+A    working/AISD/lista5/zad2/main1.cpp
+A    working/JPP/lista2/zad3-rust/src/gf/gf.rs
+A    working/JPP/lista2/zad3-rust/src/main.rs
+A    working/JPP/lista3/zad3-rust3
+A    working/JPP/lista3/zad1-cpp/DHSetup.cpp
+A    working/JPP/lista3/zad1-cpp/main.cpp
+A    working/AISD/lista5/zad1/wykresy/time.png
+A    working/AISD/lista5/zad2/bin.h
+A    working/AISD/lista5/zad2/main2.cpp
+A    working/JPP/lista3/zad3-rust3/src
+A    working/JPP/lista3/zad3-rust3/src/libs
+A    working/JPP/lista3/zad2_java/GF.java
+A    working/JPP/lista3/zad1-cpp/DHSetup.hpp
+A    working/JPP/lista3/zad1-cpp/utils.hpp
+A    working/JPP/lista3/zad2_java/Main.java
+A    working/JPP/lista3/zad3-rust3/Cargo.toml
+A    working/AISD/lista5/zad2/wykresy/fibb_n_1000.png
+A    working/AISD/lista5/zad2/wykresy3.py
+A    working/JPP/lista1/zad1-c/lib_iter.c
+A    working/JPP/lista1/zad2-ada/iterative.adb
+A    working/JPP/lista1/zad2-ada/recursive.ads
+A    working/JPP/lista1/zad3-rust/recursive/Cargo.toml
+A    working/JPP/lista1/zad4-ada-c/wrapper.h
+A    working/JPP/lista1/zad5-c-ada/src/lib_iter.h
+A    working/JPP/lista1/zad5-c-ada/src/test_recur.adb
+A    working/JPP/lista1/zad7-rust-c/Makefile
+A    working/JPP/lista2/zad1-cpp/Makefile
+A    working/JPP/lista2/zad2-java/Main.java
+A    working/JPP/lista2/zad3-rust/src/gf/mod.rs
+A    working/JPP/lista3/zad1-cpp/CMakeLists.txt
+A    working/JPP/lista3/zad1-cpp/User.hpp
+A    working/JPP/lista3/zad2_java/DHSetup.java
+A    working/JPP/lista3/zad2_java/User.java
+A    working/JPP/lista3/zad3-rust3/src/libs/mod.rs
+A    working/JPP/lista4
+A    working/JPP/lista4/zad1-ada
+A    working/JPP/lista4/zad2-go
+A    working/JPP/lista4/zad3-rust
+A    working/JPP/lista4/zad3-rust/src
+A    working/JPP/lista4/zad3-rust/src/lib
+A    working/JPP/lista5
+A    working/JPP/lista5/zad1-haskell
+A    working/JPP/lista5/zad1-lisp
+A    working/JPP/lista5/zad1-sml
+A    working/JPP/lista5/zad2-prolog
+A    working/SP
+A    working/SP/lista1
+A    working/SP/lista1/a
+A    working/JPP/lista3/zad3-rust3/src/libs/user.rs
+A    working/JPP/lista3/zad3-rust3/src/lib.rs
+A    working/JPP/lista3/zad3-rust3/src/main.rs
+A    working/SP/lista1/a/a
+A    working/SP/lista1/a/a/b
+A    working/SP/lista1/a/aa
+A    working/SP/lista1/a/aa/b
+A    working/SP/lista1/a/aaa
+A    working/SP/lista1/a/aaa/b
+A    working/SP/lista1/a/aab
+A    working/SP/lista1/a/aab/b
+A    working/SP/lista1/a/ab
+A    working/SP/lista1/a/ab/b
+A    working/SP/lista1/a/aba
+A    working/JPP/lista4/zad1-ada/main.adb
+A    working/JPP/lista4/zad3-rust/src/lib/filozof.rs
+A    working/JPP/lista5/zad1-haskell/Lib.hs
+A    working/JPP/lista5/zad1-lisp/main.lisp
+A    working/JPP/lista5/zad2-prolog/main.pl
+A    working/JPP/lista4/zad1-ada/Makefile
+A    working/JPP/lista4/zad3-rust/Cargo.toml
+A    working/JPP/lista5/nagranie
+A    working/JPP/lista5/zad1-lisp/lib.lsp
+A    working/JPP/lista5/zad2-prolog/lib.pl
+A    working/SP/lista1/a/aba/b
+A    working/SP/lista1/a/abb
+A    working/SP/lista1/a/abb/b
+A    working/SP/lista1/a/b
+A    working/SP/lista1/a/b/b
+A    working/SP/lista1/a/ba
+A    working/SP/lista1/a/ba/b
+A    working/SP/lista1/a/baa
+A    working/SP/lista1/a/baa/b
+A    working/SP/lista1/a/bab
+A    working/SP/lista1/a/bab/b
+A    working/SP/lista1/a/bb
+A    working/SP/lista1/a/bb/b
+A    working/SP/lista1/a/bba
+A    working/SP/lista1/a/bba/b
+A    working/SP/lista1/a/aab/b/aaabb
+A    working/SP/lista1/a/aaa/b/aaaab
+A    working/JPP/lista4/zad2-go/filozof.go
+A    working/JPP/lista4/zad3-rust/src/lib/mod.rs
+A    working/JPP/lista5/zad1-haskell/Makefile
+A    working/JPP/lista5/zad1-sml/lib.sml
+A    working/SP/lista1/a/a/b/aab
+A    working/SP/lista1/a/ab/b/aabb
+A    working/SP/lista1/a/bbb
+A    working/SP/lista1/a/bbb/b
+A    working/SP/lista1/a/b/ab
+A    working/SP/lista1/a/bab/b/ababb
+A    working/SP/lista1/a/abb/b/aabbb
+A    working/SP/lista1/a/baa/b/abaab
+A    working/SP/lista1/nagranie
+A    working/SP/lista1/zad4.sh
+A    working/SP/lista1/a/b/b/abb
+A    working/SP/lista1/a/bb/b/abbb
+A    working/SP/lista1/zad1.sh
+A    working/SP/lista1/zad5.sh
+A    working/SP/lista1/a/bbb/b/abbbb
+A    working/SP/lista1/zad3.sh
+A    working/hello.sh
+A    working/AISD/lista5/zad2/wykresy/bin_n_500.png
+A    working/AISD/lista5/zad2/wykresy2.py
+A    working/JPP/lista1/zad1-c/lib.h
+A    working/JPP/lista1/zad2-ada/Makefile
+A    working/JPP/lista1/zad2-ada/recursive.adb
+A    working/JPP/lista1/zad3-rust/iterative/src/lib.rs
+A    working/JPP/lista1/zad4-ada-c/test.c
+A    working/JPP/lista1/zad5-c-ada/src/lib_iter.c
+A    working/JPP/lista1/zad5-c-ada/src/test_iter.adb
+A    working/JPP/lista1/zad6-c-rust/src/main.rs
+A    working/JPP/lista2/nagranie.cast
+A    working/JPP/lista2/zad1-cpp/main.cpp
+A    working/JPP/lista2/zad3-rust/src/gf/gf_ops.rs
+A    working/JPP/lista3/nagranie.cast
+A    working/JPP/lista3/zad1-cpp/User.cpp
+A    working/JPP/lista3/zad2_java/Arithmetics.java
+A    working/JPP/lista3/zad2_java/Makefile
+A    working/JPP/lista3/zad3-rust3/src/libs/dhsetup.rs
+A    working/JPP/lista4/nagranie
+A    working/JPP/lista4/zad2-go/main.go
+A    working/JPP/lista4/zad3-rust/src/main.rs
+A    working/JPP/lista5/zad1-haskell/main.hs
+A    working/JPP/lista5/zad1-sml/main.sml
+A    working/SP/lista1/a/aa/b/aaab
+A    working/SP/lista1/a/aba/b/aabab
+A    working/SP/lista1/a/ba/b/abab
+A    working/SP/lista1/a/bba/b/abbab
+A    working/SP/lista1/zad2.sh
+A    working/SP/lista1/zad6.sh
+Checked out revision 31.
+$ cd working
+$ ls
+AISD  JPP  SP  hello.sh
+$ mkdir externals
+$ ls
+AISD  JPP  SP  externals  hello.sh
+$ svn propset svn:externals "info https://repo
+.cs.pwr.edu.pl/info/" externals/
+property 'svn:externals' set on 'externals'
+$ svn propget svn:externals externals/
+info https://repo.cs.pwr.edu.pl/info/
+$ svn commit -m "Added folder for externals with prop set"
+Adding         externals
+Committing transaction...
+Committed revision 32.
+$ ls externals/
+
+# Podczas korzystania z flagi --ignore-externals repozytorium zewnętrzne nie jest pobierane
+
+# svn up --ignore-externals
+$ svn up --ignore-externals
+Updating '.':
+At revision 31.
+$ ls
+AISD  JPP  SP  externals  hello.sh
+$ ls externals/
+
+# svn up
+$ svn up
+Updating '.':
+
+Fetching external item into 'externals/info':
+A    externals/info/skrypty
+A    externals/info/skrypty/test-dir
+A    externals/info/SP
+A    externals/info/SP/l3
+A    externals/info/SP/l3/a
+A    externals/info/SP/l3/a/baa
+A    externals/info/SP/l3/a/baa/b
+A    externals/info/SP/l3/a/ba
+A    externals/info/SP/l3/a/ba/b
+A    externals/info/SP/l3/a/a
+A    externals/info/SP/l3/a/a/b
+A    externals/info/SP/l3/a/aa
+A    externals/info/SP/l3/a/aa/b
+A    externals/info/SP/l3/a/aaa
+A    externals/info/SP/l3/a/aaa/b
+A    externals/info/SP/l3/a/aab
+A    externals/info/SP/l3/a/aab/b
+A    externals/info/SP/l3/a/ab
+A    externals/info/SP/l3/a/ab/b
+A    externals/info/SP/l3/a/aba
+A    externals/info/SP/l3/a/aba/b
+A    externals/info/SP/l3/a/abb
+A    externals/info/SP/l3/a/abb/b
+A    externals/info/SP/l3/a/bab
+A    externals/info/SP/l3/a/bab/b
+A    externals/info/SP/l3/a/bba
+A    externals/info/SP/l3/a/bba/b
+A    externals/info/SP/l3/a/bbb
+A    externals/info/SP/l3/a/bbb/b
+A    externals/info/SP/l1
+A    externals/info/SP/l1/a
+A    externals/info/SP/l1/a/a
+A    externals/info/SP/l1/a/a/b
+A    externals/info/SP/l1/a/aa
+A    externals/info/SP/l1/a/aa/b
+A    externals/info/SP/l1/a/aaa
+A    externals/info/SP/l1/a/aaa/b
+A    externals/info/SP/l1/a/aab
+A    externals/info/SP/l1/a/aab/b
+A    externals/info/SP/l1/a/ab
+A    externals/info/SP/l1/a/ab/b
+A    externals/info/SP/l1/a/aba
+A    externals/info/SP/l1/a/aba/b
+A    externals/info/SP/l1/a/abb
+A    externals/info/SP/l1/a/abb/b
+A    externals/info/SP/l1/a/b
+A    externals/info/SP/l1/a/b/b
+A    externals/info/SP/l1/a/ba
+A    externals/info/SP/l1/a/ba/b
+A    externals/info/SP/l1/a/baa
+A    externals/info/SP/l1/a/baa/b
+A    externals/info/SP/l1/a/bab
+A    externals/info/SP/l1/a/bab/b
+A    externals/info/SP/l1/a/bb
+A    externals/info/SP/l1/a/bb/b
+A    externals/info/SP/l1/a/bba
+A    externals/info/SP/l1/a/bba/b
+A    externals/info/SP/l1/a/bbb
+A    externals/info/SP/l1/a/bbb/b
+A    externals/info/asciinema
+A    externals/info/SP/l1/a/b/b/abb
+A    externals/info/SP/l1/a/baa/b/abaab
+A    externals/info/SP/l1/a/bb/b/abbb
+A    externals/info/SP/l1/a/bbb/b/abbbb
+A    externals/info/skrypty/test-dir/t2
+A    externals/info/skrypty/test
+A    externals/info/skrypty/view-casts-curl.bash
+A    externals/info/skrypty/view-casts.bash
+A    externals/info/SP/l3/a/baa/dc
+A    externals/info/SP/l3/a/baa/b/abaab
+A    externals/info/SP/l3/a/ba/b/abab
+A    externals/info/SP/l3/a/a/b/aab
+A    externals/info/SP/l3/a/aa/b/aaab
+A    externals/info/SP/l3/a/aaa/b/aaaab
+A    externals/info/SP/l3/a/aab/b/aaabb
+A    externals/info/SP/l3/a/ab/b/aabb
+A    externals/info/SP/l3/a/aba/b/aabab
+A    externals/info/SP/l3/a/abb/b/aabbb
+A    externals/info/SP/l3/a/bab/b/ababb
+A    externals/info/SP/l3/a/bba/b/abbab
+A    externals/info/SP/l3/a/bbb/b/abbbb
+A    externals/info/SP/l1/a/a/b/aab
+A    externals/info/SP/l1/a/aa/b/aaab
+A    externals/info/SP/l1/a/aaa/b/aaaab
+A    externals/info/SP/l1/a/aab/b/aaabb
+A    externals/info/SP/l1/a/ab/b/aabb
+A    externals/info/SP/l1/a/aba/b/aabab
+A    externals/info/SP/l1/a/abb/b/aabbb
+A    externals/info/SP/l1/a/b/ab
+A    externals/info/SP/l1/a/ba/b/abab
+A    externals/info/SP/l1/a/bab/b/ababb
+A    externals/info/SP/l1/a/bba/b/abbab
+A    externals/info/asciinema/6_sklejanie_prezentacji.cast
+A    externals/info/asciinema/3_drugie_zadanie.cast
+A    externals/info/index.html
+A    externals/info/asciinema/5_generowanie_kluczy.cast
+A    externals/info/asciinema/2_pierwsze_zadanie.cast
+A    externals/info/repozytorium-svn.txt
+A    externals/info/asciinema/4_meta-sprawozdanie.cast
+A    externals/info/asciinema/1_pierwszy_checkout.cast
+Updated external to revision 25.
+
+At revision 32.
+$ ls
+AISD  JPP  SP  externals  hello.sh
+$ ls externals/
+info
+$ tree externals/
+externals/
+└── info
+    ├── SP
+    │   ├── l1
+    │   │   └── a
+    │   │       ├── a
+    │   │       │   └── b
+    │   │       │       └── aab
+    │   │       ├── aa
+    │   │       │   └── b
+    │   │       │       └── aaab
+    │   │       ├── aaa
+    │   │       │   └── b
+    │   │       │       └── aaaab
+    │   │       ├── aab
+    │   │       │   └── b
+    │   │       │       └── aaabb
+    │   │       ├── ab
+    │   │       │   └── b
+    │   │       │       └── aabb
+    │   │       ├── aba
+    │   │       │   └── b
+    │   │       │       └── aabab
+    │   │       ├── abb
+    │   │       │   └── b
+    │   │       │       └── aabbb
+    │   │       ├── b
+    │   │       │   ├── ab
+    │   │       │   └── b
+    │   │       │       └── abb
+    │   │       ├── ba
+    │   │       │   └── b
+    │   │       │       └── abab
+    │   │       ├── baa
+    │   │       │   └── b
+    │   │       │       └── abaab
+    │   │       ├── bab
+    │   │       │   └── b
+    │   │       │       └── ababb
+    │   │       ├── bb
+    │   │       │   └── b
+    │   │       │       └── abbb
+    │   │       ├── bba
+    │   │       │   └── b
+    │   │       │       └── abbab
+    │   │       └── bbb
+    │   │           └── b
+    │   │               └── abbbb
+    │   └── l3
+    │       └── a
+    │           ├── a
+    │           │   └── b
+    │           │       └── aab
+    │           ├── aa
+    │           │   └── b
+    │           │       └── aaab
+    │           ├── aaa
+    │           │   └── b
+    │           │       └── aaaab
+    │           ├── aab
+    │           │   └── b
+    │           │       └── aaabb
+    │           ├── ab
+    │           │   └── b
+    │           │       └── aabb
+    │           ├── aba
+    │           │   └── b
+    │           │       └── aabab
+    │           ├── abb
+    │           │   └── b
+    │           │       └── aabbb
+    │           ├── ba
+    │           │   └── b
+    │           │       └── abab
+    │           ├── baa
+    │           │   ├── b
+    │           │   │   └── abaab
+    │           │   └── dc
+    │           ├── bab
+    │           │   └── b
+    │           │       └── ababb
+    │           ├── bba
+    │           │   └── b
+    │           │       └── abbab
+    │           └── bbb
+    │               └── b
+    │                   └── abbbb
+    ├── asciinema
+    │   ├── 1_pierwszy_checkout.cast
+    │   ├── 2_pierwsze_zadanie.cast
+    │   ├── 3_drugie_zadanie.cast
+    │   ├── 4_meta-sprawozdanie.cast
+    │   ├── 5_generowanie_kluczy.cast
+    │   └── 6_sklejanie_prezentacji.cast
+    ├── index.html
+    ├── repozytorium-svn.txt
+    └── skrypty
+        ├── test
+        ├── test-dir
+        │   └── t2
+        ├── view-casts-curl.bash
+        └── view-casts.bash
+
+61 directories, 40 files
+
+# svn co --ignore-externals
+$ cd ..
+$ svn co https://repo.cs.pwr.edu.pl/mk1-268449 notext --ignore-externals
+A    notext/AISD
+A    notext/AISD/lista1
+A    notext/AISD/lista2
+A    notext/AISD/lista2/zad134
+A    notext/AISD/lista2/zad2
+A    notext/AISD/lista2/zad2/wykresy
+A    notext/AISD/lista2/zad2/wykresy/c_n_10.png
+A    notext/AISD/lista2/zad2/quick.txt
+A    notext/AISD/lista1/nagranie
+A    notext/AISD/lista1/zad1_fifo.c
+A    notext/AISD/lista1/zad1_lifo.c
+A    notext/AISD/lista2/zad2/wykresy/c_n_10_big.png
+A    notext/AISD/lista2/zad2/wykresy/s_10.png
+A    notext/AISD/lista1/zad2.c
+A    notext/AISD/lista1/zad3.c
+A    notext/AISD/lista2/nagranie
+A    notext/AISD/lista2/zad134/dual_quick.cpp
+A    notext/AISD/lista2/zad134/generator.cpp
+A    notext/AISD/lista2/zad134/hybrid.cpp
+A    notext/AISD/lista2/zad134/insertion.cpp
+A    notext/AISD/lista2/zad134/makefile
+A    notext/AISD/lista2/zad134/merge.cpp
+A    notext/AISD/lista2/zad134/quick.cpp
+A    notext/AISD/lista2/zad134/sorts.hpp
+A    notext/AISD/lista2/zad2/dual_quick.hpp
+A    notext/AISD/lista2/zad2/dual_quick.txt
+A    notext/AISD/lista2/zad2/hybrid.hpp
+A    notext/AISD/lista3
+A    notext/AISD/lista3/zad1345
+A    notext/AISD/lista3/zad2
+A    notext/AISD/lista2/zad2/hybrid.txt
+A    notext/AISD/lista2/zad2/insertion.hpp
+A    notext/AISD/lista2/zad2/insertion.txt
+A    notext/AISD/lista2/zad2/main.cpp
+A    notext/AISD/lista2/zad2/makefile
+A    notext/AISD/lista2/zad2/merge.hpp
+A    notext/AISD/lista2/zad2/merge.txt
+A    notext/AISD/lista2/zad2/quick.hpp
+A    notext/AISD/lista2/zad2/sorts2.hpp
+A    notext/AISD/lista2/zad2/wykresy/s_10_big.png
+A    notext/AISD/lista2/zad2/wykresy/s_n_10.png
+A    notext/AISD/lista2/zad2/wykresy/c_1.png
+A    notext/AISD/lista2/zad2/wykresy/s_n_10_big.png
+A    notext/AISD/lista3/zad1345/dual_quick.cpp
+A    notext/AISD/lista3/zad1345/rand_select.cpp
+A    notext/AISD/lista3/zad2/bin_search.hpp
+A    notext/AISD/lista3/zad2/bin_search_srodek.txt
+A    notext/AISD/lista3/zad2/generator.hpp
+A    notext/AISD/lista2/zad2/wykresy/s_n_1_big.png
+A    notext/AISD/lista3/zad1345/generator.cpp
+A    notext/AISD/lista3/zad1345/select.cpp
+A    notext/AISD/lista3/zad2/wykresy
+A    notext/AISD/lista3/zad2/bin_search_lewo.txt
+A    notext/AISD/lista3/zad2/dual_quick.hpp
+A    notext/AISD/lista3/zad2/main.cpp
+A    notext/AISD/lista3/zad2/rand_select.hpp
+A    notext/AISD/lista3/zad2/select_5.hpp
+A    notext/AISD/lista2/zad2/wykresy/c_10.png
+A    notext/AISD/lista3/zad2/quick_old.txt
+A    notext/AISD/lista3/zad2/select.txt
+A    notext/AISD/lista2/zad2/wykresy/c_100.png
+A    notext/AISD/lista3/zad2/select_5_9.txt
+A    notext/AISD/lista2/zad2/wykresy/c_100_big.png
+A    notext/AISD/lista4
+A    notext/AISD/lista4/wykresy
+A    notext/AISD/lista3/zad2/select_5_7.txt
+A    notext/AISD/lista3/zad2/wykresy/quick_c.png
+A    notext/AISD/lista3/zad2/wykresy/bin_search_t.png
+A    notext/AISD/lista3/zad2/wykresy/quick_t2.png
+A    notext/AISD/lista3/zad2/wykresy.py
+A    notext/AISD/lista3/zad2/wykresy/select_c.png
+A    notext/AISD/lista2/zad2/wykresy/c_1_big.png
+A    notext/AISD/lista4/recording
+A    notext/AISD/lista2/zad2/wykresy/c_10_big.png
+A    notext/AISD/lista4/wykresy/avg_swap.png
+A    notext/AISD/lista4/wykresy/height_2.png
+A    notext/AISD/lista4/wykresy/if_2.png
+A    notext/AISD/lista2/zad2/wykresy/c_n_100.png
+A    notext/AISD/lista4/wykresy/max_if.png
+A    notext/AISD/lista4/wykresy/if_4.png
+A    notext/AISD/lista4/wykresy/swap_6.png
+A    notext/AISD/lista2/zad2/wykresy/c_n_1.png
+A    notext/AISD/lista2/zad2/wykresy/c_n_1_big.png
+A    notext/AISD/lista4/zad12
+A    notext/AISD/lista4/wykresy/max_swap.png
+A    notext/AISD/lista4/zad12/Makefile
+A    notext/AISD/lista4/wykresy.py
+A    notext/AISD/lista4/zad12/generator.hpp
+A    notext/AISD/lista2/zad2/wykresy/s_100.png
+A    notext/AISD/lista2/zad2/wykresy/c_n_100_big.png
+A    notext/AISD/lista4/zad34
+A    notext/AISD/lista4/zad34/Makefile
+A    notext/AISD/lista4/zad34/RBBST.cpp
+A    notext/AISD/lista4/zad34/zad3.cpp
+A    notext/AISD/lista2/zad2/wykresy/s_1_big.png
+A    notext/AISD/lista2/zad2/wykresy/s_1.png
+A    notext/AISD/lista2/zad2/wykresy/s_n_100.png
+A    notext/AISD/lista2/zad2/wykresy.py
+A    notext/AISD/lista3/zad1345/makefile
+A    notext/AISD/lista3/zad1345/select_5.cpp
+A    notext/AISD/lista4/zad56
+A    notext/AISD/lista3/zad2/bin_search_prawo.txt
+A    notext/AISD/lista4/zad56/SBST.hpp
+A    notext/AISD/lista4/zad34/zad4.cpp
+A    notext/AISD/lista4/zad56/generator.hpp
+A    notext/AISD/lista5
+A    notext/AISD/lista5/zad1
+A    notext/AISD/lista5/zad1/wykresy
+A    notext/AISD/lista2/zad2/wykresy/s_100_big.png
+A    notext/AISD/lista5/zad1/lcs.cpp
+A    notext/AISD/lista2/zad2/wykresy/s_n_1.png
+A    notext/AISD/lista5/zad1/wykresy/if.png
+A    notext/AISD/lista5/zad2
+A    notext/AISD/lista5/zad1/wykresy.py
+A    notext/AISD/lista5/zad2/fibb.cpp
+A    notext/AISD/lista5/zad2/Makefile
+A    notext/AISD/lista5/zad2/fibb.h
+A    notext/AISD/lista2/zad2/wykresy/s_n_100_big.png
+A    notext/AISD/lista3/zad1345/bin_search.cpp
+A    notext/AISD/lista3/zad1345/quick.cpp
+A    notext/AISD/lista3/zad1345/utils.hpp
+A    notext/AISD/lista5/zad2/wykresy
+A    notext/AISD/lista3/zad2/bin_search_rand.txt
+A    notext/AISD/lista3/zad2/dual_quick_old.txt
+A    notext/AISD/lista3/zad2/dual_quick_new.txt
+A    notext/AISD/lista3/zad2/quick.hpp
+A    notext/AISD/lista3/zad2/rand_select.txt
+A    notext/AISD/lista3/zad2/select_5_3.txt
+A    notext/AISD/lista3/zad2/utils.hpp
+A    notext/JPP
+A    notext/JPP/lista1
+A    notext/JPP/lista1/zad1-c
+A    notext/AISD/lista3/zad2/quick_new.txt
+A    notext/AISD/lista3/zad2/select.hpp
+A    notext/JPP/lista1/zad2-ada
+A    notext/AISD/lista5/zad2/wykresy/bin_fib.png
+A    notext/AISD/lista3/zad2/wykresy/quick_c2.png
+A    notext/AISD/lista5/zad2/wykresy/fibb_n_500.png
+A    notext/JPP/lista1/nagranie.cast
+A    notext/JPP/lista1/zad1-c/lib_recur.c
+A    notext/AISD/lista5/zad2/wykresy/bin_n_1000.png
+A    notext/AISD/lista5/zad2/wykresy1.py
+A    notext/JPP/lista1/zad1-c/Makefile
+A    notext/JPP/lista1/zad1-c/tester.c
+A    notext/JPP/lista1/zad3-rust
+A    notext/JPP/lista1/zad3-rust/iterative
+A    notext/AISD/lista3/zad2/wykresy/select_s.png
+A    notext/JPP/lista1/zad2-ada/iterative.ads
+A    notext/AISD/lista3/zad2/select_5_5.txt
+A    notext/JPP/lista1/zad3-rust/iterative/src
+A    notext/JPP/lista1/zad3-rust/recursive
+A    notext/JPP/lista1/zad3-rust/recursive/src
+A    notext/JPP/lista1/zad3-rust/Makefile
+A    notext/JPP/lista1/zad2-ada/main.adb
+A    notext/JPP/lista1/zad3-rust/recursive/src/lib.rs
+A    notext/JPP/lista1/zad3-rust/iterative/Cargo.toml
+A    notext/JPP/lista1/zad4-ada-c
+A    notext/JPP/lista1/zad5-c-ada
+A    notext/JPP/lista1/zad5-c-ada/src
+A    notext/AISD/lista3/zad2/wykresy/bin_search_c.png
+A    notext/AISD/lista4/wykresy/avg_height.png
+A    notext/AISD/lista3/zad2/wykresy/quick_t.png
+A    notext/JPP/lista1/zad5-c-ada/AdaWrapper.gpr
+A    notext/JPP/lista1/zad4-ada-c/Makefile
+A    notext/JPP/lista1/zad5-c-ada/Makefile
+A    notext/JPP/lista1/zad6-c-rust
+A    notext/AISD/lista4/wykresy/height_4.png
+A    notext/AISD/lista3/zad2/wykresy/select_t.png
+A    notext/JPP/lista1/zad5-c-ada/src/lib_recur.c
+A    notext/JPP/lista1/zad5-c-ada/src/lib_recur.h
+A    notext/AISD/lista4/wykresy/if_6.png
+A    notext/JPP/lista1/zad6-c-rust/src
+A    notext/JPP/lista1/zad7-rust-c
+A    notext/AISD/lista4/wykresy/avg_if.png
+A    notext/AISD/lista4/wykresy/swap_2.png
+A    notext/AISD/lista4/zad12/BST.cpp
+A    notext/AISD/lista4/zad12/zad1.cpp
+A    notext/AISD/lista4/zad34/RBBST.hpp
+A    notext/AISD/lista4/zad56/Makefile
+A    notext/AISD/lista4/zad56/zad5.cpp
+A    notext/JPP/lista2
+A    notext/JPP/lista2/zad1-cpp
+A    notext/JPP/lista1/zad6-c-rust/Cargo.toml
+A    notext/JPP/lista1/zad7-rust-c/lib.h
+A    notext/JPP/lista1/zad6-c-rust/build.rs
+A    notext/AISD/lista5/zad1/wykresy/length.png
+A    notext/AISD/lista5/zad2/bin.cpp
+A    notext/AISD/lista5/zad2/main1.cpp
+A    notext/JPP/lista2/zad2-java
+A    notext/JPP/lista2/zad3-rust
+A    notext/JPP/lista2/zad3-rust/src
+A    notext/JPP/lista2/zad3-rust/src/gf
+A    notext/JPP/lista2/zad1-cpp/gf.cpp
+A    notext/AISD/lista4/wykresy/height_6.png
+A    notext/JPP/lista1/zad7-rust-c/main.c
+A    notext/JPP/lista2/zad1-cpp/gf.hpp
+A    notext/JPP/lista3
+A    notext/JPP/lista3/zad1-cpp
+A    notext/JPP/lista2/zad3-rust/Cargo.toml
+A    notext/AISD/lista4/wykresy/max_height.png
+A    notext/JPP/lista2/zad3-rust/src/lib.rs
+A    notext/JPP/lista3/zad2_java
+A    notext/JPP/lista2/zad3-rust/src/gf/gf.rs
+A    notext/JPP/lista2/zad3-rust/src/main.rs
+A    notext/JPP/lista3/zad1-cpp/DHSetup.cpp
+A    notext/JPP/lista3/zad1-cpp/main.cpp
+A    notext/JPP/lista3/zad1-cpp/DHSetup.hpp
+A    notext/JPP/lista3/zad1-cpp/utils.hpp
+A    notext/JPP/lista3/zad3-rust3
+A    notext/AISD/lista4/wykresy/swap_4.png
+A    notext/AISD/lista4/zad12/BST.hpp
+A    notext/AISD/lista4/zad12/zad2.cpp
+A    notext/AISD/lista4/zad34/generator.hpp
+A    notext/AISD/lista4/zad56/SBST.cpp
+A    notext/AISD/lista4/zad56/zad6.cpp
+A    notext/JPP/lista3/zad3-rust3/src
+A    notext/JPP/lista3/zad3-rust3/src/libs
+A    notext/JPP/lista3/zad2_java/GF.java
+A    notext/AISD/lista5/zad2/wykresy/bin_n_500.png
+A    notext/AISD/lista5/zad2/wykresy2.py
+A    notext/JPP/lista1/zad1-c/lib.h
+A    notext/JPP/lista1/zad2-ada/Makefile
+A    notext/JPP/lista1/zad2-ada/recursive.adb
+A    notext/JPP/lista1/zad3-rust/iterative/src/lib.rs
+A    notext/JPP/lista1/zad4-ada-c/test.c
+A    notext/JPP/lista1/zad5-c-ada/src/lib_iter.c
+A    notext/JPP/lista1/zad5-c-ada/src/test_iter.adb
+A    notext/JPP/lista1/zad6-c-rust/src/main.rs
+A    notext/JPP/lista2/nagranie.cast
+A    notext/JPP/lista2/zad1-cpp/main.cpp
+A    notext/JPP/lista2/zad3-rust/src/gf/gf_ops.rs
+A    notext/JPP/lista3/nagranie.cast
+A    notext/JPP/lista3/zad1-cpp/User.cpp
+A    notext/JPP/lista3/zad2_java/Arithmetics.java
+A    notext/JPP/lista3/zad2_java/Makefile
+A    notext/JPP/lista4
+A    notext/JPP/lista4/zad1-ada
+A    notext/JPP/lista4/zad2-go
+A    notext/JPP/lista4/zad3-rust
+A    notext/JPP/lista4/zad3-rust/src
+A    notext/JPP/lista4/zad3-rust/src/lib
+A    notext/JPP/lista5
+A    notext/JPP/lista5/zad1-haskell
+A    notext/JPP/lista5/zad1-lisp
+A    notext/JPP/lista5/zad1-sml
+A    notext/JPP/lista3/zad3-rust3/Cargo.toml
+A    notext/JPP/lista3/zad3-rust3/src/libs/user.rs
+A    notext/JPP/lista3/zad2_java/Main.java
+A    notext/JPP/lista3/zad3-rust3/src/lib.rs
+A    notext/JPP/lista3/zad3-rust3/src/main.rs
+A    notext/JPP/lista5/zad2-prolog
+A    notext/SP
+A    notext/SP/lista1
+A    notext/SP/lista1/a
+A    notext/JPP/lista4/zad1-ada/main.adb
+A    notext/JPP/lista4/zad3-rust/src/lib/filozof.rs
+A    notext/JPP/lista5/zad1-haskell/Lib.hs
+A    notext/JPP/lista5/zad1-lisp/main.lisp
+A    notext/JPP/lista3/zad3-rust3/src/libs/dhsetup.rs
+A    notext/JPP/lista4/nagranie
+A    notext/JPP/lista4/zad2-go/main.go
+A    notext/JPP/lista4/zad3-rust/src/main.rs
+A    notext/JPP/lista5/zad1-haskell/main.hs
+A    notext/SP/lista1/a/a
+A    notext/SP/lista1/a/a/b
+A    notext/SP/lista1/a/aa
+A    notext/SP/lista1/a/aa/b
+A    notext/SP/lista1/a/aaa
+A    notext/SP/lista1/a/aaa/b
+A    notext/SP/lista1/a/aab
+A    notext/SP/lista1/a/aab/b
+A    notext/SP/lista1/a/ab
+A    notext/SP/lista1/a/ab/b
+A    notext/SP/lista1/a/aba
+A    notext/SP/lista1/a/aba/b
+A    notext/SP/lista1/a/abb
+A    notext/SP/lista1/a/abb/b
+A    notext/SP/lista1/a/b
+A    notext/SP/lista1/a/b/b
+A    notext/JPP/lista5/zad2-prolog/main.pl
+A    notext/JPP/lista5/zad1-sml/main.sml
+A    notext/JPP/lista4/zad2-go/filozof.go
+A    notext/JPP/lista4/zad3-rust/src/lib/mod.rs
+A    notext/JPP/lista5/zad1-haskell/Makefile
+A    notext/JPP/lista5/zad1-sml/lib.sml
+A    notext/SP/lista1/a/ba
+A    notext/SP/lista1/a/ba/b
+A    notext/SP/lista1/a/baa
+A    notext/SP/lista1/a/baa/b
+A    notext/SP/lista1/a/bab
+A    notext/SP/lista1/a/bab/b
+A    notext/SP/lista1/a/bb
+A    notext/SP/lista1/a/bb/b
+A    notext/SP/lista1/a/bba
+A    notext/SP/lista1/a/bba/b
+A    notext/SP/lista1/a/aab/b/aaabb
+A    notext/SP/lista1/a/b/ab
+A    notext/AISD/lista5/zad1/wykresy/time.png
+A    notext/AISD/lista5/zad2/bin.h
+A    notext/AISD/lista5/zad2/main2.cpp
+A    notext/SP/lista1/a/aa/b/aaab
+A    notext/SP/lista1/a/aba/b/aabab
+A    notext/SP/lista1/a/bbb
+A    notext/SP/lista1/a/bbb/b
+A    notext/externals
+A    notext/SP/lista1/a/bab/b/ababb
+A    notext/SP/lista1/a/a/b/aab
+A    notext/SP/lista1/a/ab/b/aabb
+A    notext/SP/lista1/a/b/b/abb
+A    notext/SP/lista1/a/bb/b/abbb
+A    notext/SP/lista1/nagranie
+A    notext/SP/lista1/zad4.sh
+A    notext/SP/lista1/a/ba/b/abab
+A    notext/SP/lista1/a/bba/b/abbab
+A    notext/SP/lista1/zad2.sh
+A    notext/SP/lista1/zad6.sh
+A    notext/SP/lista1/zad1.sh
+A    notext/SP/lista1/zad5.sh
+A    notext/AISD/lista5/zad2/wykresy/fibb_n_1000.png
+A    notext/AISD/lista5/zad2/wykresy3.py
+A    notext/JPP/lista1/zad1-c/lib_iter.c
+A    notext/JPP/lista1/zad2-ada/iterative.adb
+A    notext/JPP/lista1/zad2-ada/recursive.ads
+A    notext/JPP/lista1/zad3-rust/recursive/Cargo.toml
+A    notext/JPP/lista1/zad4-ada-c/wrapper.h
+A    notext/JPP/lista1/zad5-c-ada/src/lib_iter.h
+A    notext/JPP/lista1/zad5-c-ada/src/test_recur.adb
+A    notext/JPP/lista1/zad7-rust-c/Makefile
+A    notext/JPP/lista2/zad1-cpp/Makefile
+A    notext/JPP/lista2/zad2-java/Main.java
+A    notext/JPP/lista2/zad3-rust/src/gf/mod.rs
+A    notext/JPP/lista3/zad1-cpp/CMakeLists.txt
+A    notext/JPP/lista3/zad1-cpp/User.hpp
+A    notext/JPP/lista3/zad2_java/DHSetup.java
+A    notext/JPP/lista3/zad2_java/User.java
+A    notext/JPP/lista3/zad3-rust3/src/libs/mod.rs
+A    notext/JPP/lista4/zad1-ada/Makefile
+A    notext/JPP/lista4/zad3-rust/Cargo.toml
+A    notext/JPP/lista5/nagranie
+A    notext/JPP/lista5/zad1-lisp/lib.lsp
+A    notext/JPP/lista5/zad2-prolog/lib.pl
+A    notext/SP/lista1/a/aaa/b/aaaab
+A    notext/SP/lista1/a/abb/b/aabbb
+A    notext/SP/lista1/a/baa/b/abaab
+A    notext/SP/lista1/a/bbb/b/abbbb
+A    notext/SP/lista1/zad3.sh
+A    notext/hello.sh
+Checked out revision 32.
+$ cd notext
+$ ls externals/
+
+# svn co
+$ cd ..
+$ svn co https://repo.cs.pwr.edu.pl/mk1-268449 ext
+A    ext/AISD
+A    ext/AISD/lista1
+A    ext/AISD/lista2
+A    ext/AISD/lista2/zad134
+A    ext/AISD/lista2/zad2
+A    ext/AISD/lista2/zad2/wykresy
+A    ext/AISD/lista1/nagranie
+A    ext/AISD/lista1/zad1_fifo.c
+A    ext/AISD/lista1/zad1_lifo.c
+A    ext/AISD/lista1/zad2.c
+A    ext/AISD/lista1/zad3.c
+A    ext/AISD/lista2/zad2/wykresy/c_n_10.png
+A    ext/AISD/lista2/zad2/quick.txt
+A    ext/AISD/lista2/nagranie
+A    ext/AISD/lista2/zad134/dual_quick.cpp
+A    ext/AISD/lista2/zad134/generator.cpp
+A    ext/AISD/lista2/zad134/hybrid.cpp
+A    ext/AISD/lista2/zad134/insertion.cpp
+A    ext/AISD/lista2/zad134/makefile
+A    ext/AISD/lista2/zad134/merge.cpp
+A    ext/AISD/lista2/zad134/quick.cpp
+A    ext/AISD/lista2/zad134/sorts.hpp
+A    ext/AISD/lista2/zad2/dual_quick.hpp
+A    ext/AISD/lista3
+A    ext/AISD/lista3/zad1345
+A    ext/AISD/lista2/zad2/dual_quick.txt
+A    ext/AISD/lista2/zad2/hybrid.hpp
+A    ext/AISD/lista2/zad2/wykresy/c_n_10_big.png
+A    ext/AISD/lista2/zad2/wykresy/c_1.png
+A    ext/AISD/lista3/zad2
+A    ext/AISD/lista2/zad2/wykresy/s_10.png
+A    ext/AISD/lista2/zad2/wykresy/c_100.png
+A    ext/AISD/lista2/zad2/hybrid.txt
+A    ext/AISD/lista2/zad2/insertion.hpp
+A    ext/AISD/lista2/zad2/insertion.txt
+A    ext/AISD/lista2/zad2/main.cpp
+A    ext/AISD/lista2/zad2/makefile
+A    ext/AISD/lista2/zad2/merge.hpp
+A    ext/AISD/lista2/zad2/merge.txt
+A    ext/AISD/lista2/zad2/quick.hpp
+A    ext/AISD/lista2/zad2/sorts2.hpp
+A    ext/AISD/lista2/zad2/wykresy/s_n_1_big.png
+A    ext/AISD/lista3/zad1345/generator.cpp
+A    ext/AISD/lista3/zad1345/select.cpp
+A    ext/AISD/lista3/zad2/bin_search_lewo.txt
+A    ext/AISD/lista3/zad2/dual_quick.hpp
+A    ext/AISD/lista3/zad2/main.cpp
+A    ext/AISD/lista3/zad2/rand_select.hpp
+A    ext/AISD/lista3/zad2/select_5.hpp
+A    ext/AISD/lista2/zad2/wykresy/c_10_big.png
+A    ext/AISD/lista3/zad2/wykresy
+A    ext/AISD/lista2/zad2/wykresy/s_10_big.png
+A    ext/AISD/lista2/zad2/wykresy/c_10.png
+A    ext/AISD/lista2/zad2/wykresy/c_n_1.png
+A    ext/AISD/lista2/zad2/wykresy/s_n_10.png
+A    ext/AISD/lista2/zad2/wykresy/c_n_100_big.png
+A    ext/AISD/lista3/zad2/select_5_9.txt
+A    ext/AISD/lista2/zad2/wykresy/c_100_big.png
+A    ext/AISD/lista2/zad2/wykresy/s_n_10_big.png
+A    ext/AISD/lista3/zad1345/dual_quick.cpp
+A    ext/AISD/lista3/zad1345/rand_select.cpp
+A    ext/AISD/lista3/zad2/bin_search.hpp
+A    ext/AISD/lista2/zad2/wykresy/s_1.png
+A    ext/AISD/lista4
+A    ext/AISD/lista4/wykresy
+A    ext/AISD/lista3/zad2/bin_search_srodek.txt
+A    ext/AISD/lista3/zad2/generator.hpp
+A    ext/AISD/lista3/zad2/wykresy/quick_c.png
+A    ext/AISD/lista2/zad2/wykresy/s_100_big.png
+A    ext/AISD/lista3/zad2/wykresy/select_c.png
+A    ext/AISD/lista3/zad2/quick_old.txt
+A    ext/AISD/lista4/recording
+A    ext/AISD/lista2/zad2/wykresy/s_n_1.png
+A    ext/AISD/lista2/zad2/wykresy/c_1_big.png
+A    ext/AISD/lista4/wykresy/height_2.png
+A    ext/AISD/lista3/zad2/select.txt
+A    ext/AISD/lista2/zad2/wykresy/s_n_100_big.png
+A    ext/AISD/lista3/zad1345/bin_search.cpp
+A    ext/AISD/lista3/zad1345/quick.cpp
+A    ext/AISD/lista3/zad1345/utils.hpp
+A    ext/AISD/lista3/zad2/bin_search_rand.txt
+A    ext/AISD/lista3/zad2/dual_quick_old.txt
+A    ext/AISD/lista4/wykresy/if_4.png
+A    ext/AISD/lista4/zad12
+A    ext/AISD/lista3/zad2/quick_new.txt
+A    ext/AISD/lista3/zad2/select.hpp
+A    ext/AISD/lista2/zad2/wykresy/c_n_100.png
+A    ext/AISD/lista4/wykresy/max_swap.png
+A    ext/AISD/lista4/wykresy.py
+A    ext/AISD/lista4/zad12/generator.hpp
+A    ext/AISD/lista4/zad34
+A    ext/AISD/lista3/zad2/select_5_7.txt
+A    ext/AISD/lista4/zad34/RBBST.cpp
+A    ext/AISD/lista3/zad2/select_5_5.txt
+A    ext/AISD/lista2/zad2/wykresy/c_n_1_big.png
+A    ext/AISD/lista3/zad2/wykresy/bin_search_c.png
+A    ext/AISD/lista3/zad2/wykresy/quick_t.png
+A    ext/AISD/lista4/zad56
+A    ext/AISD/lista2/zad2/wykresy/s_100.png
+A    ext/AISD/lista4/zad34/zad4.cpp
+A    ext/AISD/lista4/zad56/generator.hpp
+A    ext/AISD/lista3/zad2/wykresy/bin_search_t.png
+A    ext/AISD/lista3/zad2/wykresy/select_t.png
+A    ext/AISD/lista2/zad2/wykresy/s_1_big.png
+A    ext/AISD/lista4/wykresy/avg_if.png
+A    ext/AISD/lista5
+A    ext/AISD/lista5/zad1
+A    ext/AISD/lista5/zad1/wykresy
+A    ext/AISD/lista3/zad2/wykresy/quick_t2.png
+A    ext/AISD/lista2/zad2/wykresy/s_n_100.png
+A    ext/AISD/lista2/zad2/wykresy.py
+A    ext/AISD/lista3/zad1345/makefile
+A    ext/AISD/lista3/zad1345/select_5.cpp
+A    ext/AISD/lista3/zad2/bin_search_prawo.txt
+A    ext/AISD/lista3/zad2/dual_quick_new.txt
+A    ext/AISD/lista3/zad2/quick.hpp
+A    ext/AISD/lista5/zad2
+A    ext/AISD/lista3/zad2/wykresy.py
+A    ext/AISD/lista4/wykresy/height_6.png
+A    ext/AISD/lista3/zad2/rand_select.txt
+A    ext/AISD/lista5/zad2/wykresy
+A    ext/AISD/lista5/zad1/wykresy/if.png
+A    ext/AISD/lista4/wykresy/avg_swap.png
+A    ext/AISD/lista4/wykresy/max_height.png
+A    ext/AISD/lista5/zad2/Makefile
+A    ext/AISD/lista5/zad2/fibb.h
+A    ext/JPP
+A    ext/JPP/lista1
+A    ext/JPP/lista1/zad1-c
+A    ext/AISD/lista4/wykresy/swap_4.png
+A    ext/AISD/lista4/zad12/BST.hpp
+A    ext/AISD/lista4/zad12/zad2.cpp
+A    ext/AISD/lista4/zad34/generator.hpp
+A    ext/AISD/lista4/zad56/SBST.cpp
+A    ext/AISD/lista4/zad56/zad6.cpp
+A    ext/JPP/lista1/zad2-ada
+A    ext/AISD/lista5/zad1/wykresy/time.png
+A    ext/AISD/lista5/zad2/bin.h
+A    ext/AISD/lista5/zad2/main2.cpp
+A    ext/AISD/lista3/zad2/select_5_3.txt
+A    ext/AISD/lista3/zad2/utils.hpp
+A    ext/JPP/lista1/zad3-rust
+A    ext/JPP/lista1/zad3-rust/iterative
+A    ext/AISD/lista4/wykresy/if_2.png
+A    ext/AISD/lista5/zad2/wykresy/fibb_n_1000.png
+A    ext/AISD/lista5/zad2/wykresy3.py
+A    ext/JPP/lista1/zad1-c/lib_iter.c
+A    ext/JPP/lista1/zad2-ada/iterative.adb
+A    ext/JPP/lista1/zad2-ada/recursive.ads
+A    ext/JPP/lista1/zad3-rust/iterative/src
+A    ext/JPP/lista1/zad3-rust/recursive
+A    ext/JPP/lista1/zad3-rust/recursive/src
+A    ext/AISD/lista4/wykresy/max_if.png
+A    ext/JPP/lista1/zad3-rust/recursive/Cargo.toml
+A    ext/AISD/lista3/zad2/wykresy/quick_c2.png
+A    ext/AISD/lista5/zad2/wykresy/bin_n_1000.png
+A    ext/AISD/lista5/zad2/wykresy1.py
+A    ext/JPP/lista1/zad1-c/Makefile
+A    ext/JPP/lista1/zad1-c/tester.c
+A    ext/JPP/lista1/zad2-ada/main.adb
+A    ext/JPP/lista1/zad3-rust/iterative/Cargo.toml
+A    ext/JPP/lista1/zad4-ada-c
+A    ext/JPP/lista1/zad5-c-ada
+A    ext/JPP/lista1/zad5-c-ada/src
+A    ext/JPP/lista1/zad6-c-rust
+A    ext/AISD/lista4/wykresy/swap_6.png
+A    ext/AISD/lista4/zad12/Makefile
+A    ext/AISD/lista4/zad34/Makefile
+A    ext/AISD/lista4/zad34/zad3.cpp
+A    ext/AISD/lista4/zad56/SBST.hpp
+A    ext/AISD/lista5/zad1/lcs.cpp
+A    ext/AISD/lista5/zad1/wykresy.py
+A    ext/AISD/lista5/zad2/fibb.cpp
+A    ext/JPP/lista1/zad6-c-rust/src
+A    ext/JPP/lista1/zad7-rust-c
+A    ext/JPP/lista1/zad4-ada-c/wrapper.h
+A    ext/JPP/lista1/zad5-c-ada/src/lib_iter.h
+A    ext/JPP/lista1/zad5-c-ada/src/test_recur.adb
+A    ext/JPP/lista1/zad4-ada-c/Makefile
+A    ext/JPP/lista1/zad5-c-ada/Makefile
+A    ext/JPP/lista1/zad5-c-ada/src/lib_recur.h
+A    ext/JPP/lista2
+A    ext/JPP/lista2/zad1-cpp
+A    ext/AISD/lista3/zad2/wykresy/select_s.png
+A    ext/JPP/lista1/zad7-rust-c/Makefile
+A    ext/JPP/lista2/zad1-cpp/Makefile
+A    ext/JPP/lista1/zad6-c-rust/build.rs
+A    ext/JPP/lista1/zad7-rust-c/main.c
+A    ext/JPP/lista2/zad1-cpp/gf.hpp
+A    ext/JPP/lista2/zad2-java
+A    ext/JPP/lista2/zad3-rust
+A    ext/JPP/lista2/zad3-rust/src
+A    ext/JPP/lista2/zad3-rust/src/gf
+A    ext/JPP/lista3
+A    ext/JPP/lista3/zad1-cpp
+A    ext/AISD/lista5/zad2/wykresy/bin_fib.png
+A    ext/AISD/lista5/zad2/wykresy/fibb_n_500.png
+A    ext/JPP/lista1/nagranie.cast
+A    ext/JPP/lista1/zad1-c/lib_recur.c
+A    ext/JPP/lista1/zad2-ada/iterative.ads
+A    ext/JPP/lista1/zad3-rust/Makefile
+A    ext/JPP/lista1/zad3-rust/recursive/src/lib.rs
+A    ext/JPP/lista1/zad5-c-ada/AdaWrapper.gpr
+A    ext/JPP/lista1/zad5-c-ada/src/lib_recur.c
+A    ext/JPP/lista1/zad6-c-rust/Cargo.toml
+A    ext/JPP/lista1/zad7-rust-c/lib.h
+A    ext/JPP/lista2/zad1-cpp/gf.cpp
+A    ext/JPP/lista2/zad3-rust/Cargo.toml
+A    ext/JPP/lista2/zad3-rust/src/lib.rs
+A    ext/JPP/lista3/zad2_java
+A    ext/JPP/lista3/zad3-rust3
+A    ext/JPP/lista2/zad2-java/Main.java
+A    ext/JPP/lista2/zad3-rust/src/gf/mod.rs
+A    ext/JPP/lista3/zad1-cpp/CMakeLists.txt
+A    ext/AISD/lista4/wykresy/avg_height.png
+A    ext/JPP/lista2/zad3-rust/src/gf/gf.rs
+A    ext/JPP/lista2/zad3-rust/src/main.rs
+A    ext/JPP/lista3/zad3-rust3/src
+A    ext/JPP/lista3/zad3-rust3/src/libs
+A    ext/JPP/lista3/zad1-cpp/DHSetup.cpp
+A    ext/JPP/lista3/zad1-cpp/main.cpp
+A    ext/JPP/lista3/zad2_java/GF.java
+A    ext/JPP/lista3/zad1-cpp/User.hpp
+A    ext/JPP/lista3/zad2_java/DHSetup.java
+A    ext/JPP/lista3/zad2_java/User.java
+A    ext/JPP/lista4
+A    ext/JPP/lista4/zad1-ada
+A    ext/JPP/lista4/zad2-go
+A    ext/JPP/lista3/zad3-rust3/Cargo.toml
+A    ext/JPP/lista3/zad3-rust3/src/libs/user.rs
+A    ext/JPP/lista3/zad3-rust3/src/libs/mod.rs
+A    ext/JPP/lista3/zad1-cpp/DHSetup.hpp
+A    ext/JPP/lista3/zad1-cpp/utils.hpp
+A    ext/JPP/lista3/zad2_java/Main.java
+A    ext/JPP/lista3/zad3-rust3/src/lib.rs
+A    ext/JPP/lista3/zad3-rust3/src/main.rs
+A    ext/JPP/lista4/zad3-rust
+A    ext/JPP/lista4/zad3-rust/src
+A    ext/JPP/lista4/zad3-rust/src/lib
+A    ext/JPP/lista5
+A    ext/JPP/lista5/zad1-haskell
+A    ext/JPP/lista5/zad1-lisp
+A    ext/JPP/lista5/zad1-sml
+A    ext/JPP/lista4/zad1-ada/main.adb
+A    ext/JPP/lista4/zad1-ada/Makefile
+A    ext/JPP/lista4/zad3-rust/src/lib/filozof.rs
+A    ext/JPP/lista5/zad1-haskell/Lib.hs
+A    ext/JPP/lista5/zad1-lisp/main.lisp
+A    ext/JPP/lista4/zad2-go/filozof.go
+A    ext/JPP/lista4/zad3-rust/src/lib/mod.rs
+A    ext/JPP/lista5/zad1-haskell/Makefile
+A    ext/JPP/lista5/zad2-prolog
+A    ext/SP
+A    ext/SP/lista1
+A    ext/SP/lista1/a
+A    ext/JPP/lista4/zad3-rust/Cargo.toml
+A    ext/JPP/lista5/nagranie
+A    ext/JPP/lista5/zad1-lisp/lib.lsp
+A    ext/SP/lista1/a/a
+A    ext/SP/lista1/a/a/b
+A    ext/SP/lista1/a/aa
+A    ext/SP/lista1/a/aa/b
+A    ext/SP/lista1/a/aaa
+A    ext/SP/lista1/a/aaa/b
+A    ext/SP/lista1/a/aab
+A    ext/SP/lista1/a/aab/b
+A    ext/SP/lista1/a/ab
+A    ext/SP/lista1/a/ab/b
+A    ext/SP/lista1/a/aba
+A    ext/JPP/lista5/zad2-prolog/main.pl
+A    ext/JPP/lista5/zad2-prolog/lib.pl
+A    ext/JPP/lista5/zad1-sml/lib.sml
+A    ext/SP/lista1/a/a/b/aab
+A    ext/SP/lista1/a/ab/b/aabb
+A    ext/SP/lista1/a/aba/b
+A    ext/SP/lista1/a/abb
+A    ext/SP/lista1/a/abb/b
+A    ext/SP/lista1/a/b
+A    ext/SP/lista1/a/b/b
+A    ext/SP/lista1/a/aab/b/aaabb
+A    ext/SP/lista1/a/aaa/b/aaaab
+A    ext/AISD/lista4/wykresy/height_4.png
+A    ext/SP/lista1/a/ba
+A    ext/SP/lista1/a/ba/b
+A    ext/SP/lista1/a/baa
+A    ext/SP/lista1/a/baa/b
+A    ext/SP/lista1/a/bab
+A    ext/SP/lista1/a/b/ab
+A    ext/SP/lista1/a/bab/b
+A    ext/SP/lista1/a/bb
+A    ext/SP/lista1/a/bb/b
+A    ext/SP/lista1/a/bba
+A    ext/SP/lista1/a/bba/b
+A    ext/SP/lista1/a/abb/b/aabbb
+A    ext/SP/lista1/a/baa/b/abaab
+A    ext/SP/lista1/a/bab/b/ababb
+A    ext/SP/lista1/a/b/b/abb
+A    ext/SP/lista1/a/bbb
+A    ext/SP/lista1/a/bbb/b
+A    ext/SP/lista1/a/bb/b/abbb
+A    ext/AISD/lista4/wykresy/if_6.png
+A    ext/SP/lista1/a/bbb/b/abbbb
+A    ext/SP/lista1/zad3.sh
+A    ext/externals
+A    ext/SP/lista1/nagranie
+A    ext/SP/lista1/zad1.sh
+A    ext/AISD/lista4/wykresy/swap_2.png
+A    ext/AISD/lista4/zad12/BST.cpp
+A    ext/AISD/lista4/zad12/zad1.cpp
+A    ext/AISD/lista4/zad34/RBBST.hpp
+A    ext/AISD/lista4/zad56/Makefile
+A    ext/AISD/lista4/zad56/zad5.cpp
+A    ext/SP/lista1/zad4.sh
+A    ext/hello.sh
+A    ext/SP/lista1/zad5.sh
+A    ext/AISD/lista5/zad1/wykresy/length.png
+A    ext/AISD/lista5/zad2/bin.cpp
+A    ext/AISD/lista5/zad2/main1.cpp
+A    ext/AISD/lista5/zad2/wykresy/bin_n_500.png
+A    ext/AISD/lista5/zad2/wykresy2.py
+A    ext/JPP/lista1/zad1-c/lib.h
+A    ext/JPP/lista1/zad2-ada/Makefile
+A    ext/JPP/lista1/zad2-ada/recursive.adb
+A    ext/JPP/lista1/zad3-rust/iterative/src/lib.rs
+A    ext/JPP/lista1/zad4-ada-c/test.c
+A    ext/JPP/lista1/zad5-c-ada/src/lib_iter.c
+A    ext/JPP/lista1/zad5-c-ada/src/test_iter.adb
+A    ext/JPP/lista1/zad6-c-rust/src/main.rs
+A    ext/JPP/lista2/nagranie.cast
+A    ext/JPP/lista2/zad1-cpp/main.cpp
+A    ext/JPP/lista2/zad3-rust/src/gf/gf_ops.rs
+A    ext/JPP/lista3/nagranie.cast
+A    ext/JPP/lista3/zad1-cpp/User.cpp
+A    ext/JPP/lista3/zad2_java/Arithmetics.java
+A    ext/JPP/lista3/zad2_java/Makefile
+A    ext/JPP/lista3/zad3-rust3/src/libs/dhsetup.rs
+A    ext/JPP/lista4/nagranie
+A    ext/JPP/lista4/zad2-go/main.go
+A    ext/JPP/lista4/zad3-rust/src/main.rs
+A    ext/JPP/lista5/zad1-haskell/main.hs
+A    ext/JPP/lista5/zad1-sml/main.sml
+A    ext/SP/lista1/a/aa/b/aaab
+A    ext/SP/lista1/a/aba/b/aabab
+A    ext/SP/lista1/a/ba/b/abab
+A    ext/SP/lista1/a/bba/b/abbab
+A    ext/SP/lista1/zad2.sh
+A    ext/SP/lista1/zad6.sh
+
+Fetching external item into 'ext/externals/info':
+A    ext/externals/info/skrypty
+A    ext/externals/info/skrypty/test-dir
+A    ext/externals/info/SP
+A    ext/externals/info/SP/l3
+A    ext/externals/info/SP/l3/a
+A    ext/externals/info/SP/l3/a/baa
+A    ext/externals/info/SP/l3/a/baa/b
+A    ext/externals/info/SP/l3/a/ba
+A    ext/externals/info/SP/l3/a/ba/b
+A    ext/externals/info/SP/l3/a/a
+A    ext/externals/info/SP/l3/a/a/b
+A    ext/externals/info/SP/l3/a/aa
+A    ext/externals/info/SP/l3/a/aa/b
+A    ext/externals/info/SP/l3/a/aaa
+A    ext/externals/info/SP/l3/a/aaa/b
+A    ext/externals/info/SP/l3/a/aab
+A    ext/externals/info/SP/l3/a/aab/b
+A    ext/externals/info/SP/l3/a/ab
+A    ext/externals/info/SP/l3/a/ab/b
+A    ext/externals/info/SP/l3/a/aba
+A    ext/externals/info/SP/l3/a/aba/b
+A    ext/externals/info/SP/l3/a/abb
+A    ext/externals/info/SP/l3/a/abb/b
+A    ext/externals/info/SP/l3/a/bab
+A    ext/externals/info/SP/l3/a/bab/b
+A    ext/externals/info/SP/l3/a/bba
+A    ext/externals/info/SP/l3/a/bba/b
+A    ext/externals/info/SP/l3/a/bbb
+A    ext/externals/info/SP/l3/a/bbb/b
+A    ext/externals/info/SP/l1
+A    ext/externals/info/SP/l1/a
+A    ext/externals/info/SP/l1/a/a
+A    ext/externals/info/SP/l1/a/a/b
+A    ext/externals/info/SP/l1/a/aa
+A    ext/externals/info/SP/l1/a/aa/b
+A    ext/externals/info/SP/l1/a/aaa
+A    ext/externals/info/SP/l1/a/aaa/b
+A    ext/externals/info/SP/l1/a/aab
+A    ext/externals/info/SP/l1/a/aab/b
+A    ext/externals/info/SP/l1/a/ab
+A    ext/externals/info/SP/l1/a/ab/b
+A    ext/externals/info/SP/l1/a/aba
+A    ext/externals/info/SP/l1/a/aba/b
+A    ext/externals/info/SP/l1/a/abb
+A    ext/externals/info/SP/l1/a/abb/b
+A    ext/externals/info/SP/l1/a/b
+A    ext/externals/info/SP/l1/a/b/b
+A    ext/externals/info/SP/l1/a/ba
+A    ext/externals/info/SP/l1/a/ba/b
+A    ext/externals/info/SP/l1/a/baa
+A    ext/externals/info/SP/l1/a/baa/b
+A    ext/externals/info/SP/l1/a/bab
+A    ext/externals/info/SP/l1/a/bab/b
+A    ext/externals/info/SP/l1/a/bb
+A    ext/externals/info/SP/l1/a/bb/b
+A    ext/externals/info/SP/l1/a/bba
+A    ext/externals/info/SP/l1/a/bba/b
+A    ext/externals/info/SP/l1/a/bbb
+A    ext/externals/info/SP/l1/a/bbb/b
+A    ext/externals/info/asciinema
+A    ext/externals/info/skrypty/test-dir/t2
+A    ext/externals/info/skrypty/test
+A    ext/externals/info/skrypty/view-casts-curl.bash
+A    ext/externals/info/skrypty/view-casts.bash
+A    ext/externals/info/SP/l3/a/baa/dc
+A    ext/externals/info/SP/l3/a/baa/b/abaab
+A    ext/externals/info/SP/l3/a/ba/b/abab
+A    ext/externals/info/SP/l3/a/a/b/aab
+A    ext/externals/info/SP/l3/a/aa/b/aaab
+A    ext/externals/info/SP/l3/a/aaa/b/aaaab
+A    ext/externals/info/SP/l3/a/aab/b/aaabb
+A    ext/externals/info/SP/l3/a/ab/b/aabb
+A    ext/externals/info/SP/l3/a/aba/b/aabab
+A    ext/externals/info/SP/l3/a/abb/b/aabbb
+A    ext/externals/info/SP/l3/a/bab/b/ababb
+A    ext/externals/info/SP/l3/a/bba/b/abbab
+A    ext/externals/info/SP/l3/a/bbb/b/abbbb
+A    ext/externals/info/SP/l1/a/a/b/aab
+A    ext/externals/info/SP/l1/a/aa/b/aaab
+A    ext/externals/info/SP/l1/a/aaa/b/aaaab
+A    ext/externals/info/SP/l1/a/aab/b/aaabb
+A    ext/externals/info/SP/l1/a/ab/b/aabb
+A    ext/externals/info/SP/l1/a/aba/b/aabab
+A    ext/externals/info/SP/l1/a/abb/b/aabbb
+A    ext/externals/info/SP/l1/a/b/ab
+A    ext/externals/info/SP/l1/a/ba/b/abab
+A    ext/externals/info/SP/l1/a/bab/b/ababb
+A    ext/externals/info/SP/l1/a/bba/b/abbab
+A    ext/externals/info/asciinema/6_sklejanie_prezentacji.cast
+A    ext/externals/info/asciinema/3_drugie_zadanie.cast
+A    ext/externals/info/index.html
+A    ext/externals/info/SP/l1/a/b/b/abb
+A    ext/externals/info/SP/l1/a/baa/b/abaab
+A    ext/externals/info/SP/l1/a/bb/b/abbb
+A    ext/externals/info/SP/l1/a/bbb/b/abbbb
+A    ext/externals/info/asciinema/5_generowanie_kluczy.cast
+A    ext/externals/info/asciinema/2_pierwsze_zadanie.cast
+A    ext/externals/info/repozytorium-svn.txt
+A    ext/externals/info/asciinema/4_meta-sprawozdanie.cast
+A    ext/externals/info/asciinema/1_pierwszy_checkout.cast
+Checked out external at revision 25.
+
+Checked out revision 32.
+# Widać od razu że zewnętrzne repo zostało pobrane do folderu externals ale możemy się upewnić
+$ cd ext
+$ ls externals/
+info
+$ tree externals/
+externals/
+└── info
+    ├── SP
+    │   ├── l1
+    │   │   └── a
+    │   │       ├── a
+    │   │       │   └── b
+    │   │       │       └── aab
+    │   │       ├── aa
+    │   │       │   └── b
+    │   │       │       └── aaab
+    │   │       ├── aaa
+    │   │       │   └── b
+    │   │       │       └── aaaab
+    │   │       ├── aab
+    │   │       │   └── b
+    │   │       │       └── aaabb
+    │   │       ├── ab
+    │   │       │   └── b
+    │   │       │       └── aabb
+    │   │       ├── aba
+    │   │       │   └── b
+    │   │       │       └── aabab
+    │   │       ├── abb
+    │   │       │   └── b
+    │   │       │       └── aabbb
+    │   │       ├── b
+    │   │       │   ├── ab
+    │   │       │   └── b
+    │   │       │       └── abb
+    │   │       ├── ba
+    │   │       │   └── b
+    │   │       │       └── abab
+    │   │       ├── baa
+    │   │       │   └── b
+    │   │       │       └── abaab
+    │   │       ├── bab
+    │   │       │   └── b
+    │   │       │       └── ababb
+    │   │       ├── bb
+    │   │       │   └── b
+    │   │       │       └── abbb
+    │   │       ├── bba
+    │   │       │   └── b
+    │   │       │       └── abbab
+    │   │       └── bbb
+    │   │           └── b
+    │   │               └── abbbb
+    │   └── l3
+    │       └── a
+    │           ├── a
+    │           │   └── b
+    │           │       └── aab
+    │           ├── aa
+    │           │   └── b
+    │           │       └── aaab
+    │           ├── aaa
+    │           │   └── b
+    │           │       └── aaaab
+    │           ├── aab
+    │           │   └── b
+    │           │       └── aaabb
+    │           ├── ab
+    │           │   └── b
+    │           │       └── aabb
+    │           ├── aba
+    │           │   └── b
+    │           │       └── aabab
+    │           ├── abb
+    │           │   └── b
+    │           │       └── aabbb
+    │           ├── ba
+    │           │   └── b
+    │           │       └── abab
+    │           ├── baa
+    │           │   ├── b
+    │           │   │   └── abaab
+    │           │   └── dc
+    │           ├── bab
+    │           │   └── b
+    │           │       └── ababb
+    │           ├── bba
+    │           │   └── b
+    │           │       └── abbab
+    │           └── bbb
+    │               └── b
+    │                   └── abbbb
+    ├── asciinema
+    │   ├── 1_pierwszy_checkout.cast
+    │   ├── 2_pierwsze_zadanie.cast
+    │   ├── 3_drugie_zadanie.cast
+    │   ├── 4_meta-sprawozdanie.cast
+    │   ├── 5_generowanie_kluczy.cast
+    │   └── 6_sklejanie_prezentacji.cast
+    ├── index.html
+    ├── repozytorium-svn.txt
+    └── skrypty
+        ├── test
+        ├── test-dir
+        │   └── t2
+        ├── view-casts-curl.bash
+        └── view-casts.bash
+
+61 directories, 40 files
+
+# LOGI
+
+$ svn log -v
+------------------------------------------------------------------------
+r32 | 268449 | 2024-11-10 22:58:07 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   A /externals
+
+Added folder for externals with prop set
+------------------------------------------------------------------------
+r31 | 268449 | 2024-11-10 22:17:05 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   M /hello.sh
+
+Changed prop back to nonexecutable

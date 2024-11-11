@@ -1,0 +1,244 @@
+# Adrian Herda, 268449
+# Zadanie 1
+
+# Sprawozdanie:
+
+# Revision number się zmienił ze względu na dodanie danych do skryptów z listy 1 oraz ze względu na usunięcie pliku z poprzedniego zadania
+
+# Do sprawozdania użyje folderu z listy pierwszej w którym są pliki i poddrzewo katalogów "a"
+$ svn ls https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1
+a/
+nagranie
+zad1.sh
+zad2.sh
+zad3.sh
+zad4.sh
+zad5.sh
+zad6.sh
+$ svn ls https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/a
+a/
+aa/
+aaa/
+aab/
+ab/
+aba/
+abb/
+b/
+ba/
+baa/
+bab/
+bb/
+bba/
+bbb/
+$ svn ls https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/a/a
+b/
+$ svn ls https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/a/a/b
+aab
+
+# Zaczynamy testowanie różnych opcji flagi --depth
+svn export --help
+[...]
+--depth ARG              : limit operation by depth ARG ('empty', 'files',
+                             'immediates', or 'infinity')
+[...]
+
+# opcja empty w której pobieramy tylko folder główny bez żadnych plików ani podkatalogów
+$ svn export https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1 --depth empty empty
+A    empty
+Exported revision 28.
+$ tree empty
+empty
+
+0 directories, 0 files
+# opcja files w której pobieramy główny katalog wraz z plikami w nim zawartymi ale bez podkatogów
+$ svn export https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1 --depth files files
+A    files
+A    files/nagranie
+A    files/zad1.sh
+A    files/zad2.sh
+A    files/zad3.sh
+A    files/zad4.sh
+A    files/zad5.sh
+A    files/zad6.sh
+Exported revision 28.
+$ tree files
+files
+├── nagranie
+├── zad1.sh
+├── zad2.sh
+├── zad3.sh
+├── zad4.sh
+├── zad5.sh
+└── zad6.sh
+# opcja immmediates która pobiera pliki i podkatalogi ale bez ich zawartosci podkatalogów
+$ svn export https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1 --depth immediates immediates
+A    immediates
+A    immediates/a
+A    immediates/nagranie
+A    immediates/zad1.sh
+A    immediates/zad2.sh
+A    immediates/zad3.sh
+A    immediates/zad4.sh
+A    immediates/zad5.sh
+A    immediates/zad6.sh
+Exported revision 28.
+$ tree immediates/
+immediates/
+├── a
+├── nagranie
+├── zad1.sh
+├── zad2.sh
+├── zad3.sh
+├── zad4.sh
+├── zad5.sh
+└── zad6.sh
+
+1 directory, 7 files
+# dla lepszego pokazania tej opcji pokaże też na folderze a
+$ svn export https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/a --depth immediates immediates_a
+A    immediates_a
+A    immediates_a/a
+A    immediates_a/aa
+A    immediates_a/aaa
+A    immediates_a/aab
+A    immediates_a/ab
+A    immediates_a/aba
+A    immediates_a/abb
+A    immediates_a/b
+A    immediates_a/ba
+A    immediates_a/baa
+A    immediates_a/bab
+A    immediates_a/bb
+A    immediates_a/bba
+A    immediates_a/bbb
+Exported revision 28.
+$ tree immediates_a/
+immediates_a/
+├── a
+├── aa
+├── aaa
+├── aab
+├── ab
+├── aba
+├── abb
+├── b
+├── ba
+├── baa
+├── bab
+├── bb
+├── bba
+└── bbb
+
+14 directories, 0 files
+# opcja inifity która pobiera wszystkie pliki i podfoldery wraz z ich całą zawartością
+$ svn export https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1 --depth infinity infinity
+A    infinity
+A    infinity/a
+A    infinity/a/a
+A    infinity/a/a/b
+A    infinity/a/aa
+A    infinity/a/aa/b
+A    infinity/a/aaa
+A    infinity/a/aaa/b
+A    infinity/a/aab
+A    infinity/a/aab/b
+A    infinity/a/ab
+A    infinity/a/ab/b
+A    infinity/a/aba
+A    infinity/a/aba/b
+A    infinity/a/abb
+A    infinity/a/abb/b
+A    infinity/a/b
+A    infinity/a/b/b
+A    infinity/a/ba
+A    infinity/a/ba/b
+A    infinity/a/baa
+A    infinity/a/baa/b
+A    infinity/a/bab
+A    infinity/a/bab/b
+A    infinity/a/bb
+A    infinity/a/bb/b
+A    infinity/a/bba
+A    infinity/a/bba/b
+A    infinity/a/bbb
+A    infinity/a/bbb/b
+A    infinity/a/a/b/aab
+A    infinity/a/aa/b/aaab
+A    infinity/a/aaa/b/aaaab
+A    infinity/a/aab/b/aaabb
+A    infinity/a/ab/b/aabb
+A    infinity/a/aba/b/aabab
+A    infinity/a/abb/b/aabbb
+A    infinity/a/b/ab
+A    infinity/a/b/b/abb
+A    infinity/a/ba/b/abab
+A    infinity/a/baa/b/abaab
+A    infinity/a/bab/b/ababb
+A    infinity/a/bb/b/abbb
+A    infinity/a/bba/b/abbab
+A    infinity/a/bbb/b/abbbb
+A    infinity/nagranie
+A    infinity/zad1.sh
+A    infinity/zad2.sh
+A    infinity/zad3.sh
+A    infinity/zad4.sh
+A    infinity/zad5.sh
+A    infinity/zad6.sh
+Exported revision 28.
+$ tree infinity/
+infinity/
+├── a
+│   ├── a
+│   │   └── b
+│   │       └── aab
+│   ├── aa
+│   │   └── b
+│   │       └── aaab
+│   ├── aaa
+│   │   └── b
+│   │       └── aaaab
+│   ├── aab
+│   │   └── b
+│   │       └── aaabb
+│   ├── ab
+│   │   └── b
+│   │       └── aabb
+│   ├── aba
+│   │   └── b
+│   │       └── aabab
+│   ├── abb
+│   │   └── b
+│   │       └── aabbb
+│   ├── b
+│   │   ├── ab
+│   │   └── b
+│   │       └── abb
+│   ├── ba
+│   │   └── b
+│   │       └── abab
+│   ├── baa
+│   │   └── b
+│   │       └── abaab
+│   ├── bab
+│   │   └── b
+│   │       └── ababb
+│   ├── bb
+│   │   └── b
+│   │       └── abbb
+│   ├── bba
+│   │   └── b
+│   │       └── abbab
+│   └── bbb
+│       └── b
+│           └── abbbb
+├── nagranie
+├── zad1.sh
+├── zad2.sh
+├── zad3.sh
+├── zad4.sh
+├── zad5.sh
+└── zad6.sh
+
+29 directories, 22 files
+
+# jako że nie robiliśmy nic poza pobieraniem z repozytorium to logi pozostają niezmienione

@@ -1,0 +1,217 @@
+# Adrian Herda, 268449
+# Zadanie 1
+
+# Sprawozdanie:
+
+$ svn co https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1 --depth files test1
+A    test1/nagranie
+A    test1/zad1.sh
+A    test1/zad2.sh
+A    test1/zad3.sh
+A    test1/zad4.sh
+A    test1/zad5.sh
+A    test1/zad6.sh
+Checked out revision 32.
+$ ls
+sprawo5  test1
+$ cd test1
+$ ls
+nagranie  zad1.sh  zad2.sh  zad3.sh  zad4.sh  zad5.sh  zad6.sh
+$ echo "Some text file" > text_file.txt
+$ ls
+nagranie  text_file.txt  zad1.sh  zad2.sh  zad3.sh  zad4.sh  zad5.sh  zad6.sh
+$ cat text_file.txt
+Some text file
+ svn add ./text_file.txt
+A         text_file.txt
+$ svn commit -m "Added some text file"
+Adding         text_file.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 33.
+
+# Teraz blokujemy plik tekstowy
+$ svn lock ./text_file.txt -m "test1 is currently editing text_file.txt"
+'text_file.txt' locked by user '268449'.
+$ svn status
+     K  text_file.txt
+# Jak widać plik jest teraz zzablokowany
+
+$ cd ../test2/
+$ svn up
+Updating '.':
+A    text_file.txt
+Updated to revision 33.
+$ svn status -u
+     O          33   text_file.txt
+Status against revision:     33
+
+# Spróbujmy go teraz edytować
+$ echo "Dodany text w test2" >> text_file.txt
+$ cat text_file.txt
+Some text file
+$ svn status
+M       text_file.txt
+$ svn commit -m "Changed something in locked file"
+Sending        text_file.txt
+Transmitting file data .svn: E195022: Commit failed (details follow):
+svn: E195022: File '/home/adrian/Documents/Studia/ŚP/lista2/zad5/test2/text_file.txt' is locked in another working copy
+svn: E160038: While preparing '/home/adrian/Documents/Studia/ŚP/lista2/zad5/test2/text_file.txt' for commit
+svn: E160038: '/mk1-268449/!svn/txr/33-y/SP/lista1/text_file.txt': no lock token available
+
+# Plik jest zablokowany i można go edytować tylko lokalnie
+# Zwolnijmy teraz ten plik
+$ cd ../test1/
+$ svn unlock ./text_file.txt
+'text_file.txt' unlocked.
+$ svn status
+
+# i spróbujmy go zmodyfikować w test2 jeszcze raz
+$ cd ../test2/
+$ svn status
+M       text_file.txt
+$ svn commit -m "Finnaly changed something in locked file"
+Sending        text_file.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 34.
+
+# Spróbujmy jeszcze zrywanie blokady
+# teraz test2 blokuje plik
+$ svn lock ./text_file.txt -m "test2 is now editing text_file.txt"
+'text_file.txt' locked by user '268449'.
+$ svn status
+     K  text_file.txt
+$ cd ../test1/
+$ svn up
+Updating '.':
+U    text_file.txt
+Updated to revision 34.
+$ svn status -u
+     O          34   text_file.txt
+Status against revision:     34
+# Możemy też sprawdzić kto i z jaką wiadomością zablokował plik
+$ svn info https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/text_file.txt
+Path: text_file.txt
+Name: text_file.txt
+URL: https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/text_file.txt
+Relative URL: ^/SP/lista1/text_file.txt
+Repository Root: https://repo.cs.pwr.edu.pl/mk1-268449
+Repository UUID: f35b9fd8-3063-4440-9b7c-de5c1b5ee4fa
+Revision: 34
+Node Kind: file
+Size in Repository: 35
+Last Changed Author: 268449
+Last Changed Rev: 34
+Last Changed Date: 2024-11-10 23:57:53 +0100 (Sun, 10 Nov 2024)
+Lock Token: opaquelocktoken:7f0b9893-2579-490c-a6b9-a95b4821dce7
+Lock Owner: 268449
+Lock Created: 2024-11-11 00:00:47 +0100 (Mon, 11 Nov 2024)
+Lock Comment (1 line):
+test2 is now editing text_file.txt
+
+# Odblokowujemy plik na siłe
+$ svn unlock --force ./text_file.txt
+'text_file.txt' unlocked.
+$ svn status -u
+Status against revision:     34
+$ svn info https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/text_file.txt
+Path: text_file.txt
+Name: text_file.txt
+URL: https://repo.cs.pwr.edu.pl/mk1-268449/SP/lista1/text_file.txt
+Relative URL: ^/SP/lista1/text_file.txt
+Repository Root: https://repo.cs.pwr.edu.pl/mk1-268449
+Repository UUID: f35b9fd8-3063-4440-9b7c-de5c1b5ee4fa
+Revision: 34
+Node Kind: file
+Size in Repository: 35
+Last Changed Author: 268449
+Last Changed Rev: 34
+Last Changed Date: 2024-11-10 23:57:53 +0100 (Sun, 10 Nov 2024)
+# Czyli plik nie jest już zablokowany
+
+# spróbujmy go edytować
+$ cat text_file.txt
+Some text file
+Dodany text w test2
+$ echo "Dodanie 3 linijki przez test1" >> text_file.txt
+$ cat text_file.txt
+Some text file
+Dodany text w test2
+Dodanie 3 linijki przez test1
+$ svn status
+M       text_file.txt
+$ svn commit -m "Changed something in un locked file test1"
+Sending        text_file.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 35.
+
+# Spróbujmy teraz podkraźć blokadę
+$ cd ../test2/
+$ svn up
+Updating '.':
+U B  text_file.txt
+# Widizmy że zablokowanie zostało zerwane oraz że pojawiłą się nowa blokada
+Updated to revision 35.
+$ svn status -u
+     O          35   text_file.txt
+Status against revision:     35
+$ echo "ostatnia linijka test2" >> text_file.txt
+$ cat text_file.txt
+Some text file
+Dodany text w test2
+Dodanie 3 linijki przez test1
+ostatnia linijka test2
+
+# Kiedy próbujemy scommitować zmieny albo zablokować plik nie, nic dziąała
+$ svn commit -m "Changed something in un locked file test2 last try"
+Sending        text_file.txt
+Transmitting file data .svn: E195022: Commit failed (details follow):
+svn: E195022: File '/home/adrian/Documents/Studia/ŚP/lista2/zad5/test2/text_file.txt' is locked in another working copy
+svn: E160038: While preparing '/home/adrian/Documents/Studia/ŚP/lista2/zad5/test2/text_file.txt' for commit
+svn: E160038: '/mk1-268449/!svn/txr/35-11/SP/lista1/text_file.txt': no lock token available
+$ svn lock ./text_file.txt -m "test2 is last time editing text_file.txt"
+svn: warning: W160035: Path '/SP/lista1/text_file.txt' is already locked by user '268449' in filesystem 'f35b9fd8-3063-4440-9b7c-de5c1b5ee4fa'
+svn: E200009: One or more locks could not be obtained
+
+# musimy podkraźć blokad komendą lock --force
+$ svn lock ./text_file.txt -m "test2 is last time editing text_file.txt" --force
+'text_file.txt' locked by user '268449'.
+
+# teraz właściciel blokady zmienił się z testu1 na test2
+
+# Spróbujmy zdjąć blokade za pomocą testu 1 który nadal myśli że to on jest właścicielem blokady
+
+$ cd ../test1/
+$ svn status
+     K  text_file.txt
+$ svn unlock ./text_file.txt
+svn: warning: W160040: No lock on path 'text_file.txt' (400 Bad Request)
+svn: E200009: One or more locks could not be released
+$ svn status -u
+     O          35   text_file.txt
+Status against revision:     35
+
+
+# LOGI
+
+$ svn log -v
+------------------------------------------------------------------------
+r35 | 268449 | 2024-11-11 00:21:47 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   M /SP/lista1/text_file.txt
+
+Changed something in un locked file test1
+------------------------------------------------------------------------
+r34 | 268449 | 2024-11-10 23:57:53 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   M /SP/lista1/text_file.txt
+
+Finnaly changed something in locked file
+------------------------------------------------------------------------
+r33 | 268449 | 2024-11-10 23:39:19 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista1/text_file.txt
+
+Added some text file

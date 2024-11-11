@@ -1,0 +1,329 @@
+# Adrian Herda, 268449
+# Zadanie 1
+
+# Sprawozdanie:
+
+# Podpunkt 1, svn mkdir
+$ svn mkdir a
+A         a
+$ svn mkdir b
+A         b
+$ echo "tekst a" > a/a.txt
+$ echo "tekst b" > b/b.txt
+$ cat a/a.txt
+tekst a
+$ cat b/b.txt
+tekst b
+$ svn add a/a.txt
+$ svn add b/b.txt
+$ svn status
+A       a
+A       a/a.txt
+A       b
+A       b/b.txt
+$ svn commit -m "z6/pp1"
+Adding         a
+Adding         a/a.txt
+Adding         b
+Adding         b/b.txt
+Transmitting file data ..done
+Committing transaction...
+Committed revision 37.
+
+# Podpunkt 2, svn move
+$ svn move b/b.txt a/
+A         a/b.txt
+D         b/b.txt
+$ svn move a/a.txt b/
+A         b/a.txt
+D         a/a.txt
+$ tree
+.
+├── a
+│   └── b.txt
+├── b
+│   └── a.txt
+└── sprawo6
+
+2 directories, 3 files
+
+$ cat a/b.txt
+tekst b
+$ echo "Wiersz 2 plik a/b.txt" >> a/b.txt
+$ cat a/b.txt
+tekst b
+Wiersz 2 plik a/b.txt
+
+$ cat b/a.txt
+tekst a
+$ echo "Wiersz 2 plik b/a.txt" >> b/a.txt
+$ cat b/a.txt
+tekst a
+Wiersz 2 plik b/a.txt
+
+$ svn status
+D       a/a.txt
+        > moved to b/a.txt
+A  +    a/b.txt
+        > moved from b/b.txt
+A  +    b/a.txt
+        > moved from a/a.txt
+D       b/b.txt
+        > moved to a/b.txt
+
+$ svn commit -m "z6/pp2"
+Deleting       a/a.txt
+Adding         a/b.txt
+Adding         b/a.txt
+Deleting       b/b.txt
+Transmitting file data ..done
+Committing transaction...
+Committed revision 38.
+
+# Podpunkt 3, Zmiana nazwy pliku a na c svn move
+$ echo "Wiersz 3 dla pliku b/c.txt" >> b/a.txt
+$ cat b/a.txt
+tekst a
+Wiersz 2 plik b/a.txt
+Wiersz 3 dla pliku b/c.txt
+$ svn move b/a.txt b/c.txt
+A         b/c.txt
+D         b/a.txt
+$ svn status
+D       b/a.txt
+        > moved to b/c.txt
+A  +    b/c.txt
+        > moved from b/a.txt
+$ svn commit -m "z6/pp3"
+Deleting       b/a.txt
+Adding         b/c.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 39.
+
+# Podpunkt 3, Zmiana nazwy pliku b na a svn move
+$ echo "Wiersz 3 dla pliku a/a.txt" >> a/b.txt
+$ cat a/b.txt
+tekst b
+Wiersz 2 plik a/b.txt
+Wiersz 3 dla pliku a/a.txt
+$ svn move a/b.txt a/a.txt
+A         a/a.txt
+D         a/b.txt
+$ svn status
+A  +    a/a.txt
+        > moved from a/b.txt
+D       a/b.txt
+        > moved to a/a.txt
+$ svn commit -m "z6/pp4"
+Adding         a/a.txt
+Deleting       a/b.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 40.
+
+# intermission
+$ tree
+.
+├── a
+│   └── a.txt
+├── b
+│   └── c.txt
+└── sprawo6
+
+2 directories, 3 files
+
+# Podpunkt 5, Dodanie nowego pliku b.txt
+
+$ cat b/b.txt
+Nowy plik b.txt
+$ svn status
+?       b/b.txt
+$ svn add b/b.txt
+A         b/b.txt
+$ svn status
+A       b/b.txt
+$ svn commit -m "z6/pp6"        # Źle policzone, powinno być pp5
+Adding         b/b.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 41.
+
+$ tree
+.
+├── a
+│   └── a.txt
+├── b
+│   ├── b.txt
+│   └── c.txt
+└── sprawo6
+
+2 directories, 4 files
+
+# LOGI
+$ svn log -v
+------------------------------------------------------------------------
+r36 | 268449 | 2024-11-11 00:40:49 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2
+   A /SP/lista2/zad1
+   A /SP/lista2/zad1/sprawo1
+   A /SP/lista2/zad2
+   A /SP/lista2/zad2/sprawo2
+   A /SP/lista2/zad3
+   A /SP/lista2/zad3/sprawo3
+   A /SP/lista2/zad4
+   A /SP/lista2/zad4/sprawo4
+   A /SP/lista2/zad5
+   A /SP/lista2/zad5/sprawo5
+   A /SP/lista2/zad6
+   A /SP/lista2/zad6/sprawo6
+
+L2/zad12345 done
+------------------------------------------------------------------------
+$ cd a
+$ svn log -v
+------------------------------------------------------------------------
+r37 | 268449 | 2024-11-11 00:52:35 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2/zad6/a
+   A /SP/lista2/zad6/a/a.txt
+   A /SP/lista2/zad6/b
+   A /SP/lista2/zad6/b/b.txt
+
+z6/pp1
+------------------------------------------------------------------------
+$ svn log -v a.txt
+------------------------------------------------------------------------
+r40 | 268449 | 2024-11-11 01:11:58 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2/zad6/a/a.txt (from /SP/lista2/zad6/a/b.txt:39)
+   D /SP/lista2/zad6/a/b.txt
+
+z6/pp4
+------------------------------------------------------------------------
+r38 | 268449 | 2024-11-11 01:00:17 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   D /SP/lista2/zad6/a/a.txt
+   A /SP/lista2/zad6/a/b.txt (from /SP/lista2/zad6/b/b.txt:37)
+   A /SP/lista2/zad6/b/a.txt (from /SP/lista2/zad6/a/a.txt:37)
+   D /SP/lista2/zad6/b/b.txt
+
+z6/pp2
+------------------------------------------------------------------------
+r37 | 268449 | 2024-11-11 00:52:35 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2/zad6/a
+   A /SP/lista2/zad6/a/a.txt
+   A /SP/lista2/zad6/b
+   A /SP/lista2/zad6/b/b.txt
+
+z6/pp1
+------------------------------------------------------------------------
+$ cd ../b
+$ svn log -v
+------------------------------------------------------------------------
+r37 | 268449 | 2024-11-11 00:52:35 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2/zad6/a
+   A /SP/lista2/zad6/a/a.txt
+   A /SP/lista2/zad6/b
+   A /SP/lista2/zad6/b/b.txt
+
+z6/pp1
+------------------------------------------------------------------------
+$ svn log -v b.txt
+------------------------------------------------------------------------
+r41 | 268449 | 2024-11-11 01:15:18 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2/zad6/b/b.txt
+
+z6/pp6
+------------------------------------------------------------------------
+$ svn log -v c.txt
+------------------------------------------------------------------------
+r39 | 268449 | 2024-11-11 01:07:39 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   D /SP/lista2/zad6/b/a.txt
+   A /SP/lista2/zad6/b/c.txt (from /SP/lista2/zad6/b/a.txt:38)
+
+z6/pp3
+------------------------------------------------------------------------
+r38 | 268449 | 2024-11-11 01:00:17 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   D /SP/lista2/zad6/a/a.txt
+   A /SP/lista2/zad6/a/b.txt (from /SP/lista2/zad6/b/b.txt:37)
+   A /SP/lista2/zad6/b/a.txt (from /SP/lista2/zad6/a/a.txt:37)
+   D /SP/lista2/zad6/b/b.txt
+
+z6/pp2
+------------------------------------------------------------------------
+r37 | 268449 | 2024-11-11 00:52:35 +0100 (Mon, 11 Nov 2024) | 1 line
+Changed paths:
+   A /SP/lista2/zad6/a
+   A /SP/lista2/zad6/a/a.txt
+   A /SP/lista2/zad6/b
+   A /SP/lista2/zad6/b/b.txt
+
+z6/pp1
+------------------------------------------------------------------------
+
+
+# DIFF
+
+$ cd ../a
+$ svn diff -r37:41 ./a.txt
+Index: b.txt
+===================================================================
+--- b.txt       (.../b/b.txt)   (revision 37)
++++ b.txt       (.../a/a.txt)   (revision 41)
+@@ -1 +1,3 @@
+ tekst b
++Wiersz 2 plik a/b.txt
++Wiersz 3 dla pliku a/a.txt
+$ cd ../b
+$ svn diff -r37:41 ./b.txt
+Index: b.txt
+===================================================================
+--- b.txt       (revision 37)
++++ b.txt       (revision 41)
+@@ -1 +1 @@
+-tekst b
++Nowy plik b.txt
+$ svn diff -r37:41 ./c.txt
+Index: a.txt
+===================================================================
+--- a.txt       (.../a/a.txt)   (revision 37)
++++ a.txt       (.../b/c.txt)   (revision 41)
+@@ -1 +1,3 @@
+ tekst a
++Wiersz 2 plik b/a.txt
++Wiersz 3 dla pliku b/c.txt
+
+# CAT
+$ cd ..
+
+$ svn cat ./a/a.txt@37
+tekst a
+$ svn cat ./a/a.txt@41
+tekst b
+Wiersz 2 plik a/b.txt
+Wiersz 3 dla pliku a/a.txt
+
+$ svn cat ./b/b.txt@37
+tekst b
+$ svn cat ./b/b.txt@41
+Nowy plik b.txt
+
+$ svn cat ./b/c.txt@37
+svn: warning: W160013: '/mk1-268449/!svn/rvr/37/SP/lista2/zad6/b/c.txt' path not found
+svn: E200009: Could not cat all targets because some targets don't exist
+svn: E200009: Illegal target for the requested operation
+$ svn cat ./b/c.txt@39
+tekst a
+Wiersz 2 plik b/a.txt
+Wiersz 3 dla pliku b/c.txt
+$ svn cat ./b/c.txt@41
+tekst a
+Wiersz 2 plik b/a.txt
+Wiersz 3 dla pliku b/c.txt

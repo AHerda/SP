@@ -1,0 +1,806 @@
+# Adrian Herda, 268449
+# Zadanie 1
+
+# Sprawozdanie:
+
+# Tworzymy dwie kopie robocze repozytorium
+$ svn checkout https://repo.cs.pwr.edu.pl/mk1-268449/ first
+A    first/AISD
+A    first/AISD/lista1
+A    first/AISD/lista2
+A    first/AISD/lista2/zad134
+A    first/AISD/lista2/zad2
+A    first/AISD/lista2/zad2/wykresy
+A    first/AISD/lista2/zad2/quick.txt
+A    first/AISD/lista1/nagranie
+A    first/AISD/lista1/zad1_fifo.c
+A    first/AISD/lista1/zad1_lifo.c
+A    first/AISD/lista1/zad2.c
+A    first/AISD/lista1/zad3.c
+A    first/AISD/lista2/nagranie
+A    first/AISD/lista2/zad134/dual_quick.cpp
+A    first/AISD/lista2/zad134/generator.cpp
+A    first/AISD/lista2/zad134/hybrid.cpp
+A    first/AISD/lista2/zad134/insertion.cpp
+A    first/AISD/lista2/zad134/makefile
+A    first/AISD/lista3
+A    first/AISD/lista3/zad1345
+A    first/AISD/lista2/zad134/merge.cpp
+A    first/AISD/lista2/zad134/quick.cpp
+A    first/AISD/lista2/zad134/sorts.hpp
+A    first/AISD/lista2/zad2/dual_quick.hpp
+A    first/AISD/lista2/zad2/dual_quick.txt
+A    first/AISD/lista2/zad2/hybrid.hpp
+A    first/AISD/lista2/zad2/wykresy/c_n_10.png
+A    first/AISD/lista2/zad2/wykresy/c_1.png
+A    first/AISD/lista2/zad2/hybrid.txt
+A    first/AISD/lista2/zad2/insertion.hpp
+A    first/AISD/lista3/zad2
+A    first/AISD/lista2/zad2/insertion.txt
+A    first/AISD/lista2/zad2/main.cpp
+A    first/AISD/lista2/zad2/makefile
+A    first/AISD/lista2/zad2/merge.hpp
+A    first/AISD/lista2/zad2/wykresy/c_n_10_big.png
+A    first/AISD/lista2/zad2/wykresy/c_100.png
+A    first/AISD/lista2/zad2/wykresy/s_n_1_big.png
+A    first/AISD/lista3/zad1345/generator.cpp
+A    first/AISD/lista3/zad1345/select.cpp
+A    first/AISD/lista2/zad2/merge.txt
+A    first/AISD/lista2/zad2/quick.hpp
+A    first/AISD/lista2/zad2/sorts2.hpp
+A    first/AISD/lista3/zad2/bin_search_lewo.txt
+A    first/AISD/lista3/zad2/dual_quick.hpp
+A    first/AISD/lista3/zad2/main.cpp
+A    first/AISD/lista2/zad2/wykresy/s_10.png
+A    first/AISD/lista2/zad2/wykresy/c_10_big.png
+A    first/AISD/lista2/zad2/wykresy/c_10.png
+A    first/AISD/lista3/zad2/rand_select.hpp
+A    first/AISD/lista3/zad2/select_5.hpp
+A    first/AISD/lista3/zad2/wykresy
+A    first/AISD/lista2/zad2/wykresy/c_n_1.png
+A    first/AISD/lista2/zad2/wykresy/c_100_big.png
+A    first/AISD/lista2/zad2/wykresy/s_10_big.png
+A    first/AISD/lista2/zad2/wykresy/c_n_100_big.png
+A    first/AISD/lista2/zad2/wykresy/c_1_big.png
+A    first/AISD/lista3/zad2/select_5_9.txt
+A    first/AISD/lista2/zad2/wykresy/s_1.png
+A    first/AISD/lista2/zad2/wykresy/s_n_10.png
+A    first/AISD/lista2/zad2/wykresy/c_n_100.png
+A    first/AISD/lista2/zad2/wykresy/s_100_big.png
+A    first/AISD/lista3/zad2/wykresy/quick_c.png
+A    first/AISD/lista4
+A    first/AISD/lista4/wykresy
+A    first/AISD/lista2/zad2/wykresy/s_n_1.png
+A    first/AISD/lista2/zad2/wykresy/s_n_10_big.png
+A    first/AISD/lista3/zad1345/dual_quick.cpp
+A    first/AISD/lista3/zad1345/rand_select.cpp
+A    first/AISD/lista3/zad2/bin_search.hpp
+A    first/AISD/lista3/zad2/bin_search_srodek.txt
+A    first/AISD/lista3/zad2/generator.hpp
+A    first/AISD/lista2/zad2/wykresy/c_n_1_big.png
+A    first/AISD/lista2/zad2/wykresy/s_n_100_big.png
+A    first/AISD/lista3/zad1345/bin_search.cpp
+A    first/AISD/lista3/zad1345/quick.cpp
+A    first/AISD/lista3/zad1345/utils.hpp
+A    first/AISD/lista3/zad2/bin_search_rand.txt
+A    first/AISD/lista3/zad2/wykresy/select_c.png
+A    first/AISD/lista4/recording
+A    first/AISD/lista3/zad2/dual_quick_old.txt
+A    first/AISD/lista3/zad2/quick_old.txt
+A    first/AISD/lista3/zad2/quick_new.txt
+A    first/AISD/lista3/zad2/select.hpp
+A    first/AISD/lista4/zad12
+A    first/AISD/lista3/zad2/select.txt
+A    first/AISD/lista2/zad2/wykresy/s_100.png
+A    first/AISD/lista4/wykresy/height_2.png
+A    first/AISD/lista3/zad2/select_5_7.txt
+A    first/AISD/lista4/wykresy/if_4.png
+A    first/AISD/lista4/zad34
+A    first/AISD/lista2/zad2/wykresy/s_1_big.png
+A    first/AISD/lista3/zad2/select_5_5.txt
+A    first/AISD/lista4/wykresy/max_swap.png
+A    first/AISD/lista4/wykresy.py
+A    first/AISD/lista4/zad12/generator.hpp
+A    first/AISD/lista2/zad2/wykresy/s_n_100.png
+A    first/AISD/lista2/zad2/wykresy.py
+A    first/AISD/lista3/zad1345/makefile
+A    first/AISD/lista3/zad1345/select_5.cpp
+A    first/AISD/lista3/zad2/bin_search_prawo.txt
+A    first/AISD/lista3/zad2/dual_quick_new.txt
+A    first/AISD/lista3/zad2/quick.hpp
+A    first/AISD/lista3/zad2/rand_select.txt
+A    first/AISD/lista4/zad56
+A    first/AISD/lista5
+A    first/AISD/lista5/zad1
+A    first/AISD/lista5/zad1/wykresy
+A    first/AISD/lista3/zad2/wykresy/bin_search_t.png
+A    first/AISD/lista3/zad2/select_5_3.txt
+A    first/AISD/lista3/zad2/utils.hpp
+A    first/AISD/lista3/zad2/wykresy/bin_search_c.png
+A    first/AISD/lista5/zad2
+A    first/AISD/lista3/zad2/wykresy/quick_t.png
+A    first/AISD/lista3/zad2/wykresy/quick_t2.png
+A    first/AISD/lista3/zad2/wykresy.py
+A    first/AISD/lista3/zad2/wykresy/select_t.png
+A    first/AISD/lista4/zad34/RBBST.cpp
+A    first/AISD/lista4/zad34/zad4.cpp
+A    first/AISD/lista4/zad56/generator.hpp
+A    first/AISD/lista5/zad2/wykresy
+A    first/AISD/lista4/wykresy/avg_if.png
+A    first/AISD/lista5/zad1/wykresy/if.png
+A    first/AISD/lista5/zad2/Makefile
+A    first/AISD/lista5/zad2/fibb.h
+A    first/AISD/lista4/wykresy/avg_swap.png
+A    first/JPP
+A    first/JPP/lista1
+A    first/JPP/lista1/zad1-c
+A    first/AISD/lista4/wykresy/height_6.png
+A    first/AISD/lista3/zad2/wykresy/quick_c2.png
+A    first/AISD/lista4/wykresy/if_2.png
+A    first/AISD/lista4/wykresy/max_height.png
+A    first/AISD/lista4/wykresy/swap_4.png
+A    first/AISD/lista4/zad12/BST.hpp
+A    first/AISD/lista4/zad12/zad2.cpp
+A    first/AISD/lista4/zad34/generator.hpp
+A    first/AISD/lista4/zad56/SBST.cpp
+A    first/AISD/lista4/zad56/zad6.cpp
+A    first/JPP/lista1/zad2-ada
+A    first/AISD/lista5/zad2/wykresy/bin_n_1000.png
+A    first/AISD/lista5/zad2/wykresy1.py
+A    first/JPP/lista1/zad3-rust
+A    first/JPP/lista1/zad3-rust/iterative
+A    first/AISD/lista4/wykresy/max_if.png
+A    first/AISD/lista5/zad1/wykresy/time.png
+A    first/AISD/lista5/zad2/bin.h
+A    first/AISD/lista5/zad2/main2.cpp
+A    first/JPP/lista1/zad1-c/Makefile
+A    first/JPP/lista1/zad1-c/tester.c
+A    first/JPP/lista1/zad2-ada/main.adb
+A    first/JPP/lista1/zad3-rust/iterative/src
+A    first/JPP/lista1/zad3-rust/recursive
+A    first/JPP/lista1/zad3-rust/recursive/src
+A    first/AISD/lista5/zad2/wykresy/fibb_n_1000.png
+A    first/AISD/lista5/zad2/wykresy3.py
+A    first/JPP/lista1/zad1-c/lib_iter.c
+A    first/JPP/lista1/zad2-ada/iterative.adb
+A    first/JPP/lista1/zad2-ada/recursive.ads
+A    first/JPP/lista1/zad3-rust/recursive/Cargo.toml
+A    first/JPP/lista1/zad4-ada-c
+A    first/JPP/lista1/zad5-c-ada
+A    first/JPP/lista1/zad5-c-ada/src
+A    first/JPP/lista1/zad3-rust/iterative/Cargo.toml
+A    first/JPP/lista1/zad6-c-rust
+A    first/AISD/lista3/zad2/wykresy/select_s.png
+A    first/JPP/lista1/zad4-ada-c/wrapper.h
+A    first/JPP/lista1/zad5-c-ada/src/lib_iter.h
+A    first/JPP/lista1/zad5-c-ada/src/test_recur.adb
+A    first/JPP/lista1/zad4-ada-c/Makefile
+A    first/JPP/lista1/zad5-c-ada/Makefile
+A    first/JPP/lista1/zad5-c-ada/src/lib_recur.h
+A    first/JPP/lista1/zad6-c-rust/src
+A    first/JPP/lista1/zad7-rust-c
+A    first/AISD/lista4/wykresy/swap_6.png
+A    first/AISD/lista4/zad12/Makefile
+A    first/AISD/lista4/zad34/Makefile
+A    first/AISD/lista4/zad34/zad3.cpp
+A    first/AISD/lista4/zad56/SBST.hpp
+A    first/AISD/lista5/zad1/lcs.cpp
+A    first/AISD/lista5/zad1/wykresy.py
+A    first/AISD/lista5/zad2/fibb.cpp
+A    first/JPP/lista2
+A    first/JPP/lista2/zad1-cpp
+A    first/JPP/lista1/zad7-rust-c/Makefile
+A    first/JPP/lista1/zad6-c-rust/build.rs
+A    first/JPP/lista2/zad2-java
+A    first/JPP/lista2/zad3-rust
+A    first/JPP/lista2/zad3-rust/src
+A    first/JPP/lista2/zad3-rust/src/gf
+A    first/AISD/lista4/wykresy/avg_height.png
+A    first/JPP/lista2/zad1-cpp/Makefile
+A    first/JPP/lista1/zad7-rust-c/main.c
+A    first/JPP/lista3
+A    first/JPP/lista3/zad1-cpp
+A    first/AISD/lista5/zad2/wykresy/bin_fib.png
+A    first/JPP/lista2/zad2-java/Main.java
+A    first/JPP/lista2/zad1-cpp/gf.hpp
+A    first/JPP/lista2/zad3-rust/src/gf/gf.rs
+A    first/AISD/lista5/zad2/wykresy/fibb_n_500.png
+A    first/JPP/lista1/nagranie.cast
+A    first/JPP/lista1/zad1-c/lib_recur.c
+A    first/JPP/lista1/zad2-ada/iterative.ads
+A    first/JPP/lista1/zad3-rust/Makefile
+A    first/JPP/lista1/zad3-rust/recursive/src/lib.rs
+A    first/JPP/lista1/zad5-c-ada/AdaWrapper.gpr
+A    first/JPP/lista1/zad5-c-ada/src/lib_recur.c
+A    first/JPP/lista1/zad6-c-rust/Cargo.toml
+A    first/JPP/lista1/zad7-rust-c/lib.h
+A    first/JPP/lista2/zad1-cpp/gf.cpp
+A    first/JPP/lista2/zad3-rust/Cargo.toml
+A    first/JPP/lista2/zad3-rust/src/lib.rs
+A    first/JPP/lista3/zad2_java
+A    first/JPP/lista3/zad3-rust3
+A    first/JPP/lista2/zad3-rust/src/gf/mod.rs
+A    first/JPP/lista3/zad1-cpp/CMakeLists.txt
+A    first/JPP/lista2/zad3-rust/src/main.rs
+A    first/JPP/lista3/zad3-rust3/src
+A    first/JPP/lista3/zad3-rust3/src/libs
+A    first/JPP/lista3/zad1-cpp/DHSetup.cpp
+A    first/JPP/lista3/zad1-cpp/main.cpp
+A    first/JPP/lista3/zad2_java/GF.java
+A    first/AISD/lista4/wykresy/height_4.png
+A    first/JPP/lista4
+A    first/JPP/lista4/zad1-ada
+A    first/JPP/lista4/zad2-go
+A    first/JPP/lista3/zad1-cpp/User.hpp
+A    first/JPP/lista3/zad2_java/DHSetup.java
+A    first/JPP/lista3/zad2_java/User.java
+A    first/JPP/lista3/zad3-rust3/src/libs/mod.rs
+A    first/JPP/lista3/zad1-cpp/DHSetup.hpp
+A    first/JPP/lista3/zad1-cpp/utils.hpp
+A    first/JPP/lista3/zad2_java/Main.java
+A    first/JPP/lista3/zad3-rust3/src/lib.rs
+A    first/JPP/lista3/zad3-rust3/src/main.rs
+A    first/JPP/lista4/zad3-rust
+A    first/JPP/lista4/zad3-rust/src
+A    first/JPP/lista4/zad3-rust/src/lib
+A    first/JPP/lista5
+A    first/JPP/lista3/zad3-rust3/Cargo.toml
+A    first/JPP/lista3/zad3-rust3/src/libs/user.rs
+A    first/JPP/lista4/zad1-ada/main.adb
+A    first/JPP/lista4/zad1-ada/Makefile
+A    first/JPP/lista5/zad1-haskell
+A    first/JPP/lista5/zad1-lisp
+A    first/JPP/lista5/zad1-sml
+A    first/JPP/lista4/zad3-rust/src/lib/filozof.rs
+A    first/JPP/lista4/zad2-go/filozof.go
+A    first/JPP/lista5/zad2-prolog
+A    first/SP
+A    first/SP/lista1
+A    first/JPP/lista4/zad3-rust/Cargo.toml
+A    first/JPP/lista4/zad3-rust/src/lib/mod.rs
+A    first/JPP/lista5/zad1-haskell/Makefile
+A    first/JPP/lista5/zad1-haskell/Lib.hs
+A    first/JPP/lista5/zad1-lisp/main.lisp
+A    first/JPP/lista5/zad2-prolog/main.pl
+A    first/JPP/lista5/nagranie
+A    first/JPP/lista5/zad1-lisp/lib.lsp
+A    first/JPP/lista5/zad2-prolog/lib.pl
+A    first/JPP/lista5/zad1-sml/lib.sml
+A    first/AISD/lista4/wykresy/if_6.png
+A    first/AISD/lista4/wykresy/swap_2.png
+A    first/AISD/lista4/zad12/BST.cpp
+A    first/AISD/lista4/zad12/zad1.cpp
+A    first/AISD/lista4/zad34/RBBST.hpp
+A    first/AISD/lista4/zad56/Makefile
+A    first/AISD/lista4/zad56/zad5.cpp
+A    first/SP/lista1/zad3.sh
+A    first/SP/lista1/zad2.sh
+A    first/SP/lista1/zad6.sh
+A    first/SP/lista1/nagranie
+A    first/SP/lista1/zad4.sh
+A    first/AISD/lista5/zad1/wykresy/length.png
+A    first/AISD/lista5/zad2/bin.cpp
+A    first/AISD/lista5/zad2/main1.cpp
+A    first/AISD/lista5/zad2/wykresy/bin_n_500.png
+A    first/AISD/lista5/zad2/wykresy2.py
+A    first/JPP/lista1/zad1-c/lib.h
+A    first/JPP/lista1/zad2-ada/Makefile
+A    first/JPP/lista1/zad2-ada/recursive.adb
+A    first/JPP/lista1/zad3-rust/iterative/src/lib.rs
+A    first/JPP/lista1/zad4-ada-c/test.c
+A    first/JPP/lista1/zad5-c-ada/src/lib_iter.c
+A    first/JPP/lista1/zad5-c-ada/src/test_iter.adb
+A    first/JPP/lista1/zad6-c-rust/src/main.rs
+A    first/JPP/lista2/nagranie.cast
+A    first/JPP/lista2/zad1-cpp/main.cpp
+A    first/JPP/lista2/zad3-rust/src/gf/gf_ops.rs
+A    first/JPP/lista3/nagranie.cast
+A    first/JPP/lista3/zad1-cpp/User.cpp
+A    first/JPP/lista3/zad2_java/Arithmetics.java
+A    first/JPP/lista3/zad2_java/Makefile
+A    first/JPP/lista3/zad3-rust3/src/libs/dhsetup.rs
+A    first/JPP/lista4/nagranie
+A    first/JPP/lista4/zad2-go/main.go
+A    first/JPP/lista4/zad3-rust/src/main.rs
+A    first/JPP/lista5/zad1-haskell/main.hs
+A    first/JPP/lista5/zad1-sml/main.sml
+A    first/SP/lista1/zad1.sh
+A    first/SP/lista1/zad5.sh
+Checked out revision 23.
+
+$ svn checkout https://repo.cs.pwr.edu.pl/mk1-268449/ second
+A    second/AISD
+A    second/AISD/lista1
+A    second/AISD/lista2
+A    second/AISD/lista2/zad134
+A    second/AISD/lista2/zad2
+A    second/AISD/lista2/zad2/wykresy
+A    second/AISD/lista2/zad2/quick.txt
+A    second/AISD/lista1/nagranie
+A    second/AISD/lista1/zad1_fifo.c
+A    second/AISD/lista1/zad1_lifo.c
+A    second/AISD/lista1/zad2.c
+A    second/AISD/lista1/zad3.c
+A    second/AISD/lista2/nagranie
+A    second/AISD/lista2/zad134/dual_quick.cpp
+A    second/AISD/lista2/zad134/generator.cpp
+A    second/AISD/lista2/zad134/hybrid.cpp
+A    second/AISD/lista2/zad134/insertion.cpp
+A    second/AISD/lista2/zad134/makefile
+A    second/AISD/lista2/zad134/merge.cpp
+A    second/AISD/lista2/zad134/quick.cpp
+A    second/AISD/lista2/zad134/sorts.hpp
+A    second/AISD/lista2/zad2/dual_quick.hpp
+A    second/AISD/lista3
+A    second/AISD/lista3/zad1345
+A    second/AISD/lista2/zad2/wykresy/c_n_10.png
+A    second/AISD/lista2/zad2/dual_quick.txt
+A    second/AISD/lista2/zad2/hybrid.hpp
+A    second/AISD/lista2/zad2/wykresy/c_1.png
+A    second/AISD/lista3/zad2
+A    second/AISD/lista2/zad2/wykresy/c_n_10_big.png
+A    second/AISD/lista2/zad2/wykresy/c_100.png
+A    second/AISD/lista2/zad2/hybrid.txt
+A    second/AISD/lista2/zad2/insertion.hpp
+A    second/AISD/lista2/zad2/insertion.txt
+A    second/AISD/lista2/zad2/main.cpp
+A    second/AISD/lista2/zad2/makefile
+A    second/AISD/lista2/zad2/merge.hpp
+A    second/AISD/lista2/zad2/merge.txt
+A    second/AISD/lista2/zad2/quick.hpp
+A    second/AISD/lista2/zad2/sorts2.hpp
+A    second/AISD/lista2/zad2/wykresy/s_n_1_big.png
+A    second/AISD/lista3/zad1345/generator.cpp
+A    second/AISD/lista3/zad1345/select.cpp
+A    second/AISD/lista3/zad2/bin_search_lewo.txt
+A    second/AISD/lista3/zad2/dual_quick.hpp
+A    second/AISD/lista3/zad2/main.cpp
+A    second/AISD/lista2/zad2/wykresy/s_10.png
+A    second/AISD/lista2/zad2/wykresy/c_10_big.png
+A    second/AISD/lista3/zad2/rand_select.hpp
+A    second/AISD/lista3/zad2/select_5.hpp
+A    second/AISD/lista3/zad2/wykresy
+A    second/AISD/lista2/zad2/wykresy/c_10.png
+A    second/AISD/lista2/zad2/wykresy/c_n_1.png
+A    second/AISD/lista2/zad2/wykresy/s_10_big.png
+A    second/AISD/lista2/zad2/wykresy/c_100_big.png
+A    second/AISD/lista2/zad2/wykresy/c_n_100_big.png
+A    second/AISD/lista2/zad2/wykresy/c_1_big.png
+A    second/AISD/lista2/zad2/wykresy/s_n_10.png
+A    second/AISD/lista2/zad2/wykresy/s_1.png
+A    second/AISD/lista3/zad2/select_5_9.txt
+A    second/AISD/lista2/zad2/wykresy/c_n_100.png
+A    second/AISD/lista3/zad2/wykresy/quick_c.png
+A    second/AISD/lista2/zad2/wykresy/s_100_big.png
+A    second/AISD/lista4
+A    second/AISD/lista4/wykresy
+A    second/AISD/lista2/zad2/wykresy/s_n_10_big.png
+A    second/AISD/lista3/zad1345/dual_quick.cpp
+A    second/AISD/lista3/zad1345/rand_select.cpp
+A    second/AISD/lista3/zad2/bin_search.hpp
+A    second/AISD/lista3/zad2/bin_search_srodek.txt
+A    second/AISD/lista3/zad2/generator.hpp
+A    second/AISD/lista3/zad2/quick_old.txt
+A    second/AISD/lista2/zad2/wykresy/c_n_1_big.png
+A    second/AISD/lista2/zad2/wykresy/s_n_1.png
+A    second/AISD/lista3/zad2/wykresy/select_c.png
+A    second/AISD/lista3/zad2/select.txt
+A    second/AISD/lista4/recording
+A    second/AISD/lista2/zad2/wykresy/s_100.png
+A    second/AISD/lista3/zad2/select_5_7.txt
+A    second/AISD/lista4/wykresy/height_2.png
+A    second/AISD/lista2/zad2/wykresy/s_n_100_big.png
+A    second/AISD/lista3/zad1345/bin_search.cpp
+A    second/AISD/lista3/zad1345/quick.cpp
+A    second/AISD/lista3/zad1345/utils.hpp
+A    second/AISD/lista4/zad12
+A    second/AISD/lista2/zad2/wykresy/s_1_big.png
+A    second/AISD/lista3/zad2/bin_search_rand.txt
+A    second/AISD/lista4/wykresy/if_4.png
+A    second/AISD/lista2/zad2/wykresy/s_n_100.png
+A    second/AISD/lista2/zad2/wykresy.py
+A    second/AISD/lista3/zad1345/makefile
+A    second/AISD/lista3/zad1345/select_5.cpp
+A    second/AISD/lista3/zad2/bin_search_prawo.txt
+A    second/AISD/lista4/zad34
+A    second/AISD/lista3/zad2/dual_quick_old.txt
+A    second/AISD/lista3/zad2/quick_new.txt
+A    second/AISD/lista3/zad2/select.hpp
+A    second/AISD/lista3/zad2/select_5_5.txt
+A    second/AISD/lista3/zad2/dual_quick_new.txt
+A    second/AISD/lista3/zad2/quick.hpp
+A    second/AISD/lista3/zad2/rand_select.txt
+A    second/AISD/lista4/zad56
+A    second/AISD/lista3/zad2/wykresy/bin_search_t.png
+A    second/AISD/lista4/wykresy/max_swap.png
+A    second/AISD/lista4/wykresy.py
+A    second/AISD/lista4/zad12/generator.hpp
+A    second/AISD/lista4/zad34/RBBST.cpp
+A    second/AISD/lista4/zad34/zad4.cpp
+A    second/AISD/lista4/zad56/generator.hpp
+A    second/AISD/lista5
+A    second/AISD/lista5/zad1
+A    second/AISD/lista5/zad1/wykresy
+A    second/AISD/lista5/zad2
+A    second/AISD/lista3/zad2/select_5_3.txt
+A    second/AISD/lista3/zad2/utils.hpp
+A    second/AISD/lista3/zad2/wykresy/bin_search_c.png
+A    second/AISD/lista3/zad2/wykresy/quick_t2.png
+A    second/AISD/lista3/zad2/wykresy.py
+A    second/AISD/lista3/zad2/wykresy/quick_c2.png
+A    second/AISD/lista3/zad2/wykresy/quick_t.png
+A    second/AISD/lista5/zad2/wykresy
+A    second/AISD/lista4/wykresy/avg_swap.png
+A    second/AISD/lista5/zad1/wykresy/if.png
+A    second/AISD/lista5/zad2/Makefile
+A    second/AISD/lista5/zad2/fibb.h
+A    second/AISD/lista3/zad2/wykresy/select_s.png
+A    second/JPP
+A    second/JPP/lista1
+A    second/JPP/lista1/zad1-c
+A    second/AISD/lista4/wykresy/if_2.png
+A    second/AISD/lista3/zad2/wykresy/select_t.png
+A    second/AISD/lista4/wykresy/avg_height.png
+A    second/AISD/lista5/zad2/wykresy/bin_n_1000.png
+A    second/AISD/lista5/zad2/wykresy1.py
+A    second/JPP/lista1/zad2-ada
+A    second/AISD/lista4/wykresy/max_if.png
+A    second/AISD/lista4/wykresy/avg_if.png
+A    second/AISD/lista4/wykresy/height_4.png
+A    second/AISD/lista4/wykresy/swap_6.png
+A    second/AISD/lista4/zad12/Makefile
+A    second/AISD/lista4/zad34/Makefile
+A    second/AISD/lista4/zad34/zad3.cpp
+A    second/AISD/lista4/zad56/SBST.hpp
+A    second/AISD/lista5/zad1/lcs.cpp
+A    second/AISD/lista5/zad1/wykresy.py
+A    second/AISD/lista5/zad2/fibb.cpp
+A    second/JPP/lista1/zad3-rust
+A    second/JPP/lista1/zad3-rust/iterative
+A    second/JPP/lista1/zad1-c/Makefile
+A    second/JPP/lista1/zad1-c/tester.c
+A    second/JPP/lista1/zad3-rust/iterative/src
+A    second/JPP/lista1/zad3-rust/recursive
+A    second/JPP/lista1/zad3-rust/recursive/src
+A    second/AISD/lista5/zad2/wykresy/bin_fib.png
+A    second/JPP/lista1/zad2-ada/main.adb
+A    second/JPP/lista1/zad3-rust/iterative/Cargo.toml
+A    second/JPP/lista1/zad4-ada-c
+A    second/JPP/lista1/zad5-c-ada
+A    second/JPP/lista1/zad5-c-ada/src
+A    second/AISD/lista5/zad2/wykresy/fibb_n_500.png
+A    second/AISD/lista4/wykresy/height_6.png
+A    second/JPP/lista1/nagranie.cast
+A    second/JPP/lista1/zad1-c/lib_recur.c
+A    second/JPP/lista1/zad2-ada/iterative.ads
+A    second/JPP/lista1/zad3-rust/Makefile
+A    second/JPP/lista1/zad3-rust/recursive/src/lib.rs
+A    second/JPP/lista1/zad5-c-ada/AdaWrapper.gpr
+A    second/JPP/lista1/zad6-c-rust
+A    second/AISD/lista4/wykresy/if_6.png
+A    second/JPP/lista1/zad4-ada-c/Makefile
+A    second/JPP/lista1/zad5-c-ada/Makefile
+A    second/JPP/lista1/zad6-c-rust/src
+A    second/JPP/lista1/zad7-rust-c
+A    second/AISD/lista4/wykresy/swap_2.png
+A    second/AISD/lista4/zad12/BST.cpp
+A    second/AISD/lista4/zad12/zad1.cpp
+A    second/AISD/lista4/zad34/RBBST.hpp
+A    second/AISD/lista4/zad56/Makefile
+A    second/AISD/lista4/zad56/zad5.cpp
+A    second/JPP/lista2
+A    second/JPP/lista2/zad1-cpp
+A    second/JPP/lista1/zad5-c-ada/src/lib_recur.c
+A    second/JPP/lista1/zad6-c-rust/Cargo.toml
+A    second/JPP/lista1/zad7-rust-c/lib.h
+A    second/JPP/lista1/zad5-c-ada/src/lib_recur.h
+A    second/JPP/lista1/zad6-c-rust/build.rs
+A    second/JPP/lista2/zad2-java
+A    second/JPP/lista2/zad3-rust
+A    second/JPP/lista2/zad3-rust/src
+A    second/JPP/lista2/zad3-rust/src/gf
+A    second/AISD/lista4/wykresy/max_height.png
+A    second/JPP/lista2/zad1-cpp/gf.cpp
+A    second/AISD/lista5/zad1/wykresy/length.png
+A    second/AISD/lista5/zad2/bin.cpp
+A    second/AISD/lista5/zad2/main1.cpp
+A    second/JPP/lista3
+A    second/JPP/lista3/zad1-cpp
+A    second/JPP/lista2/zad3-rust/Cargo.toml
+A    second/JPP/lista1/zad7-rust-c/main.c
+A    second/JPP/lista2/zad1-cpp/gf.hpp
+A    second/JPP/lista2/zad3-rust/src/gf/gf.rs
+A    second/JPP/lista3/zad2_java
+A    second/JPP/lista2/zad3-rust/src/lib.rs
+A    second/AISD/lista4/wykresy/swap_4.png
+A    second/AISD/lista4/zad12/BST.hpp
+A    second/AISD/lista4/zad12/zad2.cpp
+A    second/AISD/lista4/zad34/generator.hpp
+A    second/AISD/lista4/zad56/SBST.cpp
+A    second/AISD/lista4/zad56/zad6.cpp
+A    second/JPP/lista3/zad3-rust3
+A    second/JPP/lista3/zad1-cpp/DHSetup.cpp
+A    second/JPP/lista3/zad1-cpp/main.cpp
+A    second/JPP/lista2/zad3-rust/src/main.rs
+A    second/JPP/lista3/zad1-cpp/DHSetup.hpp
+A    second/JPP/lista3/zad1-cpp/utils.hpp
+A    second/JPP/lista3/zad3-rust3/src
+A    second/JPP/lista3/zad3-rust3/src/libs
+A    second/JPP/lista3/zad2_java/GF.java
+A    second/AISD/lista5/zad1/wykresy/time.png
+A    second/AISD/lista5/zad2/bin.h
+A    second/AISD/lista5/zad2/main2.cpp
+A    second/JPP/lista3/zad3-rust3/Cargo.toml
+A    second/JPP/lista3/zad3-rust3/src/libs/user.rs
+A    second/JPP/lista3/zad2_java/Main.java
+A    second/JPP/lista3/zad3-rust3/src/lib.rs
+A    second/JPP/lista3/zad3-rust3/src/main.rs
+A    second/JPP/lista4
+A    second/JPP/lista4/zad1-ada
+A    second/JPP/lista4/zad2-go
+A    second/AISD/lista5/zad2/wykresy/fibb_n_1000.png
+A    second/AISD/lista5/zad2/wykresy3.py
+A    second/JPP/lista1/zad1-c/lib_iter.c
+A    second/JPP/lista1/zad2-ada/iterative.adb
+A    second/JPP/lista1/zad2-ada/recursive.ads
+A    second/JPP/lista1/zad3-rust/recursive/Cargo.toml
+A    second/JPP/lista1/zad4-ada-c/wrapper.h
+A    second/JPP/lista1/zad5-c-ada/src/lib_iter.h
+A    second/JPP/lista1/zad5-c-ada/src/test_recur.adb
+A    second/JPP/lista1/zad7-rust-c/Makefile
+A    second/JPP/lista2/zad1-cpp/Makefile
+A    second/JPP/lista2/zad2-java/Main.java
+A    second/JPP/lista2/zad3-rust/src/gf/mod.rs
+A    second/JPP/lista3/zad1-cpp/CMakeLists.txt
+A    second/JPP/lista3/zad1-cpp/User.hpp
+A    second/JPP/lista3/zad2_java/DHSetup.java
+A    second/JPP/lista3/zad2_java/User.java
+A    second/JPP/lista3/zad3-rust3/src/libs/mod.rs
+A    second/JPP/lista4/zad1-ada/Makefile
+A    second/JPP/lista4/zad3-rust
+A    second/JPP/lista4/zad3-rust/src
+A    second/JPP/lista4/zad3-rust/src/lib
+A    second/JPP/lista5
+A    second/JPP/lista5/zad1-haskell
+A    second/JPP/lista5/zad1-lisp
+A    second/JPP/lista5/zad1-sml
+A    second/JPP/lista5/zad2-prolog
+A    second/SP
+A    second/SP/lista1
+A    second/JPP/lista4/zad1-ada/main.adb
+A    second/JPP/lista4/zad2-go/filozof.go
+A    second/AISD/lista5/zad2/wykresy/bin_n_500.png
+A    second/AISD/lista5/zad2/wykresy2.py
+A    second/JPP/lista1/zad1-c/lib.h
+A    second/JPP/lista1/zad2-ada/Makefile
+A    second/JPP/lista1/zad2-ada/recursive.adb
+A    second/JPP/lista1/zad3-rust/iterative/src/lib.rs
+A    second/JPP/lista1/zad4-ada-c/test.c
+A    second/JPP/lista1/zad5-c-ada/src/lib_iter.c
+A    second/JPP/lista1/zad5-c-ada/src/test_iter.adb
+A    second/JPP/lista1/zad6-c-rust/src/main.rs
+A    second/JPP/lista2/nagranie.cast
+A    second/JPP/lista2/zad1-cpp/main.cpp
+A    second/JPP/lista2/zad3-rust/src/gf/gf_ops.rs
+A    second/JPP/lista3/nagranie.cast
+A    second/JPP/lista3/zad1-cpp/User.cpp
+A    second/JPP/lista3/zad2_java/Arithmetics.java
+A    second/JPP/lista3/zad2_java/Makefile
+A    second/JPP/lista3/zad3-rust3/src/libs/dhsetup.rs
+A    second/JPP/lista4/nagranie
+A    second/JPP/lista4/zad2-go/main.go
+A    second/JPP/lista4/zad3-rust/src/main.rs
+A    second/JPP/lista5/zad1-haskell/main.hs
+A    second/JPP/lista5/zad1-sml/main.sml
+A    second/SP/lista1/zad1.sh
+A    second/SP/lista1/zad5.sh
+A    second/JPP/lista4/zad3-rust/src/lib/filozof.rs
+A    second/JPP/lista5/zad1-haskell/Lib.hs
+A    second/JPP/lista5/zad1-lisp/main.lisp
+A    second/JPP/lista5/zad2-prolog/main.pl
+A    second/SP/lista1/zad3.sh
+A    second/JPP/lista4/zad3-rust/Cargo.toml
+A    second/JPP/lista5/nagranie
+A    second/JPP/lista5/zad1-lisp/lib.lsp
+A    second/JPP/lista5/zad2-prolog/lib.pl
+A    second/SP/lista1/zad2.sh
+A    second/SP/lista1/zad6.sh
+A    second/JPP/lista4/zad3-rust/src/lib/mod.rs
+A    second/JPP/lista5/zad1-haskell/Makefile
+A    second/JPP/lista5/zad1-sml/lib.sml
+A    second/SP/lista1/nagranie
+A    second/SP/lista1/zad4.sh
+Checked out revision 23.
+
+# Tworzymy plik pzreznaczony do konfliktu
+$ cd first
+$ ls
+AISD  JPP  SP
+$ echo "Plik do konfliktu" > conflict
+$ ls
+AISD  JPP  SP  conflict
+$ cat conflict
+Plik do konfliktu
+$ svn status
+?       conflict
+$ svn add conflict
+A         conflict
+$ svn commit -m "Added file for conflct"
+Adding         conflict
+Transmitting file data .done
+Committing transaction...
+Committed revision 24.
+
+# Aktualizujemy drugą kopię roboczą
+$ cd ../second
+$ ls
+AISD  JPP  SP
+$ svn update
+Updating '.':
+A    conflict
+Updated to revision 24.
+$ ls
+AISD  JPP  SP  conflict
+$ cat conflict
+Plik do konfliktu
+
+# Wprowadzanie konfliktu
+$ echo "Wersja 2" >> conflict
+$ cat conflict
+Plik do konfliktu
+Wersja 2
+$ svn status
+M       conflict
+$ svn commit -m "Chenges to fikle in second copy"
+Sending        conflict
+Transmitting file data .done
+Committing transaction...
+Committed revision 25.
+$ cd ../first
+$ cat conflict
+Plik do konfliktu
+$ echo "Wersja 1 pliku z pierwszego folderu" >> conflict
+$ cat conflict
+Plik do konfliktu
+Wersja 1 pliku z pierwszego folderu
+
+# Próbujemy zacommitopwać inne zmiany ale otrzzymujemy komunikat o błędzie
+$ svn commit -m "Chenges to fikle in first copy"
+Sending        conflict
+Transmitting file data .svn: E155011: Commit failed (details follow):
+svn: E155011: File '/home/adrian/Documents/Studia/ŚP/lista2/zad1/first/conflict' is out of date
+svn: E170004: While preparing '/home/adrian/Documents/Studia/ŚP/lista2/zad1/first/conflict' for commit
+svn: E170004: File '/conflict' is out of date
+
+# Rozwiązujemy bląd
+$ svn update
+Updating '.':
+C    conflict
+Updated to revision 25.
+Summary of conflicts:
+  Text conflicts: 1
+Merge conflict discovered in file 'conflict'.
+Select: (p) Postpone, (df) Show diff, (e) Edit file, (m) Merge,
+        (s) Show all options: p
+Summary of conflicts:
+  Text conflicts: 1
+$ svn status
+C       conflict
+?       conflict.mine
+?       conflict.r24
+?       conflict.r25
+Summary of conflicts:
+  Text conflicts: 1
+$ ls
+AISD  JPP  SP  conflict  conflict.mine  conflict.r24  conflict.r25
+# Zakomentowany output komendy ze względu za na denerwujace formatowanie
+$ cat conflict
+Plik do konfliktu
+# <<<<<<< .mine     # zakomentowane aby fomrmatowanie nie przeszkadzało
+Wersja 1 pliku z pierwszego folderu
+||||||| .r24
+=======
+Wersja 2
+# >>>>>>> .r25      # zakomentowane aby fomrmatowanie nie przeszkadzało
+$ cat conflict.mine
+Plik do konfliktu
+Wersja 1 pliku z pierwszego folderu
+$ cat conflict.r24
+Plik do konfliktu
+$ cat conflict.r25
+Plik do konfliktu
+Wersja 2
+
+# Widzimy więc że
+# plik conflict to plik podsumowujący wszytskie zmiany
+# plik conflict.mine to plik zawierający obecny plik który spowodował konflikt
+# Plik conflict.r24 to plik który pokazuje jak plik conflict wyglądał przed jakimikolwiek zmianami (w reviosion 24)
+# Plik conflict.r25 to plik który pokazuje jak plik conflict wygląda w przychodzącym komcie z drugie kopii roboczej
+
+# rozwiązujemy konflikt
+$ svn resolve conflict
+Merge conflict discovered in file 'conflict'.
+Select: (p) Postpone, (df) Show diff, (e) Edit file, (m) Merge,
+        (r) Mark as resolved, (s) Show all options: m
+Merging 'conflict'.
+Conflicting section found during merge:
+(1) their version (at line 2)                                  |(2) your version (at line 2)
+---------------------------------------------------------------+---------------------------------------------------------------
+Wersja 2                                                       |Wersja 1 pliku z pierwszego folderu
+---------------------------------------------------------------+---------------------------------------------------------------
+Select: (1) use their version, (2) use your version,
+        (12) their version first, then yours,
+        (21) your version first, then theirs,
+        (e1) edit their version and use the result,
+        (e2) edit your version and use the result,
+        (eb) edit both versions and use the result,
+        (p) postpone this conflicting section leaving conflict markers,
+        (a) abort file merge and return to main menu: e1
+Merge of 'conflict' completed.
+Select: (p) Postpone, (df) Show diff, (e) Edit file, (m) Merge,
+        (r) Mark as resolved, (s) Show all options: r
+Merge conflicts in 'conflict' marked as resolved.
+# wybrałem opcję która modyfikuje plik przychodzący i zmieniłem na "wersje 3" pliku
+$ ls
+AISD  JPP  SP  conflict
+$ cat conflict
+Plik do konfliktu
+Wersja 3
+$ svn status
+M       conflict
+
+
+$ svn commit -m "Conflict resolved"
+Sending        conflict
+Transmitting file data .done
+Committing transaction...
+Committed revision 26.
+$ cd ../second/
+$ cat conflict
+Plik do konfliktu
+Wersja 2
+$ svn update
+Updating '.':
+U    conflict
+Updated to revision 26.
+$ cat conflict
+Plik do konfliktu
+Wersja 3
+
+# ta samoa wersja w obu kopiach roboczych
+# ===== Konflikt rozwiązany =====
+
+# LOGI
+$ svn log -v
+------------------------------------------------------------------------
+r26 | 268449 | 2024-11-10 19:37:20 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   M /conflict
+
+Conflict resolved
+------------------------------------------------------------------------
+r25 | 268449 | 2024-11-10 16:48:33 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   M /conflict
+
+Chenges to fikle in second copy
+------------------------------------------------------------------------
+r24 | 268449 | 2024-11-10 16:39:48 +0100 (Sun, 10 Nov 2024) | 1 line
+Changed paths:
+   A /conflict
+
+Added file for conflct
+------------------------------------------------------------------------
+r23 | 268449 | 2024-10-22 23:51:10 +0200 (Tue, 22 Oct 2024) | 2 lines
+Changed paths:
+   A /SP
+   A /SP/lista1
+   A /SP/lista1/nagranie
+   A /SP/lista1/zad1.sh
+   A /SP/lista1/zad2.sh
+   A /SP/lista1/zad3.sh
+   A /SP/lista1/zad4.sh
+   A /SP/lista1/zad5.sh
+   A /SP/lista1/zad6.sh
+
+Dodana lista 1 z nagraniem
