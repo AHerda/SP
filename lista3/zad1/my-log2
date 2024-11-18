@@ -1,0 +1,2042 @@
+
+
+------------------------------------------------------------------------
+r156 | 268423 | 2024-11-14 20:30:47 +0100 (Thu, 14 Nov 2024) | 1 line
+
+updates on branch
+------------------------------------------------------------------------
+r155 | 268423 | 2024-11-14 20:21:20 +0100 (Thu, 14 Nov 2024) | 3 lines
+
+add new branch 268423
+
+
+------------------------------------------------------------------------
+r154 | 268451 | 2024-11-14 20:17:22 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Usuwanie bledu
+------------------------------------------------------------------------
+r153 | 268451 | 2024-11-14 20:15:42 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Tworze tag dla 268451
+------------------------------------------------------------------------
+r152 | 268451 | 2024-11-14 20:14:51 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Tworze tag dla 268451
+------------------------------------------------------------------------
+r151 | 268451 | 2024-11-14 20:10:16 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Usuwanie branch po reintegracji
+------------------------------------------------------------------------
+r150 | 268451 | 2024-11-14 20:07:09 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Resolved conflicts and merged branch into trunk
+------------------------------------------------------------------------
+r149 | 268423 | 2024-11-14 19:55:20 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Tagging new version with 268423 as latest feature
+------------------------------------------------------------------------
+r148 | 268423 | 2024-11-14 19:53:35 +0100 (Thu, 14 Nov 2024) | 2 lines
+
+deleting 268423 feature branch
+
+------------------------------------------------------------------------
+r147 | 268451 | 2024-11-14 19:52:29 +0100 (Thu, 14 Nov 2024) | 1 line
+
+synchronizacja 268451 z trunk
+------------------------------------------------------------------------
+r146 | 268423 | 2024-11-14 19:51:59 +0100 (Thu, 14 Nov 2024) | 1 line
+
+merge of new feature 268423
+------------------------------------------------------------------------
+r145 | 268423 | 2024-11-14 19:49:37 +0100 (Thu, 14 Nov 2024) | 1 line
+
+added some code
+------------------------------------------------------------------------
+r144 | 268451 | 2024-11-14 19:43:53 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268451 working
+------------------------------------------------------------------------
+r143 | 254652 | 2024-11-14 16:33:49 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Utworzenia tag-a v_254652 z dzialajacym programem
+------------------------------------------------------------------------
+r142 | 268423 | 2024-11-14 15:03:22 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268423 feature branch
+------------------------------------------------------------------------
+r141 | 254652 | 2024-11-14 14:58:39 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Usuniecie branch'a 254652 po reintegracji
+------------------------------------------------------------------------
+r140 | 254652 | 2024-11-14 14:56:33 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Reintagracja branch'a 254652 z trunk
+------------------------------------------------------------------------
+r139 | 254652 | 2024-11-14 14:52:57 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Synchronizacja branch'a 254652 z trunk
+------------------------------------------------------------------------
+r138 | 254652 | 2024-11-14 14:48:02 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Dodanie nowego modułu s254652 i modyfikacja reszty plikow README, program.h main.c oraz makefile
+------------------------------------------------------------------------
+r137 | 254652 | 2024-11-14 14:23:10 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Utworzenie branch'a 254652 dla funkcjonalnosci podprogramu s254652
+------------------------------------------------------------------------
+r136 | 268436 | 2024-11-14 13:40:15 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 create tag
+------------------------------------------------------------------------
+r135 | 268436 | 2024-11-14 13:28:56 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 delete branch
+------------------------------------------------------------------------
+r134 | 268436 | 2024-11-14 13:26:45 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 merge into trunk
+------------------------------------------------------------------------
+r133 | 268436 | 2024-11-14 13:22:50 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 synchronize with trunk
+------------------------------------------------------------------------
+r132 | 268436 | 2024-11-14 13:13:35 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 create program
+------------------------------------------------------------------------
+r131 | 268436 | 2024-11-14 12:50:43 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 create branch
+------------------------------------------------------------------------
+r130 | 268454 | 2024-11-14 11:59:12 +0100 (Thu, 14 Nov 2024) | 1 line
+
+utworzenie taga dla 268454
+------------------------------------------------------------------------
+r129 | 268418 | 2024-11-14 11:58:43 +0100 (Thu, 14 Nov 2024) | 2 lines
+
+Dodano tag 268418
+
+------------------------------------------------------------------------
+r128 | 268418 | 2024-11-14 11:56:55 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Usunieto galaz 268418
+------------------------------------------------------------------------
+r127 | 268454 | 2024-11-14 11:56:41 +0100 (Thu, 14 Nov 2024) | 1 line
+
+usuniecie galezi po reintegracji
+------------------------------------------------------------------------
+r126 | 268418 | 2024-11-14 11:51:23 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Merge galezi 268418
+------------------------------------------------------------------------
+r125 | 268454 | 2024-11-14 11:49:36 +0100 (Thu, 14 Nov 2024) | 1 line
+
+reintragracja galezji 268454
+------------------------------------------------------------------------
+r124 | 268454 | 2024-11-14 11:46:22 +0100 (Thu, 14 Nov 2024) | 1 line
+
+scalenie
+------------------------------------------------------------------------
+r123 | 268418 | 2024-11-14 11:37:57 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Implementacja programu 268418
+------------------------------------------------------------------------
+r122 | 268454 | 2024-11-14 11:36:22 +0100 (Thu, 14 Nov 2024) | 1 line
+
+readme
+------------------------------------------------------------------------
+r121 | 268454 | 2024-11-14 11:33:14 +0100 (Thu, 14 Nov 2024) | 1 line
+
+dodanie funkcjonalnosci na brancha
+------------------------------------------------------------------------
+r120 | 268418 | 2024-11-14 11:15:32 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268418 new branch
+------------------------------------------------------------------------
+r119 | 268454 | 2024-11-14 11:09:18 +0100 (Thu, 14 Nov 2024) | 1 line
+
+utworzenie galezi dla 268454
+------------------------------------------------------------------------
+r118 | 268458 | 2024-11-13 14:09:14 +0100 (Wed, 13 Nov 2024) | 1 line
+
+268458 tag
+------------------------------------------------------------------------
+r117 | 268458 | 2024-11-13 14:08:03 +0100 (Wed, 13 Nov 2024) | 1 line
+
+Uusniecie brancha 268458
+------------------------------------------------------------------------
+r116 | 268458 | 2024-11-13 14:06:54 +0100 (Wed, 13 Nov 2024) | 1 line
+
+Reintegracja 268458 z trunk
+------------------------------------------------------------------------
+r115 | 268458 | 2024-11-13 14:04:43 +0100 (Wed, 13 Nov 2024) | 1 line
+
+268458 podprogram
+------------------------------------------------------------------------
+r114 | 268458 | 2024-11-13 14:00:41 +0100 (Wed, 13 Nov 2024) | 2 lines
+
+Nowy branch 268458
+
+------------------------------------------------------------------------
+r113 | 268417 | 2024-11-13 11:00:06 +0100 (Wed, 13 Nov 2024) | 1 line
+
+Utworzenie gałęzi do pracy nad moim podprogramem
+------------------------------------------------------------------------
+r112 | 268444 | 2024-11-12 23:57:17 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Tag v_268444
+------------------------------------------------------------------------
+r111 | 268444 | 2024-11-12 23:56:39 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Delete branch 268444
+------------------------------------------------------------------------
+r110 | 268444 | 2024-11-12 23:55:22 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Merge branch 268444 into trunk
+------------------------------------------------------------------------
+r109 | 268444 | 2024-11-12 23:53:19 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Add s268444 feature
+------------------------------------------------------------------------
+r108 | 268444 | 2024-11-12 23:45:41 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Create branch for 268444
+------------------------------------------------------------------------
+r107 | 254635 | 2024-11-12 17:50:53 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Created a tag for version from 254635
+------------------------------------------------------------------------
+r106 | 254635 | 2024-11-12 17:50:29 +0100 (Tue, 12 Nov 2024) | 2 lines
+
+Deleting branch 254635S
+
+------------------------------------------------------------------------
+r105 | 254635 | 2024-11-12 17:49:10 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Merging changes from 254645 branch
+------------------------------------------------------------------------
+r104 | 254635 | 2024-11-12 17:45:15 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Added functionality from student 254635
+------------------------------------------------------------------------
+r103 | 254635 | 2024-11-12 17:33:02 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Created branch for 254635 functionality
+------------------------------------------------------------------------
+r102 | 268450 | 2024-11-12 12:43:30 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Tag 268450
+------------------------------------------------------------------------
+r101 | 268450 | 2024-11-12 12:32:35 +0100 (Tue, 12 Nov 2024) | 1 line
+
+deleting my branch (268450)
+------------------------------------------------------------------------
+r100 | 268450 | 2024-11-12 12:31:54 +0100 (Tue, 12 Nov 2024) | 1 line
+
+merging 268450 into the trunk
+------------------------------------------------------------------------
+r99 | 268450 | 2024-11-12 12:29:18 +0100 (Tue, 12 Nov 2024) | 1 line
+
+keeping branch up-to-date with trunk
+------------------------------------------------------------------------
+r98 | 268450 | 2024-11-12 12:22:15 +0100 (Tue, 12 Nov 2024) | 1 line
+
+branch 268450
+------------------------------------------------------------------------
+r97 | 268424 | 2024-11-12 00:40:21 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Utworzenie tagu v_268424
+------------------------------------------------------------------------
+r96 | 268424 | 2024-11-12 00:38:03 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Usunięcie gałęzi 268424 po reintegracji
+------------------------------------------------------------------------
+r95 | 268424 | 2024-11-12 00:35:12 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Reintegracja gałęzi 268424 z trunk-iem
+------------------------------------------------------------------------
+r94 | 268424 | 2024-11-12 00:23:57 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Implementacja procedury
+------------------------------------------------------------------------
+r93 | 268424 | 2024-11-12 00:14:17 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Synchronizacja gałęzi 268424 z trunk-iem
+------------------------------------------------------------------------
+r92 | 268424 | 2024-11-11 22:04:13 +0100 (Mon, 11 Nov 2024) | 1 line
+
+Student 268424 tworzy gałąź https://repo.cs.pwr.edu.pl/p-0/app_1/branches/268424
+------------------------------------------------------------------------
+r91 | 261756 | 2024-11-11 15:13:32 +0100 (Mon, 11 Nov 2024) | 1 line
+
+remove 261756 branch
+------------------------------------------------------------------------
+r90 | 261756 | 2024-11-11 14:58:49 +0100 (Mon, 11 Nov 2024) | 1 line
+
+tagging 261756 feature
+------------------------------------------------------------------------
+r89 | 261756 | 2024-11-11 14:52:26 +0100 (Mon, 11 Nov 2024) | 1 line
+
+merge feature 261756
+------------------------------------------------------------------------
+r88 | 261756 | 2024-11-11 14:43:03 +0100 (Mon, 11 Nov 2024) | 1 line
+
+feature 261756
+------------------------------------------------------------------------
+r87 | 261756 | 2024-11-11 11:32:54 +0100 (Mon, 11 Nov 2024) | 1 line
+
+synch
+------------------------------------------------------------------------
+r86 | 261756 | 2024-11-11 11:28:43 +0100 (Mon, 11 Nov 2024) | 1 line
+
+tworze branch 261756
+------------------------------------------------------------------------
+r85 | 268462 | 2024-11-10 22:59:55 +0100 (Sun, 10 Nov 2024) | 1 line
+
+utworzenie taga v_268462
+------------------------------------------------------------------------
+r84 | 268462 | 2024-11-10 22:53:18 +0100 (Sun, 10 Nov 2024) | 1 line
+
+usunięcie brancha 268462 po reintegracji
+------------------------------------------------------------------------
+r83 | 268462 | 2024-11-10 22:52:12 +0100 (Sun, 10 Nov 2024) | 1 line
+
+reintegrate 268462
+------------------------------------------------------------------------
+r82 | 268462 | 2024-11-10 22:46:41 +0100 (Sun, 10 Nov 2024) | 1 line
+
+merge trunk to branch 268462
+------------------------------------------------------------------------
+r81 | 268462 | 2024-11-10 22:41:06 +0100 (Sun, 10 Nov 2024) | 1 line
+
+dodanie funkcjonalności - drukowanie choinki
+------------------------------------------------------------------------
+r80 | 268462 | 2024-11-10 22:32:21 +0100 (Sun, 10 Nov 2024) | 1 line
+
+utworzenie brancha 268462
+------------------------------------------------------------------------
+r79 | 268442 | 2024-11-09 15:00:44 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Utworzenie taga z wersja 268442
+------------------------------------------------------------------------
+r78 | 268442 | 2024-11-09 15:00:14 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Usuniecie taga wersji 268442
+------------------------------------------------------------------------
+r77 | 268442 | 2024-11-09 14:58:36 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Wyczyszczenie kopii trunka
+------------------------------------------------------------------------
+r76 | 268442 | 2024-11-09 14:51:51 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Utworzenie taga z wersja 268442
+------------------------------------------------------------------------
+r75 | 268442 | 2024-11-09 14:48:38 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Usuniecie galezi 268442
+------------------------------------------------------------------------
+r74 | 268442 | 2024-11-09 14:45:47 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Scalenie gałęzi 268442 z trunkiem
+------------------------------------------------------------------------
+r73 | 268442 | 2024-11-09 14:31:14 +0100 (Sat, 09 Nov 2024) | 1 line
+
+zmieniono wlasnosc mime-type dla pliku s268442_podprogram.c
+------------------------------------------------------------------------
+r72 | 268442 | 2024-11-09 14:29:33 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Dodano program s268442_podprogram.c
+------------------------------------------------------------------------
+r71 | 268442 | 2024-11-09 14:08:30 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Creating the branch
+------------------------------------------------------------------------
+r70 | 268442 | 2024-11-09 14:05:59 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Creating the branch
+------------------------------------------------------------------------
+r69 | 268434 | 2024-11-08 21:06:55 +0100 (Fri, 08 Nov 2024) | 2 lines
+
+created tag v_268434
+
+------------------------------------------------------------------------
+r68 | 268434 | 2024-11-08 21:02:57 +0100 (Fri, 08 Nov 2024) | 1 line
+
+deleted branch 268434
+------------------------------------------------------------------------
+r67 | 268434 | 2024-11-08 20:56:05 +0100 (Fri, 08 Nov 2024) | 1 line
+
+merged branch 268434 to trunk
+------------------------------------------------------------------------
+r66 | 268434 | 2024-11-08 20:53:57 +0100 (Fri, 08 Nov 2024) | 1 line
+
+synchronized branch 268434 with trunk
+------------------------------------------------------------------------
+r65 | 268434 | 2024-11-08 20:48:50 +0100 (Fri, 08 Nov 2024) | 1 line
+
+added function for 268434
+------------------------------------------------------------------------
+r64 | 268434 | 2024-11-08 19:28:30 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Creating branch for 268434
+------------------------------------------------------------------------
+r63 | 268430 | 2024-11-08 16:36:39 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Ostatnia wersja
+------------------------------------------------------------------------
+r62 | 268430 | 2024-11-08 16:29:09 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Utworzenie tagu z wersją
+------------------------------------------------------------------------
+r61 | 268430 | 2024-11-08 16:27:48 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Utworzenie tagu z wersją
+------------------------------------------------------------------------
+r60 | 268430 | 2024-11-08 16:19:12 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Utworzenie tagu z wersją
+------------------------------------------------------------------------
+r59 | 268430 | 2024-11-08 16:17:10 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Usunięcie gałęzi po reintegracji
+------------------------------------------------------------------------
+r58 | 268430 | 2024-11-08 15:57:37 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Stworzenie nowej gałęzi
+------------------------------------------------------------------------
+r57 | 268430 | 2024-11-08 15:50:05 +0100 (Fri, 08 Nov 2024) | 1 line
+
+Stworzenie nowej gałęzi
+------------------------------------------------------------------------
+r56 | 268441 | 2024-11-08 14:02:02 +0100 (Fri, 08 Nov 2024) | 1 line
+
+268441 rm branch
+------------------------------------------------------------------------
+r55 | 268441 | 2024-11-08 13:36:20 +0100 (Fri, 08 Nov 2024) | 1 line
+
+268441 tag 1.1
+------------------------------------------------------------------------
+r54 | 268441 | 2024-11-08 13:34:43 +0100 (Fri, 08 Nov 2024) | 1 line
+
+268441 dodano tag
+------------------------------------------------------------------------
+r53 | 268441 | 2024-11-08 13:26:57 +0100 (Fri, 08 Nov 2024) | 1 line
+
+268441 merge
+------------------------------------------------------------------------
+r52 | 268441 | 2024-11-08 12:57:39 +0100 (Fri, 08 Nov 2024) | 1 line
+
+dodano branch 268441
+------------------------------------------------------------------------
+r51 | 268421 | 2024-11-07 22:56:07 +0100 (Thu, 07 Nov 2024) | 2 lines
+
+add 268421 tag
+
+------------------------------------------------------------------------
+r50 | 268421 | 2024-11-07 22:54:43 +0100 (Thu, 07 Nov 2024) | 2 lines
+
+removing useless 268421 branch
+
+------------------------------------------------------------------------
+r49 | 268421 | 2024-11-07 22:52:48 +0100 (Thu, 07 Nov 2024) | 1 line
+
+merge 268421 back into trunk
+------------------------------------------------------------------------
+r48 | 268421 | 2024-11-07 22:46:42 +0100 (Thu, 07 Nov 2024) | 1 line
+
+try merge 268421 into trunk again
+------------------------------------------------------------------------
+r47 | 268421 | 2024-11-07 22:44:35 +0100 (Thu, 07 Nov 2024) | 1 line
+
+merge 268421 with trunk
+------------------------------------------------------------------------
+r46 | 268421 | 2024-11-07 22:27:19 +0100 (Thu, 07 Nov 2024) | 1 line
+
+creating private branch for 268421
+------------------------------------------------------------------------
+r45 | 268459 | 2024-11-07 18:09:07 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Utworzenie zaktualizowanego taga v_268459
+------------------------------------------------------------------------
+r44 | 268459 | 2024-11-07 18:09:00 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Usunięcie nieaktualnego taga v_268459
+------------------------------------------------------------------------
+r43 | 268459 | 2024-11-07 18:08:54 +0100 (Thu, 07 Nov 2024) | 1 line
+
+last one
+------------------------------------------------------------------------
+r42 | 268459 | 2024-11-07 18:06:16 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Utworzenie zaktualizowanego taga v_268459
+------------------------------------------------------------------------
+r41 | 268459 | 2024-11-07 18:06:05 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Usunięcie nieaktualnego taga v_268459
+------------------------------------------------------------------------
+r40 | 268459 | 2024-11-07 18:05:58 +0100 (Thu, 07 Nov 2024) | 1 line
+
+last one
+------------------------------------------------------------------------
+r39 | 268459 | 2024-11-07 18:02:56 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Utworzenie zaktualizowanego taga v_268459
+------------------------------------------------------------------------
+r38 | 268459 | 2024-11-07 18:02:44 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Usunięcie nieaktualnego taga v_268459
+------------------------------------------------------------------------
+r37 | 268459 | 2024-11-07 18:02:11 +0100 (Thu, 07 Nov 2024) | 1 line
+
+dodanie deklaracji dla 268416
+------------------------------------------------------------------------
+r36 | 268459 | 2024-11-07 17:56:45 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Utworzenie zaktualizowanego taga v_268459
+------------------------------------------------------------------------
+r35 | 268459 | 2024-11-07 17:56:29 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Usunięcie nieaktualnego taga v_268459
+------------------------------------------------------------------------
+r34 | 268459 | 2024-11-07 17:54:34 +0100 (Thu, 07 Nov 2024) | 1 line
+
+dodano #include program.h do podprogramu
+------------------------------------------------------------------------
+r33 | 268459 | 2024-11-07 17:41:00 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Utworzenie taga v_268459
+------------------------------------------------------------------------
+r32 | 268459 | 2024-11-07 17:40:11 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Usunięcie gałęzi branch_268459 po reintegracji
+------------------------------------------------------------------------
+r31 | 268459 | 2024-11-07 17:38:22 +0100 (Thu, 07 Nov 2024) | 1 line
+
+scalenie gałezi branch_268459 do trunk
+------------------------------------------------------------------------
+r30 | 268459 | 2024-11-07 17:30:58 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Zatwierdzenie lokalnych zmian przed scalaniem
+------------------------------------------------------------------------
+r29 | 268459 | 2024-11-07 17:20:57 +0100 (Thu, 07 Nov 2024) | 1 line
+
+dodałem swój program
+------------------------------------------------------------------------
+r28 | 268459 | 2024-11-07 17:13:59 +0100 (Thu, 07 Nov 2024) | 1 line
+
+Utworzenie gałęzi dla indeksu 268459
+------------------------------------------------------------------------
+r27 | 268416 | 2024-11-05 23:23:11 +0100 (Tue, 05 Nov 2024) | 1 line
+
+remove 268416 branch
+------------------------------------------------------------------------
+r26 | 268416 | 2024-11-05 23:04:57 +0100 (Tue, 05 Nov 2024) | 1 line
+
+268416 tworzy taga
+------------------------------------------------------------------------
+r25 | 268416 | 2024-11-05 23:02:44 +0100 (Tue, 05 Nov 2024) | 1 line
+
+268416 merguje gałąź z trunkiem
+------------------------------------------------------------------------
+r24 | 268416 | 2024-11-05 22:57:48 +0100 (Tue, 05 Nov 2024) | 1 line
+
+268416 synchronizuje gałąź z trunk
+------------------------------------------------------------------------
+r23 | 268416 | 2024-11-05 22:47:46 +0100 (Tue, 05 Nov 2024) | 1 line
+
+268416 zaimplementował swoją procedurę
+------------------------------------------------------------------------
+r22 | 268416 | 2024-11-05 22:09:09 +0100 (Tue, 05 Nov 2024) | 2 lines
+
+Student 268416 tworzy własną gałąź https://repo.cs.pwr.edu.pl/p-0/app_1/branches/268416
+
+------------------------------------------------------------------------
+r21 | 268426 | 2024-11-05 18:03:16 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Delete unused branch
+------------------------------------------------------------------------
+r20 | 268426 | 2024-11-05 17:09:17 +0100 (Tue, 05 Nov 2024) | 1 line
+
+
+------------------------------------------------------------------------
+r19 | 268426 | 2024-11-05 16:43:34 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Tag trunk after adding function s268426_podprogram
+------------------------------------------------------------------------
+r18 | 268426 | 2024-11-05 16:42:34 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Remove branch 268426
+------------------------------------------------------------------------
+r17 | 268426 | 2024-11-05 16:39:41 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Merge branch 268426 to trunk
+------------------------------------------------------------------------
+r16 | 268426 | 2024-11-05 16:37:39 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Merge trunk changes to branch 268426
+------------------------------------------------------------------------
+r15 | 268426 | 2024-11-05 16:36:13 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Add new function for student 268426
+------------------------------------------------------------------------
+r14 | 268426 | 2024-11-05 16:25:01 +0100 (Tue, 05 Nov 2024) | 1 line
+
+
+------------------------------------------------------------------------
+r13 | mk1 | 2024-10-29 13:45:35 +0100 (Tue, 29 Oct 2024) | 2 lines
+
+wykonano: `svn propset svn:mime-type 'text/plain;charset=utf-8' $(find app_1/ -type f )`
+
+------------------------------------------------------------------------
+r12 | admin | 2020-11-12 10:52:01 +0100 (Thu, 12 Nov 2020) | 2 lines
+
+Poprawione kodowanie README i względny adres katalogu z tagami.
+
+------------------------------------------------------------------------
+r11 | 999 | 2016-10-24 13:57:42 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+999 tworzy własnego tag-a
+
+
+------------------------------------------------------------------------
+r10 | 999 | 2016-10-24 13:55:29 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+999 zreintegrował swoją gałąź z trunk-iem
+
+
+------------------------------------------------------------------------
+r9 | 999 | 2016-10-24 13:50:09 +0200 (Mon, 24 Oct 2016) | 2 lines
+
+999 wprowadza opis swojego podprogramu do README - ostateczna wersja jego gałęzi
+
+------------------------------------------------------------------------
+r8 | 999 | 2016-10-24 13:46:37 +0200 (Mon, 24 Oct 2016) | 2 lines
+
+999 ponownie synchronizuje swoją gałąź z trunk
+
+------------------------------------------------------------------------
+r7 | admin | 2016-10-24 13:44:15 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+Dodatkowe wyjaśnienia w pliku README o tworzeniu tag-ów
+
+
+------------------------------------------------------------------------
+r6 | admin | 2016-10-24 13:39:20 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+utworzenie katalogu na tagi aplikacji app_1
+
+
+------------------------------------------------------------------------
+r5 | 999 | 2016-10-24 13:37:15 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+999 zaimplementował swoją procedurę
+
+
+------------------------------------------------------------------------
+r4 | 999 | 2016-10-24 13:21:53 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+999 synchronizuje swoją gałąź z trunk
+
+
+------------------------------------------------------------------------
+r3 | 999 | 2016-10-24 13:04:10 +0200 (Mon, 24 Oct 2016) | 2 lines
+
+dodano plik README w trunk
+
+------------------------------------------------------------------------
+r2 | 999 | 2016-10-17 16:01:19 +0200 (Mon, 17 Oct 2016) | 1 line
+
+student 999 tworzy własną gałąź https://156.17.7.16/svn/lab/piaskownica/app_1/branches/999
+------------------------------------------------------------------------
+r1 | admin | 2016-10-17 14:28:36 +0200 (Mon, 17 Oct 2016) | 3 lines
+
+początkowa wersja projektu.
+
+
+------------------------------------------------------------------------
+
+p-0 ❯ svn log -l 3
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+------------------------------------------------------------------------
+r212 | 268449 | 2024-11-18 00:20:02 +0100 (Mon, 18 Nov 2024) | 1 line
+
+Synchronization with trunk
+------------------------------------------------------------------------
+r211 | 268449 | 2024-11-18 00:07:45 +0100 (Mon, 18 Nov 2024) | 1 line
+
+268449 subprogram is working
+------------------------------------------------------------------------
+r210 | 268417 | 2024-11-17 17:19:11 +0100 (Sun, 17 Nov 2024) | 1 line
+
+Utworzenie taga z wersja 268417
+------------------------------------------------------------------------
+
+p-0 ❯ z 268449
+
+268449 ❯ svn merge --reintegrate ^/app_1/branches/268449
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+
+268449 ❯ z trunk
+
+trunk ❯ pwd
+/mnt/c/Users/Adrian/Documents/Studia/ŚP/lista3/p-0/app_1/trunk
+
+trunk ❯ svn status
+
+trunk ❯ svn merge --reintegrate ^/app_1/branches/268449
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+--- Merging differences between repository URLs into '.':
+U    README
+U    main.c
+U    makefile
+U    program.h
+A    s268449_podprogram.c
+ U   .
+--- Recording mergeinfo for merge between repository URLs into '.':
+ G   .
+
+trunk ❯ svn status
+ M      .
+M       README
+M       main.c
+M       makefile
+M       program.h
+A  +    s268449_podprogram.c
+
+trunk ❯ svn commit -m "Merged branch into the trunk"
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+Sending        .
+Sending        README
+Sending        main.c
+Sending        makefile
+Sending        program.h
+Adding         s268449_podprogram.c
+Transmitting file data ....done
+Committing transaction...
+Committed revision 213.
+
+trunk ❯ l
+.rwxrwxrwx 2.6k adrian 18 Nov 00:28 main.c
+.rwxrwxrwx 1.8k adrian 18 Nov 00:28 makefile
+.rwxrwxrwx 2.0k adrian 18 Nov 00:28 program.h
+.rwxrwxrwx   96 adrian 17 Nov 23:33 program_usage.c
+.rwxrwxrwx 2.1k adrian 18 Nov 00:28 README
+.rwxrwxrwx  408 adrian 17 Nov 23:33 s0_podprogram.c
+.rwxrwxrwx  286 adrian 17 Nov 23:33 s999_podprogram.c
+.rwxrwxrwx 2.0k adrian 17 Nov 23:33 s254635_podprogram.c
+.rwxrwxrwx  328 adrian 17 Nov 23:33 s254652_podprogram.c
+.rwxrwxrwx  492 adrian 17 Nov 23:33 s261756_podprogram.c
+.rwxrwxrwx  240 adrian 17 Nov 23:33 s267355_podprogram.c
+.rwxrwxrwx  208 adrian 17 Nov 23:33 s268416_podprogram.c
+.rwxrwxrwx  349 adrian 17 Nov 23:33 s268417_podprogram.c
+.rwxrwxrwx  783 adrian 17 Nov 23:33 s268418_podprogram.c
+.rwxrwxrwx  417 adrian 17 Nov 23:33 s268421_podprogram.c
+.rwxrwxrwx  508 adrian 17 Nov 23:33 s268423_podprogram.c
+.rwxrwxrwx  743 adrian 17 Nov 23:33 s268424_podprogram.c
+.rwxrwxrwx  397 adrian 17 Nov 23:33 s268426_podprogram.c
+.rwxrwxrwx  210 adrian 17 Nov 23:33 s268431_podprogram.c
+.rwxrwxrwx  317 adrian 17 Nov 23:33 s268434_podprogram.c
+.rwxrwxrwx  658 adrian 17 Nov 23:33 s268435_podprogram.c
+.rwxrwxrwx  485 adrian 17 Nov 23:33 s268436_podprogram.c
+.rwxrwxrwx  410 adrian 17 Nov 23:33 s268441_podprogram.c
+.rwxrwxrwx  528 adrian 17 Nov 23:33 s268442_podprogram.c
+.rwxrwxrwx  182 adrian 17 Nov 23:33 s268444_podprogram.c
+.rwxrwxrwx  688 adrian 18 Nov 00:28 s268449_podprogram.c
+.rwxrwxrwx  192 adrian 17 Nov 23:33 s268450_podprogram.c
+.rwxrwxrwx  217 adrian 17 Nov 23:33 s268451_podprogram.c
+.rwxrwxrwx  324 adrian 17 Nov 23:33 s268454_podprogram.c
+.rwxrwxrwx  281 adrian 17 Nov 23:33 s268456_podprogram.c
+.rwxrwxrwx  179 adrian 17 Nov 23:33 s268458_podprogram.c
+.rwxrwxrwx  111 adrian 17 Nov 23:33 s268459_podprogram.c
+.rwxrwxrwx  611 adrian 17 Nov 23:33 s268462_podprogram.c
+.rwxrwxrwx  206 adrian 17 Nov 23:33 s268485_podprogram.c
+
+trunk ❯ svn mergeinfo .
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+    youngest common ancestor
+    |         last full merge
+    |         |        tip of branch
+    |         |        |         repository path
+
+    213                213
+    |                  |
+  -------| |------------         app_1/trunk
+     \
+      \
+       --| |------------         app_1/trunk
+                       |
+                       WC
+
+trunk ❯ make
+cc    -c -o main.o main.c
+cc    -c -o program_usage.o program_usage.c
+cc    -c -o s0_podprogram.o s0_podprogram.c
+cc    -c -o s999_podprogram.o s999_podprogram.c
+cc    -c -o s268426_podprogram.o s268426_podprogram.c
+cc    -c -o s268416_podprogram.o s268416_podprogram.c
+cc    -c -o s268418_podprogram.o s268418_podprogram.c
+cc    -c -o s268459_podprogram.o s268459_podprogram.c
+cc    -c -o s268421_podprogram.o s268421_podprogram.c
+cc    -c -o s268441_podprogram.o s268441_podprogram.c
+cc    -c -o s268434_podprogram.o s268434_podprogram.c
+cc    -c -o s268442_podprogram.o s268442_podprogram.c
+cc    -c -o s268462_podprogram.o s268462_podprogram.c
+cc    -c -o s261756_podprogram.o s261756_podprogram.c
+cc    -c -o s268424_podprogram.o s268424_podprogram.c
+cc    -c -o s268450_podprogram.o s268450_podprogram.c
+cc    -c -o s254635_podprogram.o s254635_podprogram.c
+cc    -c -o s268444_podprogram.o s268444_podprogram.c
+cc    -c -o s268458_podprogram.o s268458_podprogram.c
+cc    -c -o s268454_podprogram.o s268454_podprogram.c
+cc    -c -o s268436_podprogram.o s268436_podprogram.c
+cc    -c -o s254652_podprogram.o s254652_podprogram.c
+cc    -c -o s268423_podprogram.o s268423_podprogram.c
+cc    -c -o s268451_podprogram.o s268451_podprogram.c
+cc    -c -o s268431_podprogram.o s268431_podprogram.c
+cc    -c -o s268456_podprogram.o s268456_podprogram.c
+cc    -c -o s268485_podprogram.o s268485_podprogram.c
+cc    -c -o s268435_podprogram.o s268435_podprogram.c
+cc    -c -o s267355_podprogram.o s267355_podprogram.c
+cc    -c -o s268417_podprogram.o s268417_podprogram.c
+cc    -c -o s268449_podprogram.o s268449_podprogram.c
+cc -o program main.o program_usage.o s0_podprogram.o s999_podprogram.o s268426_podprogram.o s268416_podprogram.o s268418_podprogram.o s268459_podprogram.o s268421_podprogram.o s268441_podprogram.o s268434_podprogram.o s268442_podprogram.o s268462_podpr
+ogram.o s261756_podprogram.o s268424_podprogram.o s268450_podprogram.o s254635_podprogram.o s268444_podprogram.o s268458_podprogram.o s268454_podprogram.o s268436_podprogram.o s254652_podprogram.o s268423_podprogram.o s268451_podprogram.o s268431_podpr
+ogram.o s268456_podprogram.o s268485_podprogram.o s268435_podprogram.o s267355_podprogram.o s268417_podprogram.o s268449_podprogram.o -lm
+
+trunk ❯ ./program 268449
+Student: Adrian Herda
+Nr indeksu: 268449
+Podprogram wczytuje dwie liczby naturalne a następnie znajduje ich największy wspólny dzielnik
+Podaj pierwszą liczbę: 121
+Podaj drugą liczbę: 55
+NWD(121, 55) = 11
+
+trunk ❯ ./program 268449
+Student: Adrian Herda
+Nr indeksu: 268449
+Podprogram wczytuje dwie liczby naturalne a następnie znajduje ich największy wspólny dzielnik
+Podaj pierwszą liczbę: 19
+Podaj drugą liczbę: 100
+NWD(19, 100) = 1
+
+trunk ❯ ./program 268449
+Student: Adrian Herda
+Nr indeksu: 268449
+Podprogram wczytuje dwie liczby naturalne a następnie znajduje ich największy wspólny dzielnik
+Podaj pierwszą liczbę: -4
+Podaj drugą liczbę: 6
+Liczby powinny być większe od 0
+
+trunk ❯ make clean
+rm *.o program
+
+trunk ❯ l
+.rwxrwxrwx 2.6k adrian 18 Nov 00:28 main.c
+.rwxrwxrwx 1.8k adrian 18 Nov 00:28 makefile
+.rwxrwxrwx 2.0k adrian 18 Nov 00:28 program.h
+.rwxrwxrwx   96 adrian 17 Nov 23:33 program_usage.c
+.rwxrwxrwx 2.1k adrian 18 Nov 00:28 README
+.rwxrwxrwx  408 adrian 17 Nov 23:33 s0_podprogram.c
+.rwxrwxrwx  286 adrian 17 Nov 23:33 s999_podprogram.c
+.rwxrwxrwx 2.0k adrian 17 Nov 23:33 s254635_podprogram.c
+.rwxrwxrwx  328 adrian 17 Nov 23:33 s254652_podprogram.c
+.rwxrwxrwx  492 adrian 17 Nov 23:33 s261756_podprogram.c
+.rwxrwxrwx  240 adrian 17 Nov 23:33 s267355_podprogram.c
+.rwxrwxrwx  208 adrian 17 Nov 23:33 s268416_podprogram.c
+.rwxrwxrwx  349 adrian 17 Nov 23:33 s268417_podprogram.c
+.rwxrwxrwx  783 adrian 17 Nov 23:33 s268418_podprogram.c
+.rwxrwxrwx  417 adrian 17 Nov 23:33 s268421_podprogram.c
+.rwxrwxrwx  508 adrian 17 Nov 23:33 s268423_podprogram.c
+.rwxrwxrwx  743 adrian 17 Nov 23:33 s268424_podprogram.c
+.rwxrwxrwx  397 adrian 17 Nov 23:33 s268426_podprogram.c
+.rwxrwxrwx  210 adrian 17 Nov 23:33 s268431_podprogram.c
+.rwxrwxrwx  317 adrian 17 Nov 23:33 s268434_podprogram.c
+.rwxrwxrwx  658 adrian 17 Nov 23:33 s268435_podprogram.c
+.rwxrwxrwx  485 adrian 17 Nov 23:33 s268436_podprogram.c
+.rwxrwxrwx  410 adrian 17 Nov 23:33 s268441_podprogram.c
+.rwxrwxrwx  528 adrian 17 Nov 23:33 s268442_podprogram.c
+.rwxrwxrwx  182 adrian 17 Nov 23:33 s268444_podprogram.c
+.rwxrwxrwx  688 adrian 18 Nov 00:28 s268449_podprogram.c
+.rwxrwxrwx  192 adrian 17 Nov 23:33 s268450_podprogram.c
+.rwxrwxrwx  217 adrian 17 Nov 23:33 s268451_podprogram.c
+.rwxrwxrwx  324 adrian 17 Nov 23:33 s268454_podprogram.c
+.rwxrwxrwx  281 adrian 17 Nov 23:33 s268456_podprogram.c
+.rwxrwxrwx  179 adrian 17 Nov 23:33 s268458_podprogram.c
+.rwxrwxrwx  111 adrian 17 Nov 23:33 s268459_podprogram.c
+.rwxrwxrwx  611 adrian 17 Nov 23:33 s268462_podprogram.c
+.rwxrwxrwx  206 adrian 17 Nov 23:33 s268485_podprogram.c
+
+trunk ❯ svn delete ^/app_1/branches/268449/ -m "Usuwanie branch'a po reintegracjii"
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+Committing transaction...
+Committed revision 214.
+
+trunk ❯ svn copy ^/app_1/trunk ^/app_1/tags/v_268449
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+Committing transaction...
+Committed revision 215.
+
+trunk ❯ svn diff ^/app_1/trunk@215 ^/app_1/tags/v_268449
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+
+trunk ❯ z ../tags/
+
+tags ❯ l
+drwxrwxrwx - adrian 17 Nov 23:33 268430
+drwxrwxrwx - adrian 17 Nov 23:33 v_999
+drwxrwxrwx - adrian 17 Nov 23:33 v_254635
+drwxrwxrwx - adrian 17 Nov 23:33 v_254652
+drwxrwxrwx - adrian 17 Nov 23:33 v_261756
+drwxrwxrwx - adrian 17 Nov 23:33 v_267355
+drwxrwxrwx - adrian 17 Nov 23:33 v_268416
+drwxrwxrwx - adrian 17 Nov 23:33 v_268417
+drwxrwxrwx - adrian 17 Nov 23:33 v_268418
+drwxrwxrwx - adrian 17 Nov 23:33 v_268421
+drwxrwxrwx - adrian 17 Nov 23:33 v_268423
+drwxrwxrwx - adrian 17 Nov 23:33 v_268424
+drwxrwxrwx - adrian 17 Nov 23:33 v_268426
+drwxrwxrwx - adrian 17 Nov 23:33 v_268430
+drwxrwxrwx - adrian 17 Nov 23:33 v_268431
+drwxrwxrwx - adrian 17 Nov 23:33 v_268434
+drwxrwxrwx - adrian 17 Nov 23:33 v_268435
+drwxrwxrwx - adrian 17 Nov 23:33 v_268436
+drwxrwxrwx - adrian 17 Nov 23:33 v_268441
+drwxrwxrwx - adrian 17 Nov 23:33 v_268442
+drwxrwxrwx - adrian 17 Nov 23:33 v_268444
+drwxrwxrwx - adrian 17 Nov 23:33 v_268450
+drwxrwxrwx - adrian 17 Nov 23:33 v_268451
+drwxrwxrwx - adrian 17 Nov 23:33 v_268454
+drwxrwxrwx - adrian 17 Nov 23:33 v_268456
+drwxrwxrwx - adrian 17 Nov 23:33 v_268458
+drwxrwxrwx - adrian 17 Nov 23:33 v_268459
+drwxrwxrwx - adrian 17 Nov 23:33 v_268462
+drwxrwxrwx - adrian 17 Nov 23:33 v_268485
+
+tags ❯ svn up .
+Updating '.':
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+A    v_268449
+A    v_268449/README
+A    v_268449/main.c
+A    v_268449/makefile
+A    v_268449/program.h
+A    v_268449/s268449_podprogram.c
+A    v_268449/s268417_podprogram.c
+A    v_268449/s267355_podprogram.c
+A    v_268449/s268435_podprogram.c
+A    v_268449/s268485_podprogram.c
+A    v_268449/s268456_podprogram.c
+A    v_268449/s268431_podprogram.c
+A    v_268449/s268423_podprogram.c
+A    v_268449/s268451_podprogram.c
+A    v_268449/s254652_podprogram.c
+A    v_268449/s268436_podprogram.c
+A    v_268449/s999_podprogram.c
+A    v_268449/s268418_podprogram.c
+A    v_268449/s268454_podprogram.c
+A    v_268449/s268458_podprogram.c
+A    v_268449/s268444_podprogram.c
+A    v_268449/s254635_podprogram.c
+A    v_268449/s268450_podprogram.c
+A    v_268449/s268424_podprogram.c
+A    v_268449/s261756_podprogram.c
+A    v_268449/s268462_podprogram.c
+A    v_268449/s268442_podprogram.c
+A    v_268449/s268434_podprogram.c
+A    v_268449/s268441_podprogram.c
+A    v_268449/s268421_podprogram.c
+A    v_268449/s268459_podprogram.c
+A    v_268449/s268416_podprogram.c
+A    v_268449/s268426_podprogram.c
+A    v_268449/program_usage.c
+A    v_268449/s0_podprogram.c
+Updated to revision 215.
+
+tags ❯ z v_268449
+
+v_268449 ❯ l
+.rwxrwxrwx 2.6k adrian 18 Nov 00:53 main.c
+.rwxrwxrwx 1.8k adrian 18 Nov 00:53 makefile
+.rwxrwxrwx 2.0k adrian 18 Nov 00:53 program.h
+.rwxrwxrwx   96 adrian 18 Nov 00:53 program_usage.c
+.rwxrwxrwx 2.1k adrian 18 Nov 00:53 README
+.rwxrwxrwx  408 adrian 18 Nov 00:53 s0_podprogram.c
+.rwxrwxrwx  286 adrian 18 Nov 00:53 s999_podprogram.c
+.rwxrwxrwx 2.0k adrian 18 Nov 00:53 s254635_podprogram.c
+.rwxrwxrwx  328 adrian 18 Nov 00:53 s254652_podprogram.c
+.rwxrwxrwx  492 adrian 18 Nov 00:53 s261756_podprogram.c
+.rwxrwxrwx  240 adrian 18 Nov 00:53 s267355_podprogram.c
+.rwxrwxrwx  208 adrian 18 Nov 00:53 s268416_podprogram.c
+.rwxrwxrwx  349 adrian 18 Nov 00:53 s268417_podprogram.c
+.rwxrwxrwx  783 adrian 18 Nov 00:53 s268418_podprogram.c
+.rwxrwxrwx  417 adrian 18 Nov 00:53 s268421_podprogram.c
+.rwxrwxrwx  508 adrian 18 Nov 00:53 s268423_podprogram.c
+.rwxrwxrwx  743 adrian 18 Nov 00:53 s268424_podprogram.c
+.rwxrwxrwx  397 adrian 18 Nov 00:53 s268426_podprogram.c
+.rwxrwxrwx  210 adrian 18 Nov 00:53 s268431_podprogram.c
+.rwxrwxrwx  317 adrian 18 Nov 00:53 s268434_podprogram.c
+.rwxrwxrwx  658 adrian 18 Nov 00:53 s268435_podprogram.c
+.rwxrwxrwx  485 adrian 18 Nov 00:53 s268436_podprogram.c
+.rwxrwxrwx  410 adrian 18 Nov 00:53 s268441_podprogram.c
+.rwxrwxrwx  528 adrian 18 Nov 00:53 s268442_podprogram.c
+.rwxrwxrwx  182 adrian 18 Nov 00:53 s268444_podprogram.c
+.rwxrwxrwx  688 adrian 18 Nov 00:53 s268449_podprogram.c
+.rwxrwxrwx  192 adrian 18 Nov 00:53 s268450_podprogram.c
+.rwxrwxrwx  217 adrian 18 Nov 00:53 s268451_podprogram.c
+.rwxrwxrwx  324 adrian 18 Nov 00:53 s268454_podprogram.c
+.rwxrwxrwx  281 adrian 18 Nov 00:53 s268456_podprogram.c
+.rwxrwxrwx  179 adrian 18 Nov 00:53 s268458_podprogram.c
+.rwxrwxrwx  111 adrian 18 Nov 00:53 s268459_podprogram.c
+.rwxrwxrwx  611 adrian 18 Nov 00:53 s268462_podprogram.c
+.rwxrwxrwx  206 adrian 18 Nov 00:53 s268485_podprogram.c
+
+v_268449 ❯ make
+cc    -c -o main.o main.c
+cc    -c -o program_usage.o program_usage.c
+cc    -c -o s0_podprogram.o s0_podprogram.c
+cc    -c -o s999_podprogram.o s999_podprogram.c
+cc    -c -o s268426_podprogram.o s268426_podprogram.c
+cc    -c -o s268416_podprogram.o s268416_podprogram.c
+cc    -c -o s268418_podprogram.o s268418_podprogram.c
+cc    -c -o s268459_podprogram.o s268459_podprogram.c
+cc    -c -o s268421_podprogram.o s268421_podprogram.c
+cc    -c -o s268441_podprogram.o s268441_podprogram.c
+cc    -c -o s268434_podprogram.o s268434_podprogram.c
+cc    -c -o s268442_podprogram.o s268442_podprogram.c
+cc    -c -o s268462_podprogram.o s268462_podprogram.c
+cc    -c -o s261756_podprogram.o s261756_podprogram.c
+cc    -c -o s268424_podprogram.o s268424_podprogram.c
+cc    -c -o s268450_podprogram.o s268450_podprogram.c
+cc    -c -o s254635_podprogram.o s254635_podprogram.c
+cc    -c -o s268444_podprogram.o s268444_podprogram.c
+cc    -c -o s268458_podprogram.o s268458_podprogram.c
+cc    -c -o s268454_podprogram.o s268454_podprogram.c
+cc    -c -o s268436_podprogram.o s268436_podprogram.c
+cc    -c -o s254652_podprogram.o s254652_podprogram.c
+cc    -c -o s268423_podprogram.o s268423_podprogram.c
+cc    -c -o s268451_podprogram.o s268451_podprogram.c
+cc    -c -o s268431_podprogram.o s268431_podprogram.c
+cc    -c -o s268456_podprogram.o s268456_podprogram.c
+cc    -c -o s268485_podprogram.o s268485_podprogram.c
+cc    -c -o s268435_podprogram.o s268435_podprogram.c
+cc    -c -o s267355_podprogram.o s267355_podprogram.c
+cc    -c -o s268417_podprogram.o s268417_podprogram.c
+cc    -c -o s268449_podprogram.o s268449_podprogram.c
+cc -o program main.o program_usage.o s0_podprogram.o s999_podprogram.o s268426_podprogram.o s268416_podprogram.o s268418_podprogram.o s268459_podprogram.o s268421_podprogram.o s268441_podprogram.o s268434_podprogram.o s268442_podprogram.o s268462_podpr
+ogram.o s261756_podprogram.o s268424_podprogram.o s268450_podprogram.o s254635_podprogram.o s268444_podprogram.o s268458_podprogram.o s268454_podprogram.o s268436_podprogram.o s254652_podprogram.o s268423_podprogram.o s268451_podprogram.o s268431_podpr
+ogram.o s268456_podprogram.o s268485_podprogram.o s268435_podprogram.o s267355_podprogram.o s268417_podprogram.o s268449_podprogram.o -lm
+
+v_268449 ❯ ./program 268449
+Student: Adrian Herda
+Nr indeksu: 268449
+Podprogram wczytuje dwie liczby naturalne a następnie znajduje ich największy wspólny dzielnik
+Podaj pierwszą liczbę: 121
+Podaj drugą liczbę: 99
+NWD(121, 99) = 11
+
+v_268449 ❯ make clean
+rm *.o program
+
+v_268449 ❯ svn log s268449_podprogram.c
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+------------------------------------------------------------------------
+r215 | 268449 | 2024-11-18 00:48:40 +0100 (Mon, 18 Nov 2024) | 5 lines
+
+Making a tag for 268449
+-This line, and those below, will be ignored--
+
+A  + https://repo.cs.pwr.edu.pl/p-0/app_1/tags/v_268449
+
+------------------------------------------------------------------------
+r213 | 268449 | 2024-11-18 00:31:18 +0100 (Mon, 18 Nov 2024) | 1 line
+
+Merged branch into the trunk
+------------------------------------------------------------------------
+r211 | 268449 | 2024-11-18 00:07:45 +0100 (Mon, 18 Nov 2024) | 1 line
+
+268449 subprogram is working
+------------------------------------------------------------------------
+
+v_268449 ❯ z ../../branches/268449
+
+268449 ❯ svn log -l 1
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+------------------------------------------------------------------------
+r212 | 268449 | 2024-11-18 00:20:02 +0100 (Mon, 18 Nov 2024) | 1 line
+
+Synchronization with trunk
+------------------------------------------------------------------------
+
+268449 ❯ z v_268449
+
+v_268449 ❯ pwd
+/mnt/c/Users/Adrian/Documents/Studia/ŚP/lista3/p-0/app_1/tags/v_268449
+
+v_268449 ❯ svn log -g
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+------------------------------------------------------------------------
+r215 | 268449 | 2024-11-18 00:48:40 +0100 (Mon, 18 Nov 2024) | 5 lines
+
+Making a tag for 268449
+-This line, and those below, will be ignored--
+
+A  + https://repo.cs.pwr.edu.pl/p-0/app_1/tags/v_268449
+
+------------------------------------------------------------------------
+r213 | 268449 | 2024-11-18 00:31:18 +0100 (Mon, 18 Nov 2024) | 1 line
+
+Merged branch into the trunk
+------------------------------------------------------------------------
+r212 | 268449 | 2024-11-18 00:20:02 +0100 (Mon, 18 Nov 2024) | 1 line
+Merged via: r213
+
+Synchronization with trunk
+------------------------------------------------------------------------
+r211 | 268449 | 2024-11-18 00:07:45 +0100 (Mon, 18 Nov 2024) | 1 line
+Merged via: r213
+
+268449 subprogram is working
+------------------------------------------------------------------------
+r208 | 268417 | 2024-11-17 17:18:07 +0100 (Sun, 17 Nov 2024) | 1 line
+
+Wyczyszczenie kopii trunka
+------------------------------------------------------------------------
+r206 | 268417 | 2024-11-17 17:16:54 +0100 (Sun, 17 Nov 2024) | 1 line
+
+
+------------------------------------------------------------------------
+r204 | 268417 | 2024-11-17 17:07:39 +0100 (Sun, 17 Nov 2024) | 1 line
+
+Scalenie gałęzi 268417 z trunkiem
+------------------------------------------------------------------------
+r203 | 268417 | 2024-11-17 16:56:50 +0100 (Sun, 17 Nov 2024) | 1 line
+Merged via: r204
+
+zmieniono wlasnosc mime-type dla pliku s268417_podprogram.c
+------------------------------------------------------------------------
+r202 | 268417 | 2024-11-17 16:55:50 +0100 (Sun, 17 Nov 2024) | 1 line
+Merged via: r204
+
+Dodano podprogram 268417
+------------------------------------------------------------------------
+r201 | 268417 | 2024-11-17 16:43:00 +0100 (Sun, 17 Nov 2024) | 1 line
+Merged via: r204
+
+Creating the branch
+------------------------------------------------------------------------
+r113 | 268417 | 2024-11-13 11:00:06 +0100 (Wed, 13 Nov 2024) | 1 line
+Merged via: r204
+
+Utworzenie gałęzi do pracy nad moim podprogramem
+------------------------------------------------------------------------
+r198 | 267355 | 2024-11-17 12:59:42 +0100 (Sun, 17 Nov 2024) | 1 line
+
+Integrated 267355
+------------------------------------------------------------------------
+r197 | 267355 | 2024-11-17 12:57:19 +0100 (Sun, 17 Nov 2024) | 1 line
+Merged via: r198
+
+Created extension 267355
+------------------------------------------------------------------------
+r190 | 268435 | 2024-11-17 01:30:57 +0100 (Sun, 17 Nov 2024) | 1 line
+
+Reintegracja gałęzi 268435 do trunk
+------------------------------------------------------------------------
+r189 | 268435 | 2024-11-17 01:21:37 +0100 (Sun, 17 Nov 2024) | 1 line
+Merged via: r190
+
+Dodanie swojego podprogramu. Wprowadzenie zmian w istniejących plikach
+------------------------------------------------------------------------
+r188 | 268435 | 2024-11-17 00:24:32 +0100 (Sun, 17 Nov 2024) | 1 line
+Merged via: r190
+
+Utworzenie gałęzi dla studenta 268435
+------------------------------------------------------------------------
+r183 | 268485 | 2024-11-16 20:32:58 +0100 (Sat, 16 Nov 2024) | 1 line
+
+Scalanie zmian z gałęzi 268485 do trunk
+------------------------------------------------------------------------
+r182 | 268485 | 2024-11-16 20:00:52 +0100 (Sat, 16 Nov 2024) | 1 line
+Merged via: r183
+
+Wprowadzenie zmian na gałęzi studenta 268485
+------------------------------------------------------------------------
+r181 | 268485 | 2024-11-16 12:35:47 +0100 (Sat, 16 Nov 2024) | 1 line
+Merged via: r183
+
+Tworzenie gałęzi dla studenta 268485
+------------------------------------------------------------------------
+r176 | 268456 | 2024-11-15 12:26:58 +0100 (Fri, 15 Nov 2024) | 1 line
+
+Merge 268456 into trunk
+------------------------------------------------------------------------
+r175 | 268456 | 2024-11-15 12:19:12 +0100 (Fri, 15 Nov 2024) | 1 line
+Merged via: r176
+
+Student 268456 podprogram
+------------------------------------------------------------------------
+r174 | 268456 | 2024-11-15 12:01:04 +0100 (Fri, 15 Nov 2024) | 1 line
+Merged via: r176
+
+Creating branch for 268456
+------------------------------------------------------------------------
+r172 | 268431 | 2024-11-15 10:55:46 +0100 (Fri, 15 Nov 2024) | 1 line
+
+merged branch into trunk
+------------------------------------------------------------------------
+r171 | 268431 | 2024-11-15 10:54:13 +0100 (Fri, 15 Nov 2024) | 1 line
+Merged via: r172
+
+synchronizacja z trunk
+------------------------------------------------------------------------
+r170 | 268431 | 2024-11-15 10:53:47 +0100 (Fri, 15 Nov 2024) | 1 line
+Merged via: r172
+
+fix 268431
+------------------------------------------------------------------------
+r164 | 268431 | 2024-11-15 10:30:41 +0100 (Fri, 15 Nov 2024) | 1 line
+
+Merged branch into trunk
+------------------------------------------------------------------------
+r163 | 268431 | 2024-11-15 10:27:03 +0100 (Fri, 15 Nov 2024) | 1 line
+Merged via: r164
+
+synchronizacja 268431 z trunk
+------------------------------------------------------------------------
+r162 | 268431 | 2024-11-15 10:26:11 +0100 (Fri, 15 Nov 2024) | 1 line
+Merged via: r164
+
+added 268431
+------------------------------------------------------------------------
+r160 | 268423 | 2024-11-14 20:53:42 +0100 (Thu, 14 Nov 2024) | 1 line
+
+merged 268423
+------------------------------------------------------------------------
+r157 | 268423 | 2024-11-14 20:40:51 +0100 (Thu, 14 Nov 2024) | 1 line
+
+
+------------------------------------------------------------------------
+r156 | 268423 | 2024-11-14 20:30:47 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r157
+
+updates on branch
+------------------------------------------------------------------------
+r147 | 268451 | 2024-11-14 19:52:29 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r157, r156
+
+synchronizacja 268451 z trunk
+------------------------------------------------------------------------
+r144 | 268451 | 2024-11-14 19:43:53 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r157, r156
+
+268451 working
+------------------------------------------------------------------------
+r155 | 268423 | 2024-11-14 20:21:20 +0100 (Thu, 14 Nov 2024) | 3 lines
+
+add new branch 268423
+
+
+------------------------------------------------------------------------
+r150 | 268451 | 2024-11-14 20:07:09 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Resolved conflicts and merged branch into trunk
+------------------------------------------------------------------------
+r146 | 268423 | 2024-11-14 19:51:59 +0100 (Thu, 14 Nov 2024) | 1 line
+
+merge of new feature 268423
+------------------------------------------------------------------------
+r145 | 268423 | 2024-11-14 19:49:37 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r146
+
+added some code
+------------------------------------------------------------------------
+r142 | 268423 | 2024-11-14 15:03:22 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r146
+
+268423 feature branch
+------------------------------------------------------------------------
+r140 | 254652 | 2024-11-14 14:56:33 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Reintagracja branch'a 254652 z trunk
+------------------------------------------------------------------------
+r134 | 268436 | 2024-11-14 13:26:45 +0100 (Thu, 14 Nov 2024) | 1 line
+
+268436 merge into trunk
+------------------------------------------------------------------------
+r133 | 268436 | 2024-11-14 13:22:50 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r134
+
+268436 synchronize with trunk
+------------------------------------------------------------------------
+r132 | 268436 | 2024-11-14 13:13:35 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r134
+
+268436 create program
+------------------------------------------------------------------------
+r131 | 268436 | 2024-11-14 12:50:43 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r134
+
+268436 create branch
+------------------------------------------------------------------------
+r126 | 268418 | 2024-11-14 11:51:23 +0100 (Thu, 14 Nov 2024) | 1 line
+
+Merge galezi 268418
+------------------------------------------------------------------------
+r123 | 268418 | 2024-11-14 11:37:57 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r126
+
+Implementacja programu 268418
+------------------------------------------------------------------------
+r120 | 268418 | 2024-11-14 11:15:32 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r126
+
+268418 new branch
+------------------------------------------------------------------------
+r125 | 268454 | 2024-11-14 11:49:36 +0100 (Thu, 14 Nov 2024) | 1 line
+
+reintragracja galezji 268454
+------------------------------------------------------------------------
+r124 | 268454 | 2024-11-14 11:46:22 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r125
+
+scalenie
+------------------------------------------------------------------------
+r122 | 268454 | 2024-11-14 11:36:22 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r125
+
+readme
+------------------------------------------------------------------------
+r121 | 268454 | 2024-11-14 11:33:14 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r125
+
+dodanie funkcjonalnosci na brancha
+------------------------------------------------------------------------
+r119 | 268454 | 2024-11-14 11:09:18 +0100 (Thu, 14 Nov 2024) | 1 line
+Merged via: r125
+
+utworzenie galezi dla 268454
+------------------------------------------------------------------------
+r116 | 268458 | 2024-11-13 14:06:54 +0100 (Wed, 13 Nov 2024) | 1 line
+
+Reintegracja 268458 z trunk
+------------------------------------------------------------------------
+r115 | 268458 | 2024-11-13 14:04:43 +0100 (Wed, 13 Nov 2024) | 1 line
+Merged via: r116
+
+268458 podprogram
+------------------------------------------------------------------------
+r114 | 268458 | 2024-11-13 14:00:41 +0100 (Wed, 13 Nov 2024) | 2 lines
+Merged via: r116
+
+Nowy branch 268458
+
+------------------------------------------------------------------------
+r110 | 268444 | 2024-11-12 23:55:22 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Merge branch 268444 into trunk
+------------------------------------------------------------------------
+r109 | 268444 | 2024-11-12 23:53:19 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r110
+
+Add s268444 feature
+------------------------------------------------------------------------
+r108 | 268444 | 2024-11-12 23:45:41 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r110
+
+Create branch for 268444
+------------------------------------------------------------------------
+r105 | 254635 | 2024-11-12 17:49:10 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Merging changes from 254645 branch
+------------------------------------------------------------------------
+r104 | 254635 | 2024-11-12 17:45:15 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r105
+
+Added functionality from student 254635
+------------------------------------------------------------------------
+r103 | 254635 | 2024-11-12 17:33:02 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r105
+
+Created branch for 254635 functionality
+------------------------------------------------------------------------
+r100 | 268450 | 2024-11-12 12:31:54 +0100 (Tue, 12 Nov 2024) | 1 line
+
+merging 268450 into the trunk
+------------------------------------------------------------------------
+r99 | 268450 | 2024-11-12 12:29:18 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r100
+
+keeping branch up-to-date with trunk
+------------------------------------------------------------------------
+r98 | 268450 | 2024-11-12 12:22:15 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r100
+
+branch 268450
+------------------------------------------------------------------------
+r95 | 268424 | 2024-11-12 00:35:12 +0100 (Tue, 12 Nov 2024) | 1 line
+
+Reintegracja gałęzi 268424 z trunk-iem
+------------------------------------------------------------------------
+r94 | 268424 | 2024-11-12 00:23:57 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r95
+
+Implementacja procedury
+------------------------------------------------------------------------
+r93 | 268424 | 2024-11-12 00:14:17 +0100 (Tue, 12 Nov 2024) | 1 line
+Merged via: r95
+
+Synchronizacja gałęzi 268424 z trunk-iem
+------------------------------------------------------------------------
+r92 | 268424 | 2024-11-11 22:04:13 +0100 (Mon, 11 Nov 2024) | 1 line
+Merged via: r95
+
+Student 268424 tworzy gałąź https://repo.cs.pwr.edu.pl/p-0/app_1/branches/268424
+------------------------------------------------------------------------
+r89 | 261756 | 2024-11-11 14:52:26 +0100 (Mon, 11 Nov 2024) | 1 line
+
+merge feature 261756
+------------------------------------------------------------------------
+r88 | 261756 | 2024-11-11 14:43:03 +0100 (Mon, 11 Nov 2024) | 1 line
+Merged via: r89
+
+feature 261756
+------------------------------------------------------------------------
+r87 | 261756 | 2024-11-11 11:32:54 +0100 (Mon, 11 Nov 2024) | 1 line
+Merged via: r89
+
+synch
+------------------------------------------------------------------------
+r86 | 261756 | 2024-11-11 11:28:43 +0100 (Mon, 11 Nov 2024) | 1 line
+Merged via: r89
+
+tworze branch 261756
+------------------------------------------------------------------------
+r83 | 268462 | 2024-11-10 22:52:12 +0100 (Sun, 10 Nov 2024) | 1 line
+
+reintegrate 268462
+------------------------------------------------------------------------
+r82 | 268462 | 2024-11-10 22:46:41 +0100 (Sun, 10 Nov 2024) | 1 line
+Merged via: r83
+
+merge trunk to branch 268462
+------------------------------------------------------------------------
+r81 | 268462 | 2024-11-10 22:41:06 +0100 (Sun, 10 Nov 2024) | 1 line
+Merged via: r83
+
+dodanie funkcjonalności - drukowanie choinki
+------------------------------------------------------------------------
+r80 | 268462 | 2024-11-10 22:32:21 +0100 (Sun, 10 Nov 2024) | 1 line
+Merged via: r83
+
+utworzenie brancha 268462
+------------------------------------------------------------------------
+r77 | 268442 | 2024-11-09 14:58:36 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Wyczyszczenie kopii trunka
+------------------------------------------------------------------------
+r74 | 268442 | 2024-11-09 14:45:47 +0100 (Sat, 09 Nov 2024) | 1 line
+
+Scalenie gałęzi 268442 z trunkiem
+------------------------------------------------------------------------
+r73 | 268442 | 2024-11-09 14:31:14 +0100 (Sat, 09 Nov 2024) | 1 line
+Merged via: r74
+
+zmieniono wlasnosc mime-type dla pliku s268442_podprogram.c
+------------------------------------------------------------------------
+r72 | 268442 | 2024-11-09 14:29:33 +0100 (Sat, 09 Nov 2024) | 1 line
+Merged via: r74
+
+Dodano program s268442_podprogram.c
+------------------------------------------------------------------------
+r71 | 268442 | 2024-11-09 14:08:30 +0100 (Sat, 09 Nov 2024) | 1 line
+Merged via: r74
+
+Creating the branch
+------------------------------------------------------------------------
+r70 | 268442 | 2024-11-09 14:05:59 +0100 (Sat, 09 Nov 2024) | 1 line
+Merged via: r74
+
+Creating the branch
+------------------------------------------------------------------------
+r67 | 268434 | 2024-11-08 20:56:05 +0100 (Fri, 08 Nov 2024) | 1 line
+
+merged branch 268434 to trunk
+------------------------------------------------------------------------
+r66 | 268434 | 2024-11-08 20:53:57 +0100 (Fri, 08 Nov 2024) | 1 line
+Merged via: r67
+
+synchronized branch 268434 with trunk
+------------------------------------------------------------------------
+r65 | 268434 | 2024-11-08 20:48:50 +0100 (Fri, 08 Nov 2024) | 1 line
+Merged via: r67
+
+added function for 268434
+------------------------------------------------------------------------
+r64 | 268434 | 2024-11-08 19:28:30 +0100 (Fri, 08 Nov 2024) | 1 line
+Merged via: r67
+
+Creating branch for 268434
+------------------------------------------------------------------------
+r53 | 268441 | 2024-11-08 13:26:57 +0100 (Fri, 08 Nov 2024) | 1 line
+
+268441 merge
+------------------------------------------------------------------------
+r52 | 268441 | 2024-11-08 12:57:39 +0100 (Fri, 08 Nov 2024) | 1 line
+Merged via: r53
+
+dodano branch 268441
+------------------------------------------------------------------------
+r49 | 268421 | 2024-11-07 22:52:48 +0100 (Thu, 07 Nov 2024) | 1 line
+
+merge 268421 back into trunk
+------------------------------------------------------------------------
+r48 | 268421 | 2024-11-07 22:46:42 +0100 (Thu, 07 Nov 2024) | 1 line
+Merged via: r49
+
+try merge 268421 into trunk again
+------------------------------------------------------------------------
+r47 | 268421 | 2024-11-07 22:44:35 +0100 (Thu, 07 Nov 2024) | 1 line
+Merged via: r49
+
+merge 268421 with trunk
+------------------------------------------------------------------------
+r46 | 268421 | 2024-11-07 22:27:19 +0100 (Thu, 07 Nov 2024) | 1 line
+Merged via: r49
+
+creating private branch for 268421
+------------------------------------------------------------------------
+r43 | 268459 | 2024-11-07 18:08:54 +0100 (Thu, 07 Nov 2024) | 1 line
+
+last one
+------------------------------------------------------------------------
+r40 | 268459 | 2024-11-07 18:05:58 +0100 (Thu, 07 Nov 2024) | 1 line
+
+last one
+------------------------------------------------------------------------
+r37 | 268459 | 2024-11-07 18:02:11 +0100 (Thu, 07 Nov 2024) | 1 line
+
+dodanie deklaracji dla 268416
+------------------------------------------------------------------------
+r34 | 268459 | 2024-11-07 17:54:34 +0100 (Thu, 07 Nov 2024) | 1 line
+
+dodano #include program.h do podprogramu
+------------------------------------------------------------------------
+r31 | 268459 | 2024-11-07 17:38:22 +0100 (Thu, 07 Nov 2024) | 1 line
+
+scalenie gałezi branch_268459 do trunk
+------------------------------------------------------------------------
+r30 | 268459 | 2024-11-07 17:30:58 +0100 (Thu, 07 Nov 2024) | 1 line
+Merged via: r31
+
+Zatwierdzenie lokalnych zmian przed scalaniem
+------------------------------------------------------------------------
+r29 | 268459 | 2024-11-07 17:20:57 +0100 (Thu, 07 Nov 2024) | 1 line
+Merged via: r31
+
+dodałem swój program
+------------------------------------------------------------------------
+r28 | 268459 | 2024-11-07 17:13:59 +0100 (Thu, 07 Nov 2024) | 1 line
+Merged via: r31
+
+Utworzenie gałęzi dla indeksu 268459
+------------------------------------------------------------------------
+r25 | 268416 | 2024-11-05 23:02:44 +0100 (Tue, 05 Nov 2024) | 1 line
+
+268416 merguje gałąź z trunkiem
+------------------------------------------------------------------------
+r24 | 268416 | 2024-11-05 22:57:48 +0100 (Tue, 05 Nov 2024) | 1 line
+Merged via: r25
+
+268416 synchronizuje gałąź z trunk
+------------------------------------------------------------------------
+r23 | 268416 | 2024-11-05 22:47:46 +0100 (Tue, 05 Nov 2024) | 1 line
+Merged via: r25
+
+268416 zaimplementował swoją procedurę
+------------------------------------------------------------------------
+r22 | 268416 | 2024-11-05 22:09:09 +0100 (Tue, 05 Nov 2024) | 2 lines
+Merged via: r25
+
+Student 268416 tworzy własną gałąź https://repo.cs.pwr.edu.pl/p-0/app_1/branches/268416
+
+------------------------------------------------------------------------
+r17 | 268426 | 2024-11-05 16:39:41 +0100 (Tue, 05 Nov 2024) | 1 line
+
+Merge branch 268426 to trunk
+------------------------------------------------------------------------
+r16 | 268426 | 2024-11-05 16:37:39 +0100 (Tue, 05 Nov 2024) | 1 line
+Merged via: r17
+
+Merge trunk changes to branch 268426
+------------------------------------------------------------------------
+r15 | 268426 | 2024-11-05 16:36:13 +0100 (Tue, 05 Nov 2024) | 1 line
+Merged via: r17
+
+Add new function for student 268426
+------------------------------------------------------------------------
+r14 | 268426 | 2024-11-05 16:25:01 +0100 (Tue, 05 Nov 2024) | 1 line
+Merged via: r17
+
+
+------------------------------------------------------------------------
+r13 | mk1 | 2024-10-29 13:45:35 +0100 (Tue, 29 Oct 2024) | 2 lines
+
+wykonano: `svn propset svn:mime-type 'text/plain;charset=utf-8' $(find app_1/ -type f )`
+
+------------------------------------------------------------------------
+r12 | admin | 2020-11-12 10:52:01 +0100 (Thu, 12 Nov 2020) | 2 lines
+
+Poprawione kodowanie README i względny adres katalogu z tagami.
+
+------------------------------------------------------------------------
+r10 | 999 | 2016-10-24 13:55:29 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+999 zreintegrował swoją gałąź z trunk-iem
+
+
+------------------------------------------------------------------------
+r9 | 999 | 2016-10-24 13:50:09 +0200 (Mon, 24 Oct 2016) | 2 lines
+Merged via: r10
+
+999 wprowadza opis swojego podprogramu do README - ostateczna wersja jego gałęzi
+
+------------------------------------------------------------------------
+r8 | 999 | 2016-10-24 13:46:37 +0200 (Mon, 24 Oct 2016) | 2 lines
+Merged via: r10
+
+999 ponownie synchronizuje swoją gałąź z trunk
+
+------------------------------------------------------------------------
+r5 | 999 | 2016-10-24 13:37:15 +0200 (Mon, 24 Oct 2016) | 3 lines
+Merged via: r10
+
+999 zaimplementował swoją procedurę
+
+
+------------------------------------------------------------------------
+r4 | 999 | 2016-10-24 13:21:53 +0200 (Mon, 24 Oct 2016) | 3 lines
+Merged via: r10
+
+999 synchronizuje swoją gałąź z trunk
+
+
+------------------------------------------------------------------------
+r2 | 999 | 2016-10-17 16:01:19 +0200 (Mon, 17 Oct 2016) | 1 line
+Merged via: r10
+
+student 999 tworzy własną gałąź https://156.17.7.16/svn/lab/piaskownica/app_1/branches/999
+------------------------------------------------------------------------
+r7 | admin | 2016-10-24 13:44:15 +0200 (Mon, 24 Oct 2016) | 3 lines
+
+Dodatkowe wyjaśnienia w pliku README o tworzeniu tag-ów
+
+
+------------------------------------------------------------------------
+r3 | 999 | 2016-10-24 13:04:10 +0200 (Mon, 24 Oct 2016) | 2 lines
+
+dodano plik README w trunk
+
+------------------------------------------------------------------------
+r1 | admin | 2016-10-17 14:28:36 +0200 (Mon, 17 Oct 2016) | 3 lines
+
+początkowa wersja projektu.
+
+
+------------------------------------------------------------------------
+
+v_268449 ❯ svn blame -g program.h
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+G     88     261756 #include <stdio.h>
+       1      admin #include <stdlib.h>
+       1      admin #include <string.h>
+       1      admin
+       1      admin /* deklaracje funkcji używanych w programie */
+G     88     261756 void program_usage();
+       1      admin
+       1      admin /* tu studenci mogą deklarować własne funkcje.
+       1      admin    Wszystkie nazwy funkcji studenta o numerze indeksu NNNNNN
+       1      admin    powinny rozpoczynać się od przedrostka sNNNNNN_
+       1      admin    aby nie kolidowały z nazwami funkcji innych studentów */
+       1      admin
+G     88     261756 void s0_podprogram();      /* funkcja studenta 0 */
+G     88     261756 void s999_podprogram();    /* funkcja studenta 999 */
+G     15     268426 void s268426_podprogram(); /* funkcja studenta 268426 */
+     126     268418 void s268459_podprogram(); /* funkcja studenta 268459 */
+      37     268459 void s268416_podprogram(); /* funkcja studenta 268416 */
+     126     268418 void s268418_podprogram(); /* funkcja studenta 268418 */
+G     47     268421 void s268421_podprogram(); /* funkcja studenta 268421 */
+G     52     268441 void s268441_podprogram(); /* funkcja studenta 268441 */
+G     65     268434 void s268434_podprogram(); /* funkcja studenta 268434 */
+G     72     268442 void s268442_podprogram(); /* funkcja studenta 268442 */
+G     81     268462 void s268462_podprogram(); /* funkcja studenta 268462 */
+     146     268423 void s261756_podprogram(); /* funkcja studenta 261756 */
+G     93     268424 void s268424_podprogram(); /* funkcja studenta 268424 */
+G     98     268450 void s268450_podprogram(); /* funkcja studenta 268450 */
+G    104     254635 void s254635_podprogram(); /* funkcja studenta 254635 */
+G    109     268444 void s268444_podprogram(); /* funkcja studenta 268444 */
+     116     268458 void s268458_podprogram(); /* funkcja studenta 268444 */
+     125     268454 void s268454_podprogram(); /* funckja studenta 268454 */
+     134     268436 void s268436_podprogram(); /* funkcja studenta 268436 */
+     140     254652 void s254652_podprogram(); /* funkcja studenta 254652 */
+     146     268423 void s268423_podprogram(); /* funkcja studenta 666666 */
+     150     268451 void s268451_podprogram(); /* funkcja studenta 268451 */
+     164     268431 void s268431_podprogram(); /* funkcja studenta 268431 */
+     176     268456 void s268456_podprogram(); /* funkcja studenta 268456 */
+     183     268485 void s268485_podprogram(); /* funkcja studenta 268485 */
+     190     268435 void s268435_podprogram(); /* funkcja studenta 268435 */
+     198     267355 void s267355_podprogram(); /* funkcja studenta 267355 */
+G    202     268417 void s268417_podprogram(); /* funkcja studenta 268417 */
+G    211     268449 void s268449_podprogram(); /* funkcja studenta 268449 */
+
+v_268449 ❯ svn blame -g main.c
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+       1      admin #include "program.h"
+       1      admin
+G    202     268417 int main(int argc, char *argv[]) {
+G    202     268417   if (argc != 2) {
+G    132     268436     program_usage();
+G    132     268436     exit(EXIT_FAILURE);
+G    132     268436   }
+       1      admin
+       1      admin   {
+G    132     268436     int idx = atoi(argv[1]);
+G    202     268417     switch (idx) {
+G    202     268417       case 0:
+G    202     268417         s0_podprogram();  // podprogram studenta o numerze indeksu 0
+G    202     268417         break;
+G    202     268417       case 999:
+G    202     268417         s999_podprogram();  // podprogram studenta o numerze indeksu 999
+G    202     268417         break;
+G    202     268417       case 268426:
+G    202     268417         s268426_podprogram();
+G    202     268417         break;
+G    202     268417       case 268416:
+G    202     268417         s268416_podprogram();
+G    202     268417         break;
+     204     268417       case 268418:
+     204     268417         s268418_podprogram();
+     204     268417         break;
+G    202     268417       case 268459:
+G    202     268417         s268459_podprogram();
+G    202     268417         break;
+G    202     268417       case 268421:
+G    202     268417         s268421_podprogram();
+G    202     268417         break;
+G    202     268417       case 268441:
+G    202     268417         s268441_podprogram();
+G    202     268417         break;
+G    202     268417       case 268434:
+G    202     268417         s268434_podprogram();
+G    202     268417         break;
+G    202     268417       case 268442:
+G    202     268417         s268442_podprogram();
+G    202     268417         break;
+G    202     268417       case 268462:
+G    202     268417         s268462_podprogram();
+G    202     268417         break;
+G    202     268417       case 261756:
+G    202     268417         s261756_podprogram();
+G    202     268417         break;
+G    202     268417       case 268424:
+G    202     268417         s268424_podprogram();
+G    202     268417         break;
+G    202     268417       case 268450:
+G    202     268417         s268450_podprogram();
+G    202     268417         break;
+G    202     268417       case 254635:
+G    202     268417         s254635_podprogram();
+G    202     268417         break;
+G    202     268417       case 268444:
+G    202     268417         s268444_podprogram();
+G    202     268417         break;
+     204     268417       case 268458:
+     204     268417         s268458_podprogram();
+     204     268417         break;
+     204     268417       case 268454:
+     204     268417         s268454_podprogram();  // podprogram studenta o indeksie 268454
+     204     268417         break;
+     204     268417       case 268436:
+     204     268417         s268436_podprogram();
+     204     268417         break;
+     204     268417       case 254652:
+     204     268417         s254652_podprogram();  // podprogram studenta o indeksie 254652
+     204     268417         break;
+     204     268417       case 268423:
+     204     268417         s268423_podprogram();
+     204     268417         break;
+     204     268417       case 268451:
+     204     268417         s268451_podprogram();  // podprogram studenta o numerze indeksu 268451
+     204     268417         break;
+     204     268417       case 268431:
+     204     268417         s268431_podprogram();
+     204     268417         break;
+     204     268417       case 268456:
+     204     268417         s268456_podprogram();  // podprogram studenta o numerze indeksu 268456
+     204     268417         break;
+     204     268417       case 268485:
+     204     268417         s268485_podprogram();  // podprogram studenta o numerze indeksu 268485
+     204     268417         break;
+     204     268417       case 268435:
+     204     268417         s268435_podprogram();  // podprogram studenta o numerze indeksu 268435
+     204     268417         break;
+     204     268417       case 267355:
+     204     268417         s267355_podprogram();  // podprogram 267355
+     204     268417         break;
+G    202     268417       case 268417:
+G    202     268417         s268417_podprogram();
+G    202     268417         break;
+G    211     268449       case 268449:
+G    211     268449     s268449_podprogram();
+G    211     268449     break;
+G    202     268417       default:
+G    202     268417         printf("\nStudent o numerze indeksu %d nie wykonał jeszcze zadania\n\n",
+G    202     268417                idx);
+G    202     268417         break;
+G    132     268436     }
+       1      admin   }
+       1      admin   exit(EXIT_SUCCESS);
+       1      admin }
+
+v_268449 ❯ svn blame -g makefile
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+       1      admin objects = main.o program_usage.o \
+G      5        999           s0_podprogram.o \
+G     15     268426           s999_podprogram.o \
+G     23     268416       s268426_podprogram.o \
+      43     268459           s268416_podprogram.o \
+     126     268418               s268418_podprogram.o \
+G     47     268421       s268459_podprogram.o \
+G     52     268441       s268421_podprogram.o  \
+G     65     268434               s268441_podprogram.o \
+G     72     268442       s268434_podprogram.o \
+G     81     268462       s268442_podprogram.o \
+G     88     261756       s268462_podprogram.o \
+G     93     268424       s261756_podprogram.o \
+G     98     268450       s268424_podprogram.o \
+G    104     254635       s268450_podprogram.o \
+G    109     268444       s254635_podprogram.o \
+G    115     268458       s268444_podprogram.o \
+     125     268454       s268458_podprogram.o \
+     134     268436       s268454_podprogram.o \
+     140     254652       s268436_podprogram.o \
+     140     254652       s254652_podprogram.o \
+     146     268423       s268423_podprogram.o \
+     150     268451       s268451_podprogram.o \
+     164     268431       s268431_podprogram.o \
+     183     268485       s268456_podprogram.o \
+     190     268435       s268485_podprogram.o \
+     198     267355       s268435_podprogram.o \
+     206     268417           s267355_podprogram.o \
+G    211     268449       s268417_podprogram.o \
+G    211     268449       s268449_podprogram.o
+       1      admin
+       1      admin program : $(objects)
+     126     268418     cc -o program $(objects) -lm
+       1      admin main.o : program.h
+       1      admin
+       1      admin program_usage.o : program.h
+       1      admin
+       1      admin s0_podprogram.o : program.h
+       1      admin
+G      5        999 s999_podprogram.o : program.h
+G      5        999
+G     15     268426 s268426_podprogram.o : program.h
+G     15     268426
+G     23     268416 s268416_podprogram.o : program.h
+G     23     268416
+     126     268418 s268418_podprogram.o : program.h
+     126     268418
+      43     268459 s268459_podprogram.o : program.h
+      43     268459
+G     47     268421 s268421_podprogram.o : program.h
+G     47     268421
+G     52     268441 s268441_podprogram.o : program.h
+G     52     268441
+G     65     268434 s268434_podprogram.o : program.h
+G     65     268434
+G     72     268442 s268442_podprogram.o : program.h
+G     72     268442
+G     81     268462 s268462_podprogram.o : program.h
+G     81     268462
+G     88     261756 s261756_podprogram.o : program.h
+G     88     261756
+G     93     268424 s268424_podprogram.o : program.h
+G     93     268424
+G     98     268450 s268450_podprogram.o : program.h
+G     98     268450
+G    109     268444 s268444_podprogram.o : program.h
+G    109     268444
+     116     268458 s268458_podprogram.o : program.h
+     116     268458
+     134     268436 s268436_podprogram.o : program.h
+     134     268436
+     140     254652 s254652_podprogram.o : program.h
+     140     254652
+     146     268423 s268423_podprogram.o : program.h
+     146     268423
+     150     268451 s268451_podprogram.o : program.h
+     150     268451
+     164     268431 s268431_podprogram.o : program.h
+     164     268431
+     176     268456 s268456_podprogram.o : program.h
+     176     268456
+     190     268435 s268435_podprogram.o : program.h
+     190     268435
+     198     267355 s267355_podprogram.o : program.h
+     198     267355
+G    202     268417 s268417_podprogram.o : program.h
+G    115     268458
+G    211     268449 s268449_podprogram.o : program.h
+G    211     268449
+       1      admin .PHONY : clean
+       1      admin
+G     23     268416 clean :
+       1      admin     -rm *.o program
+
+v_268449 ❯ svn blame -g README
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+G     72     268442 Ten plik README utworzony, żeby studenci mogli umieszczać
+       3        999 tu opisy działania swoich podprogramów.
+       3        999
+       7      admin
+       3        999 Wywołanie programu:
+       3        999
+       3        999    program ARG
+       3        999
+       3        999 Dla poszczególnych wartości ARG program działa następująco:
+       3        999
+G      9        999          0 - wyświetla ogólny opis działania podprogramów;
+G      9        999        999 - wczytuje liczbę i drukuje jej kwadrat.
+G     72     268442        268426 - wczytuje liczbę i sprawdza czy jest parzysta
+G     23     268416        268416 - pyta się, czy dzisiaj jest środa
+     126     268418        268418 - wczytuje liczbę naturalna n i wypisuje jej rozkład na czynniki pierwsze
+G     47     268421        268421 - wczytuje liczbę i krzyczy na wskazaną ilość znaków
+G     65     268434        268434 - wczytuje liczbę i zwraca liczbę o jeden większą
+G     72     268442        268442 - wczytuje liczbę naturalną n i wypisuje pierwszych n wyrazów ciągu Fibonacciego
+G     81     268462        268462 - wczytuje liczbę naturalną n i drukuje choinkę o wysokości n
+G     93     268424        268424 - wczytuje liczbę naturalną n i sprawdza czy jest pierwsza
+G     98     268450        268450 - losuje liczbe z przedzialu [1,1]
+G    104     254635        254635 - wczytuje liczbę naturalną n i wypisuje n pierwszych linii inwokacji Pana Tadeusza
+G    109     268444        268444 - informuje, ze dziala prawidlowo
+     116     268458        268458 - wyswietla alfabet
+     125     268454        268454 - wczytuje liczbe i wypisuje wskazana liczbe linijek tekstu
+     134     268436        268436 - wczytuje słowo i wypisuje jego długość
+     146     268423        254652 - wczytuje liczbę naturalną i wypisuję liczbę o 10 większą
+     157     268423        268423 - wczytuje liczbę i liczy jej następnika w grupie addytywnej liczb całkowitych modulo 2^(8 * sizeof(int)) - 1
+     150     268451        268451 - drukuje 'Jestem Wybitnym Programem'
+     157     268423        268451 - drukuje 'Jestem Wybitnym Programem'
+     164     268431        268431 - drukuje 'Jestem swietnym programem'
+     176     268456        268456 - wczytuje liczbę i drukuje jej sześcian
+     183     268485        268485 - wypisuje liczby od 1 do 10
+     190     268435        268435 - pyta o podania dwóch ciągów znaków i sprawdza czy są sobie równe
+     198     267355        267355 - sprwadza 1+1=2?
+G    202     268417        268417 - pyta o 2 liczby i drukuje ich sumę
+G    211     268449        268449 - wszytuje dwie liczby naturalne i zwraca ich NWD
+       3        999
+G     72     268442 Dodatkowo, po zreintegrowaniu swojej gałęzi do trunk-a student ma utworzyć
+G     72     268442 w katalogu:
+       7      admin
+      12      admin ^/app_1/tags
+       7      admin
+       7      admin własnego taga tej wersji o nazwie: v_<nr_indeksu>
+
+v_268449 ❯ svn blame -g s268449_podprogram.c
+Authentication realm: <https://repo.cs.pwr.edu.pl:443> Subversion Repository
+Password for '268449': ********
+
+     211     268449 #include "program.h"
+     211     268449
+     211     268449 void s268449_podprogram() {
+     211     268449     printf("Student: Adrian Herda\n");
+     211     268449     printf("Nr indeksu: 268449\n");
+     211     268449
+     211     268449     printf("Podprogram wczytuje dwie liczby naturalne a następnie znajduje ich największy wspólny dzielnik\n");
+     211     268449
+     211     268449     int a, b;
+     211     268449     printf("Podaj pierwszą liczbę: ");
+     211     268449     scanf("%d", &a);
+     211     268449
+     211     268449     printf("Podaj drugą liczbę: ");
+     211     268449     scanf("%d", &b);
+     211     268449
+     211     268449     if (a < 1 || b < 1) {
+     211     268449     printf("Liczby powinny być większe od 0\n");
+     211     268449     return;
+     211     268449     }
+     211     268449
+     211     268449     int a2, b2, pom;
+     211     268449     if (a < b) {
+     211     268449     a2 = b;
+     211     268449     b2 = a;
+     211     268449     } else {
+     211     268449     a2 = a;
+     211     268449     b2 = b;
+     211     268449     }
+     211     268449
+     211     268449     while (b2!=0) {
+     211     268449     pom = b2;
+     211     268449     b2 = a2 % b2;
+     211     268449     a2 = pom;
+     211     268449     }
+     211     268449
+     211     268449     printf("NWD(%d, %d) = %d\n", a, b, a2);
+     211     268449
+     211     268449     return;
+     211     268449 }
+
+v_268449 ❯ tmux capture-pane -p -S'-' -E'-' >> my-log
+
+v_268449 ❯ ..
+
+tags ❯ ..
+
+app_1 ❯ ..
+
+p-0 ❯ ..
+
+lista3 ❯ tmux capture-pane -p -S'-' -E'-' >> my-log
+
+lista3 ❯ l
+.rwxrwxrwx 85k adrian 18 Nov 01:02 my-log
+drwxrwxrwx   - adrian 17 Nov 23:33 p-0
+
+lista3 ❯ cat my-log
+
+lista3 ❯ v my-log
+
+lista3 ❯ nvim my-log
+
+lista3 ❯ tmux capture-pane -p -S'-' -E'-' >> my-log2
+

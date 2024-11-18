@@ -1,0 +1,46 @@
+lista3 ❯ ./l3z3.bash 15 https://repo.cs.pwr.edu.pl/info/SP/l3/a/
+aabbb: 1
+aaaab: 1
+ababb: 1
+bbb: 1
+ab: 5
+aa: 3
+b: 7
+a: 7
+aaabb: 1
+bab: 1
+abaab: 1
+aba: 1
+abb: 2
+abbbb: 1
+aaa: 1
+aab: 2
+bb: 3
+abbab: 1
+aabab: 1
+
+lista3 ❯ ./l3z3.bash 18 https://repo.cs.pwr.edu.pl/info/SP/l3/a/
+aabbb: 1
+aaaab: 1
+dd: 1
+ababb: 1
+bbb: 1
+ab: 5
+aa: 3
+d: 2
+c: 3
+b: 7
+a: 7
+aaabb: 1
+bab: 1
+abaab: 1
+aba: 1
+abb: 2
+abbbb: 1
+aaa: 1
+aab: 2
+bb: 3
+abbab: 1
+aabab: 1
+
+lista3 ❯ tmux capture-pane -pS'-' -E'-' >> zad3.txt
